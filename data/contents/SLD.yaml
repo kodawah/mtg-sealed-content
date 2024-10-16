@@ -5501,7 +5501,8 @@ products:
       set: sld
     variable:
     - card:
-      - name: Terramorphic Expanse
+      - foil: true
+        name: Terramorphic Expanse
         number: 585
         set: sld
       chance: 93
