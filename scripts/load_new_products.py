@@ -8,6 +8,7 @@ else:
 import json
 import re
 import sys
+import time
 import unicodedata
 from datetime import datetime
 from pathlib import Path
@@ -997,6 +998,151 @@ def load_hareruya(_):
     return sealed_data
 
 
+# Amazon has no public catalog listing, so coverage comes from a handful of
+# search queries spanning the main sealed product types.
+AMAZON_SEARCH_QUERIES = [
+    "magic the gathering booster box",
+    "magic the gathering booster pack",
+    "magic the gathering commander deck",
+    "magic the gathering bundle",
+    "magic the gathering prerelease",
+    "magic the gathering starter kit",
+    "magic the gathering secret lair",
+]
+
+
+def load_amazon(_):
+    # Walk the public search result pages of the Toys & Games index and pull
+    # each result's ASIN and title. Amazon serves a 503 robot page to anything
+    # that doesn't look like a browser: the curl User-Agent used by the other
+    # scrapers is blocked, and so is a browser User-Agent without the rest of
+    # the usual browser headers, so send the full set with a cookie-keeping
+    # session and a small delay between pages.
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+    })
+
+    # Accessories and reseller junk that shares the search results with real
+    # sealed product
+    skip_tags = [
+        "playmat",
+        "play mat",
+        "sleeve",
+        "deck box",
+        "deck protector",
+        "card case",
+        "binder",
+        "storage",
+        "proxy",
+        "proxies",
+        "repack",
+        "grab bag",
+        "bulk",
+        "assorted",
+        "lot of",
+        "card lot",
+        "cards lot",
+        "random rare",
+        "instant collection",
+        "golden groundhog",
+        "prerelease promo",
+        "release promos",
+        # reseller-built decks are tagged Custom/EDH, official products never are
+        "custom",
+        "edh",
+        # dice, counters and deck boxes; bare "dice" would catch real
+        # prerelease kits ("6 Play Packs, Dice, Promos")
+        "dice set",
+        "dice counters",
+        "life counter",
+        "100+",
+    ]
+
+    sealed_data = []
+    seen_asins = set()
+
+    for query in AMAZON_SEARCH_QUERIES:
+        print(f"Searching '{query}'")
+
+        page = 0
+        while True:
+            page += 1
+            link = "https://www.amazon.com/s?i=toys-and-games&k=" + query.replace(" ", "+") + "&page=" + str(page)
+            print(f"Parsing page {page}")
+
+            # 503 robot pages are often transient, so give each page a couple
+            # of slower retries before giving up on the query
+            for attempt in range(3):
+                r = session.get(link)
+                if r.ok and b"api-services-support@amazon.com" not in r.content:
+                    break
+                time.sleep(5 * (attempt + 1))
+            else:
+                print(f"Robot check or error page (status {r.status_code}), stopping query")
+                break
+
+            soup = BeautifulSoup(r.content, 'html.parser')
+
+            results = soup.find_all('div', attrs={"data-component-type": "s-search-result"})
+            if not results:
+                break
+
+            for div in results:
+                asin = div.get("data-asin", "")
+                if not asin or asin in seen_asins:
+                    continue
+
+                # The title area holds two headers, a brand line ("Magic: The
+                # Gathering", missing on third-party listings) and the product
+                # link with the actual title
+                try:
+                    title_div = div.find('div', attrs={"data-cy": "title-recipe"})
+                    title = title_div.find('a', attrs={"class": "a-text-normal"}).get_text(strip=True)
+                except Exception:
+                    continue
+
+                # Searches also surface products from other card games
+                brand_and_title = title_div.get_text(" ", strip=True).lower()
+                if "magic" not in brand_and_title and "mtg" not in brand_and_title:
+                    continue
+
+                if any(tag.lower() in title.lower() for tag in skip_tags):
+                    continue
+
+                # Reseller listings of single cards carry the collector
+                # number, e.g. "Gift of Immortality (14/249)"
+                if re.search(r"\(\d+/\d+\)", title):
+                    continue
+
+                seen_asins.add(asin)
+                sealed_data.extend([
+                    {
+                        "name": title,
+                        "id": asin,
+                    }
+                ])
+
+            # Exit loop condition: on the last page the "Next" control is a
+            # disabled span instead of a link
+            nextPage = soup.find('a', attrs={"class": "s-pagination-next"})
+            if not nextPage:
+                break
+
+            time.sleep(1)
+
+    print(f"Retrieved {len(sealed_data)} products")
+
+    return sealed_data
+
+
 providers_dict = {
     "cardKingdom": {
         "identifier": "cardKingdomId",
@@ -1041,6 +1187,10 @@ providers_dict = {
     "hareruya": {
         "identifier": "hareruyaId",
         "load_func": load_hareruya,
+    },
+    "amazon": {
+        "identifier": "asin",
+        "load_func": load_amazon,
     },
 }
 
