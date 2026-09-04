@@ -1068,6 +1068,7 @@ def load_amazon(_):
 
     sealed_data = []
     seen_asins = set()
+    seen_names = set()
 
     for query in AMAZON_SEARCH_QUERIES:
         print(f"Searching '{query}'")
@@ -1122,7 +1123,14 @@ def load_amazon(_):
                 if re.search(r"\(\d+/\d+\)", title):
                     continue
 
+                # The same product is often listed under several ASINs with an
+                # identical title; results are relevance ranked, so keep only
+                # the first listing seen for a title
+                if title in seen_names:
+                    continue
+
                 seen_asins.add(asin)
+                seen_names.add(title)
                 sealed_data.extend([
                     {
                         "name": title,
