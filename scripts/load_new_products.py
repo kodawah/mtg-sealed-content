@@ -1086,6 +1086,15 @@ def load_amazon(_):
         "dice counters",
         "life counter",
         "100+",
+        "card divider",
+        "pack lot",
+        "draft lot",
+        "poker",
+        "protector case",
+        "mtg tokens",
+        # non-English listings
+        "foreign language",
+        "japanese",
     ]
 
     candidates = {}
@@ -1142,6 +1151,16 @@ def load_amazon(_):
                 # Reseller listings of single cards carry the collector
                 # number, e.g. "Gift of Immortality (14/249)"
                 if re.search(r"\(\d+/\d+\)", title):
+                    continue
+
+                # Bulk card lots lead with the count ("1000 Magic The
+                # Gathering Cards...", "20x Mountain...")
+                if title.lower().startswith(("100", "20x")):
+                    continue
+
+                # Italian listings tag the language in uppercase; a
+                # case-sensitive word match avoids titles like "Militant"
+                if re.search(r"\bITA\b", title):
                     continue
 
                 seen_asins.add(asin)
