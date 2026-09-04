@@ -1109,11 +1109,14 @@ def load_amazon(_):
             link = "https://www.amazon.com/s?i=toys-and-games&k=" + query.replace(" ", "+") + "&page=" + str(page)
             print(f"Parsing page {page}")
 
-            # 503 robot pages are often transient, so give each page a couple
-            # of slower retries before giving up on the query
+            # Blocks come as a 503 robot page or, after too much crawling, as
+            # an Akamai bm-verify interstitial served with a 200; both are
+            # often transient, so give each page a couple of slower retries
+            # before giving up on the query
             for attempt in range(3):
                 r = session.get(link)
-                if r.ok and b"api-services-support@amazon.com" not in r.content:
+                if r.ok and b"api-services-support@amazon.com" not in r.content \
+                        and b"bm-verify" not in r.content:
                     break
                 time.sleep(5 * (attempt + 1))
             else:
