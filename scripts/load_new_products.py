@@ -1011,6 +1011,28 @@ AMAZON_SEARCH_QUERIES = [
 ]
 
 
+def amazon_listing_score(div, title_div):
+    """Rank listings of the same product by how unlikely they are to be a
+    duplicate: the official listing carries the Magic/Wizards brand line and
+    the bulk of the ratings, while duplicate reseller listings are untagged
+    and only gather a handful of ratings."""
+    brand = title_div.find('h2', attrs={"class": "a-size-mini"})
+    branded = bool(brand and re.search(r"magic|wizards", brand.get_text(), re.I))
+
+    ratings = 0.0
+    reviews_div = div.find('div', attrs={"data-cy": "reviews-block"})
+    if reviews_div:
+        count_span = reviews_div.find('span', attrs={"class": "s-underline-text"})
+        if count_span:
+            # e.g. "(299)", "(1,024)" or the abbreviated "(1K)"
+            text = count_span.get_text(strip=True).strip("()").replace(",", "")
+            match = re.fullmatch(r"(\d+(?:\.\d+)?)([KM]?)", text)
+            if match:
+                ratings = float(match.group(1)) * {"": 1, "K": 1000, "M": 1000000}[match.group(2)]
+
+    return (branded, ratings)
+
+
 def load_amazon(_):
     # Walk the public search result pages of the Toys & Games index and pull
     # each result's ASIN and title. Amazon serves a 503 robot page to anything
@@ -1066,9 +1088,8 @@ def load_amazon(_):
         "100+",
     ]
 
-    sealed_data = []
+    candidates = {}
     seen_asins = set()
-    seen_names = set()
 
     for query in AMAZON_SEARCH_QUERIES:
         print(f"Searching '{query}'")
@@ -1123,20 +1144,15 @@ def load_amazon(_):
                 if re.search(r"\(\d+/\d+\)", title):
                     continue
 
-                # The same product is often listed under several ASINs with an
-                # identical title; results are relevance ranked, so keep only
-                # the first listing seen for a title
-                if title in seen_names:
-                    continue
-
                 seen_asins.add(asin)
-                seen_names.add(title)
-                sealed_data.extend([
-                    {
-                        "name": title,
-                        "id": asin,
-                    }
-                ])
+
+                # The same product is often listed under several ASINs with an
+                # identical title; keep the listing least likely to be a
+                # duplicate of the official one
+                score = amazon_listing_score(div, title_div)
+                previous = candidates.get(title)
+                if previous is None or score > previous[0]:
+                    candidates[title] = (score, asin)
 
             # Exit loop condition: on the last page the "Next" control is a
             # disabled span instead of a link
@@ -1145,6 +1161,14 @@ def load_amazon(_):
                 break
 
             time.sleep(1)
+
+    sealed_data = [
+        {
+            "name": title,
+            "id": asin,
+        }
+        for title, (score, asin) in candidates.items()
+    ]
 
     print(f"Retrieved {len(sealed_data)} products")
 
