@@ -1,6 +1,7 @@
 abugames:
   '1100062': 6th Edition Starter Tournament Deck Pack - Dutch Rules
   '1100074': 8th Edition Two-Player Starter Set with CD
+  '1100156': Battle for Zendikar Land Pack (Full Art 80ct)
   '1100224': 'World Championship Theme Deck 1996 #7 Preston Poulter vs. #8 Mark Justice'
   '1100410': 'Dragon''s Maze Prerelease Guild Pack #04 Azorius / Simic'
   '1100411': 'Dragon''s Maze Prerelease Guild Pack #06 Golgari / Gruul'
@@ -39,11 +40,45 @@ abugames:
   '1108006': 'Shards of Alara Fat Pack #4 Jund'
   '1108007': 'Shards of Alara Fat Pack #5 Naya'
   '1476968': World Championship Theme Deck 1996 Set of Eight
+  '1509800': Ixalan Land Pack (80ct)
+  '1518427': Dominaria Land Pack (80ct)
+  '1520913': Core Set 2019 Land Pack (80ct)
   '1542852': Magic the Gathering Game Night Set Counters
   '1797813': Theros Beyond Death Booster Pack
   '2016419': 'Strixhaven: School of Mages Japanese Set Booster Pack [LIMIT 6 PER CUSTOMER]'
   '2056680': Adventures in the Forgotten Realms Collector Booster Pack
+  '266921': APAC Land Set a Red
+  '266923': APAC Land Set b Blue
+  '266925': APAC Land Set c Clear
   '266933': ARENA 2004 Land Set
+  '267099': EURO Land Set a Blue
+  '267101': EURO Land Set b Red
+  '267103': EURO Land Set c Purple
+amazon:
+  B00K3HCSXM: Magic the Gathering Journey Into Nyx Booster Pack
+  B00K3HCV4I: Magic the Gathering Journey Into Nyx Booster 3-Pack (includes 3 booster
+    packs)
+  B00KLW9MK6: Magic the Gathering Conspiracy Booster 3-Pack (includes 3 booster packs)
+  B00LXFTBCY: Magic The Gathering Theros Booster Pack
+  B00NKW581Q: Magic The Gathering Innistrad Booster Pack
+  B00NKW8UFC: Magic the Gathering Gatecrash Booster Pack
+  B0174QTOVS: Magic The Gathering Oath of the Gatewatch Booster Box
+  B0CTKSFVXK: Modern Horizons 3 Commander Deck - Graveyard Overdrive (100-Card Deck,
+    2-Card Collector Booster Sample Pack + Accessories)
+  B0D9KYV7B8: Foundations - Play Booster Box
+  B0DQ1M3GMG: TCG - Foundations Play - Booster Box (36 packs) - (TCG)
+  B0DWVDFYX1: Marvel's Spider-Man Collector Booster Pack
+  B0FHJHCNML: 'Avatar: The Last Airbender Play Booster Box'
+  B0FJND8K8Z: 'Avatar: The Last Airbender Play Booster Box | 30 Packs | Collectible
+    Trading Card Game'
+  B0GSHQ1ZL4: 'MTG Secret Lair x Teenage Mutant Ninja Turtles: The Mighty Mutanimals
+    (Foil Edition)'
+  B0GSHVZCX8: 'MTG Secret Lair x Teenage Mutant Ninja Turtles: VHS Villains (Foil
+    Edition)'
+  B0H2SVXFS3: 'Magic: The Gathering Secrets of Strixhaven - Collector Booster Box
+    (12 Packs, 15 Cards per Pack)'
+  B0HDN1TK8R: 'Magic: The Gathering Edge of Eternities - Commander Deck - Counter
+    Intelligence'
 cardKingdom:
   236181: Card Kingdom Dry Erase Tokens
   281245: Wilds of Eldraine Set Booster Variety Pack
@@ -115,7 +150,7 @@ cardMarket:
   712812: 'Multiverse Legends: V.1 Set (Showcase)'
   712813: 'Multiverse Legends: V.2 Set (Etched Foil)'
   712814: 'Multiverse Legends: V.3 Set (Halo Foil)'
-  719542: 'The Lord of the Rings: Tales of Middle-earth: Nazgûl set'
+  719542: 'The Lord of the Rings: Tales of Middle-earth: Nazg\xFBl set'
   721606: 'Secret Lair Drop Series: Spring Superdrop 2023: Artist Series: Alayna Danner'
   721694: ' Secret Lair Drop Series: Summer Superdrop 2023: The Stars Gaze Back'
   749047: 'Universes Beyond: Jurassic World Collection: Regular Version 1 Set'
@@ -138,10 +173,10 @@ cardMarket:
   '823042': 'Street Clans: Giant Street Clans Tokens Bundle'
   '829590': 'Magic: The Gathering - FINAL FANTASY: Extras: Art Series (Signature)'
   '778432': 'Universes Beyond: Assassin''s Creed: ""Rome Vista"" Scene Card Set'
-  '791286': "The Lord of the Rings: Tales of Middle-earth Holiday Release: Nazg\xFB\
-    l Set"
-  '791287': "The Lord of the Rings: Tales of Middle-earth Holiday Release: Silverfoil\
-    \ Nazg\xFBl Set"
+  '791286': 'The Lord of the Rings: Tales of Middle-earth Holiday Release: Nazgûl
+    Set'
+  '791287': 'The Lord of the Rings: Tales of Middle-earth Holiday Release: Silverfoil
+    Nazgûl Set'
   '834552': 'Magic: The Gathering - FINAL FANTASY: Promos: Buy-a-Box Promo Card Booster'
   '794211': 'Fourth Edition: Starter Deck (Alternate Edition)'
   '851281': 'Lorwyn Eclipsed: Foil Rare/Mythic Booster'
@@ -158,6 +193,14 @@ cardMarket:
   '882832': 'Teenage Mutant Ninja Turtles: ""Foil Rare/Mythic"" Prerelease Booster'
   '890356': Mood Swing - 1st Edition
   '891797': 'FINAL FANTASY Holiday Release: Full Chocobo Track Foil Set'
+  272168: 'Euro Lands: Red Booster'
+  272169: 'Euro Lands: Blue Booster'
+  272170: 'Euro Lands: Purple Booster'
+  272171: 'APAC Lands: Blue Booster'
+  272172: 'APAC Lands: Clear Booster'
+  272173: 'APAC Lands: Red Booster'
+  273264: Arena League Promos 1996 Basic Land Pack
+  696710: 'Innistrad: Midnight Hunt Welcome Booster (V.2)'
 cardTrader:
   44203: Oversized 6x9 Promos Pack 1
   44204: Oversized 6x9 Promos Pack 2
@@ -244,6 +287,26 @@ cardTrader:
   '396304': 'Marvel Super Heroes Welcome Deck: Green Deck'
   '396305': 'Marvel Super Heroes Welcome Deck: Red Deck'
   '396307': 'Marvel Super Heroes Welcome Deck: White Deck'
+  40785: 'Euro Lands: Blue Booster'
+  40786: 'Euro Lands: Purple Booster'
+  40787: 'Euro Lands: Red Booster'
+  45303: 'Asia Pacific Land Program: Blue Booster'
+  45304: 'Asia Pacific Land Program: Clear Booster'
+  45305: 'Asia Pacific Land Program: Red Booster'
+  48341: 'Battle for Zendikar: Land Pack'
+  48342: 'BFZ Holiday Gift Box: Land Pack'
+  241463: 'Innistrad: Midnight Hunt Welcome BoosterVersion 2'
+  '302221': 'Commander: March of the Machine "Call for Backup" Commander Kit'
+  '302219': 'Commander: March of the Machine "Calvalry Charge" Commander Kit'
+  '302220': 'Commander: March of the Machine "Divine Convocation" Commander Kit'
+  '302218': 'Commander: March of the Machine "Growing Threat Deluxe" Commander Kit'
+  '302222': 'Commander: March of the Machine "Tinker Time" Commander Kit'
+  '311326': 'The Lord of the Rings: "Elven Council" Commander Kit'
+  '311325': 'The Lord of the Rings: "Food and Fellowship" Commander Kit'
+  '311324': 'The Lord of the Rings: "Riders of Rohan" Commander Kit'
+  '311323': 'The Lord of the Rings: "The Hosts of Mordor" Commander Kit'
+  '339023': 'Magic: The Gathering — FINAL FANTASY Play Pack 3 Play Boosters + Promo
+    Card'
 coolstuffinc:
   '188163': Dragon's Maze - Random Guild Pack (1)
   '191163': Magic 2014 - Booster Box (Japanese)
@@ -361,6 +424,12 @@ starcitygames:
     - Set of 5
   SLD-MTG-PCK-30ASET-EN-RETRO: 30th Anniversary History Promo Cards - Retro Frame
     - Set of 5
+  SLD-MTG-PCK-APACSET-EN-BLUE: APAC Land Blue Set
+  SLD-MTG-PCK-APACSET-EN-CLEAR: APAC Land Clear Set
+  SLD-MTG-PCK-APACSET-EN-RED: APAC Land Red Set
+  SLD-MTG-PCK-EUROSET-EN-BLUE: Euro Land Blue Set
+  SLD-MTG-PCK-EUROSET-EN-PURPLE: Euro Land Purple Set
+  SLD-MTG-PCK-EUROSET-EN-RED: Euro Land Red Set
   SLD-MTG-PCK-FINCOLLECTOR-JA: Final Fantasy Collector Booster Pack (Japanese)
   SLD-MTG-PCK-HOBSLEEVEDPLAY-EN: The Hobbit Sleeved Play Booster Pack
   SLD-MTG-PCK-MIRTOURNAMENT-IT: Mirage Tournament Pack (Italian)
@@ -419,8 +488,7 @@ tcgplayer:
   '637471': Secret Lair x FINAL FANTASY Grimoire JP Rainbow Foil Edition
   '637475': Secret Lair x FINAL FANTASY Weapons JP Non Foil Edition
   '637476': Secret Lair x FINAL FANTASY Weapons JP Rainbow Foil Edition
-  # Same twelve-pack display as mapped TCGplayer 544192; see product-backlog-research.md.
-  '633389': Onslaught Tournament Pack Display duplicate
+  '633389': Onslaught Tournament Pack Display
   '641714': FINAL FANTASY Deluxe Commander Kit Counter Blitz
   '641711': FINAL FANTASY Deluxe Commander Kit Limit Break
   '641712': FINAL FANTASY Deluxe Commander Kit Revival Trance
@@ -446,6 +514,28 @@ tcgplayer:
   '673084': FINAL FANTASY Basic Booster Pack Japanese
   '656326': Lorwyn Eclipsed Collector Booster Display Master Case
   '654532': Murders at Karlov Manor Prerelease Pack Case
+  '555061': The Brothers War Collector Booster Pack Minimal Packaging
+  '236690': Strixhaven School of Mages Collector Booster Hanger Pack
+  '595039': The Lord of the Rings Tales of Middle earth Deluxe Commander Kit The Hosts
+    of Mordor
+  '593440': Tempest Tournament Pack Display
+  '599992': The Lord of the Rings Tales of Middle earth Deluxe Commander Kit Food
+    and Fellowship
+  '602883': March of the Machine Deluxe Commander Kit Call For Backup
+  '602881': March of the Machine Deluxe Commander Kit Cavalry Charge
+  '602882': March of the Machine Deluxe Commander Kit Divine Convocation
+  '602880': March of the Machine Deluxe Commander Kit Growing Threat
+  '602884': March of the Machine Deluxe Commander Kit Tinker Time
+  '604832': The Lord of the Rings Tales of Middle earth Deluxe Commander Kit Elven
+    Council
+  '604831': The Lord of the Rings Tales of Middle earth Deluxe Commander Kit Riders
+    of Rohan
+  '622973': Secret Lair Drop Secret Lair Promo Sol Ring Rainbow Foil Edition
+  '639464': FINAL FANTASY Collector Booster Pack Minimal Packaging
+  '633046': Phyrexia All Will Be One Collector Booster Pack Minimal Packaging
+  '627697': Secret Lair Drop Secret Lair Promo Deadeye Navigator Rainbow Foil Edition
+  '641176': FINAL FANTASY Play Pack
+  '710749': Theros Beyond Death Sleeved Collector Booster Pack
 trollandtoad:
   '1027875': Dragon's Maze Rakdos / Orzhov Pre-Release Pack (MTG)
   '1050554': '1998 World Championship Deck: Brian Selden W/VHS (MTG)'

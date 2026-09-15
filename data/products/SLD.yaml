@@ -14536,6 +14536,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2026-03-03'
     identifiers:
+      asin: B0GS7JKCFV
       cardKingdomId: '324578'
       hareruyaId: '189906'
       tcgplayerProductId: '679646'
@@ -14569,6 +14570,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2026-03-03'
     identifiers:
+      asin: B0GS7585WL
       cardKingdomId: '324580'
       hareruyaId: '189907'
       tcgplayerProductId: '679543'
