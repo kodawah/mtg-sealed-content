@@ -5,6 +5,7 @@ products:
     subtype: COMMANDER
     identifiers:
       abuId: '2573574'
+      asin: B0DNV55QBS
       cardKingdomId: '307718'
       cardtraderId: '314239'
       mcmId: '804062'
@@ -29,6 +30,7 @@ products:
     subtype: COMMANDER
     identifiers:
       abuId: '2573573'
+      asin: B0DNV42YWC
       cardKingdomId: '307717'
       cardtraderId: '314238'
       mcmId: '804061'

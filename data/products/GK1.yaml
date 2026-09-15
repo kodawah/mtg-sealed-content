@@ -29,6 +29,7 @@ products:
     release_date: '2018-11-02'
     identifiers:
       abuId: '1537070'
+      asin: B07KJGR4TC
       cardKingdomId: '222338'
       cardtraderId: '169306'
       csiId: '263961'
@@ -52,6 +53,7 @@ products:
     release_date: '2018-11-02'
     identifiers:
       abuId: '1537071'
+      asin: B07KJPMXHB
       cardKingdomId: '222340'
       cardtraderId: '169307'
       csiId: '263962'
@@ -98,6 +100,7 @@ products:
     release_date: '2018-11-02'
     identifiers:
       abuId: '1537072'
+      asin: B07WCHLKG4
       cardKingdomId: '222342'
       cardtraderId: '169309'
       csiId: '263964'

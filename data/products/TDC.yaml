@@ -5,6 +5,7 @@ products:
     subtype: COMMANDER
     identifiers:
       abuId: '2581972'
+      asin: B0DSQP4FBY
       cardKingdomId: '310822'
       cardtraderId: '322531'
       mcmId: '813092'
@@ -28,6 +29,7 @@ products:
     subtype: COMMANDER
     identifiers:
       abuId: '2581973'
+      asin: B0DSR2ZHCR
       cardKingdomId: '310823'
       cardtraderId: '322532'
       mcmId: '813093'
@@ -50,6 +52,7 @@ products:
     subtype: COMMANDER
     identifiers:
       abuId: '2581975'
+      asin: B0DSQSGZV3
       cardKingdomId: '310825'
       cardtraderId: '322530'
       mcmId: '813095'
@@ -73,6 +76,7 @@ products:
     subtype: COMMANDER
     identifiers:
       abuId: '2581974'
+      asin: B0DSQX4P6M
       cardKingdomId: '310824'
       cardtraderId: '322533'
       mcmId: '813094'
@@ -96,6 +100,7 @@ products:
     subtype: COMMANDER
     identifiers:
       abuId: '2581976'
+      asin: B0DSR38H4H
       cardKingdomId: '310826'
       cardtraderId: '322529'
       mcmId: '813096'

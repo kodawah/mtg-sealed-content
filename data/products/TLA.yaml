@@ -117,6 +117,7 @@ products:
     subtype: COLLECTOR
     identifiers:
       abuId: '2640488'
+      asin: B0FJNQ3DHX
       cardKingdomId: '319594'
       cardtraderId: '345869'
       csiId: '420764'
@@ -144,6 +145,7 @@ products:
     subtype: COLLECTOR
     identifiers:
       abuId: '2640486'
+      asin: B0FHJJVBQK
       cardKingdomId: '319591'
       cardtraderId: '345877'
       hareruyaId: '183965'

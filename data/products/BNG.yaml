@@ -51,6 +51,7 @@ products:
     release_date: '2014-02-07'
     identifiers:
       abuId: '1476857'
+      asin: B00H5J0YHI
       cardKingdomId: '193119'
       cardtraderId: '48067'
       csiId: '187114'
@@ -81,6 +82,7 @@ products:
     subtype: EVENT
     identifiers:
       abuId: '1100191'
+      asin: B00IO31LF8
       cardKingdomId: '193733'
       cardtraderId: '48077'
       hareruyaId: '28028'

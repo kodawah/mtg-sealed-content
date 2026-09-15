@@ -291,6 +291,7 @@ products:
     release_date: '2023-02-10'
     identifiers:
       abuId: '2299751'
+      asin: B0BTQ5XQY9
       cardKingdomId: '273130'
       cardtraderId: '225477'
       mcmId: '683486'
@@ -324,6 +325,7 @@ products:
     release_date: '2023-02-10'
     identifiers:
       abuId: '2299753'
+      asin: B0BJ7MHPSC
       cardKingdomId: '273131'
       cardtraderId: '225470'
       csiId: '350923'

@@ -17,6 +17,7 @@ products:
     subtype: DEFAULT
     identifiers:
       abuId: '2573575'
+      asin: B0DNV4P1Z6
       cardKingdomId: '307714'
       cardtraderId: '313990'
       csiId: '404085'
@@ -57,6 +58,7 @@ products:
     subtype: COLLECTOR
     identifiers:
       abuId: '2573572'
+      asin: B0DNV4FC7Y
       cardKingdomId: '307712'
       cardtraderId: '313989'
       csiId: '404083'
@@ -87,6 +89,7 @@ products:
     subtype: COLLECTOR
     identifiers:
       abuId: '2573571'
+      asin: B0DNV565MM
       cardKingdomId: '307713'
       cardtraderId: '314234'
       hareruyaId: '170865'
@@ -122,6 +125,7 @@ products:
     subtype: PREMIUM
     identifiers:
       abuId: '2573576'
+      asin: B0DNV4QFMZ
       cardKingdomId: '307715'
       cardtraderId: '313991'
       csiId: '404477'
@@ -197,6 +201,7 @@ products:
     subtype: PLAY
     identifiers:
       abuId: '2573569'
+      asin: B0DNV3NV61
       cardKingdomId: '307710'
       cardtraderId: '308755'
       mcmId: '803868'
@@ -227,6 +232,7 @@ products:
     subtype: PLAY
     identifiers:
       abuId: '2573570'
+      asin: B0DX27XHBH
       cardKingdomId: '307711'
       cardtraderId: '313988'
       hareruyaId: '170863'
@@ -244,6 +250,7 @@ products:
     subtype: PRERELEASE
     identifiers:
       abuId: '2573568'
+      asin: B0DV158GTG
       cardKingdomId: '307716'
       cardtraderId: '314233'
       hareruyaId: '174022'

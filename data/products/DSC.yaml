@@ -6,6 +6,7 @@ products:
     release_date: '2024-09-27'
     identifiers:
       abuId: '2529112'
+      asin: B0D693PYJQ
       cardKingdomId: '300724'
       cardtraderId: '299808'
       csiId: '391982'
@@ -33,6 +34,7 @@ products:
     release_date: '2024-09-27'
     identifiers:
       abuId: '2529113'
+      asin: B0D95R4PTT
       cardKingdomId: '300723'
       cardtraderId: '299806'
       csiId: '391984'
@@ -59,6 +61,7 @@ products:
     release_date: '2024-09-27'
     identifiers:
       abuId: '2531127'
+      asin: B0D692XWWB
       cardKingdomId: '300725'
       cardtraderId: '299809'
       csiId: '391981'
@@ -86,6 +89,7 @@ products:
     release_date: '2024-09-27'
     identifiers:
       abuId: '2529111'
+      asin: B0D68RDPTJ
       cardKingdomId: '300722'
       cardtraderId: '299807'
       csiId: '391983'

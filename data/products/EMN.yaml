@@ -6,6 +6,7 @@ products:
     release_date: '2016-02-16'
     identifiers:
       abuId: '1100472'
+      asin: B01CCJEE44
       cardKingdomId: '207313'
       cardtraderId: '48426'
       csiId: '224491'
@@ -172,6 +173,7 @@ products:
     subtype: INTRO
     release_date: '2016-06-29'
     identifiers:
+      asin: B01IDZSF1Y
       cardKingdomId: '209449'
       cardtraderId: '48436'
       mcmId: '290946'

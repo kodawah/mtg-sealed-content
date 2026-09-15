@@ -66,6 +66,7 @@ products:
     subtype: DRAFT
     identifiers:
       abuId: '1101062'
+      asin: B008MW1ULQ
       cardKingdomId: '188115'
       cardtraderId: '47815'
       csiId: '165874'
@@ -94,6 +95,7 @@ products:
     subtype: DRAFT
     identifiers:
       abuId: '1476934'
+      asin: B00NKW59T2
       cardKingdomId: '188116'
       cardtraderId: '47813'
       csiId: '165899'
@@ -177,6 +179,7 @@ products:
     release_date: '2012-10-05'
     identifiers:
       abuId: '1101078'
+      asin: B008MW1UG6
       cardKingdomId: '188123'
       cardtraderId: '47823'
       csiId: '165903'
@@ -232,6 +235,7 @@ products:
     release_date: '2012-10-05'
     identifiers:
       abuId: '1101079'
+      asin: B009AVP5H8
       cardKingdomId: '188118'
       cardtraderId: '47825'
       mcmId: '258297'

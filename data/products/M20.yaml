@@ -432,6 +432,7 @@ products:
     category: SUBSET
     subtype: THEME
     identifiers:
+      asin: B07V325118
       scgId: SLD-MTG-PCK-M20THEME-EN-SET5
       tcgplayerProductId: '192769'
     contents:

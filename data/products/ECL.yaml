@@ -84,6 +84,7 @@ products:
     release_date: '2026-01-23'
     identifiers:
       abuId: '2656217'
+      asin: B0FP449QTM
       cardKingdomId: '321610'
       cardtraderId: '352401'
       csiId: '424707'
@@ -126,6 +127,7 @@ products:
     release_date: '2026-01-23'
     identifiers:
       abuId: '2656209'
+      asin: B0FP44WBMF
       cardKingdomId: '321607'
       cardtraderId: '352395'
       csiId: '424700'
@@ -154,6 +156,7 @@ products:
     release_date: '2026-01-23'
     identifiers:
       abuId: '2656208'
+      asin: B0FP3CDJQ1
       cardKingdomId: '321606'
       cardtraderId: '352397'
       mcmId: '851267'
@@ -178,6 +181,7 @@ products:
     release_date: '2026-01-23'
     identifiers:
       abuId: '2656218'
+      asin: B0FP3ZHZGN
       cardKingdomId: '321617'
       cardtraderId: '352405'
       mcmId: '851280'
@@ -236,6 +240,7 @@ products:
     release_date: '2026-01-23'
     identifiers:
       abuId: '2656206'
+      asin: B0FP42WVL7
       cardKingdomId: '321609'
       cardtraderId: '352394'
       mcmId: '851272'
@@ -264,6 +269,7 @@ products:
     release_date: '2026-01-23'
     identifiers:
       abuId: '2656207'
+      asin: B0GHZG7T6C
       cardKingdomId: '321608'
       cardtraderId: '352396'
       mcmId: '851268'

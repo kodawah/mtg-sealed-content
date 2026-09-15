@@ -101,6 +101,7 @@ products:
     release_date: '2022-11-18'
     identifiers:
       abuId: '2261768'
+      asin: B0B8445Q39
       cardKingdomId: '267923'
       cardtraderId: '219836'
       csiId: '346435'
@@ -169,6 +170,7 @@ products:
     release_date: '2022-11-18'
     identifiers:
       abuId: '2261762'
+      asin: B0B841ZL68
       cardKingdomId: '267917'
       cardtraderId: '219835'
       csiId: '346437'
@@ -200,6 +202,7 @@ products:
     release_date: '2022-11-18'
     identifiers:
       abuId: '2688776'
+      asin: B0BVWJTMX4
       cardKingdomId: '267916'
       cardtraderId: '219832'
       csiId: '346438'
@@ -263,6 +266,7 @@ products:
     release_date: '2022-11-18'
     identifiers:
       abuId: '2261766'
+      asin: B0B845GZTC
       cardKingdomId: '267921'
       cardtraderId: '219837'
       csiId: '346446'
@@ -367,6 +371,7 @@ products:
     release_date: '2022-11-18'
     identifiers:
       abuId: '2261764'
+      asin: B0B847SY1Y
       cardKingdomId: '267919'
       cardtraderId: '221678'
       csiId: '346431'
@@ -397,6 +402,7 @@ products:
     release_date: '2022-11-18'
     identifiers:
       abuId: '2688777'
+      asin: B0BWVN89DK
       cardKingdomId: '267918'
       cardtraderId: '221677'
       csiId: '346432'

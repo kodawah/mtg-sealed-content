@@ -2568,6 +2568,7 @@ products:
     subtype: COMMANDER
     release_date: '2025-05-13'
     identifiers:
+      asin: B0F8W7PZV5
       cardKingdomId: '313233'
       cardtraderId: '331092'
       hareruyaId: '177520'
@@ -2885,6 +2886,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2025-07-29'
     identifiers:
+      asin: B0FLF29G4V
       cardKingdomId: '318046'
       mcmId: '839946'
       tcgplayerProductId: '646801'
@@ -3214,6 +3216,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2023-11-30'
     identifiers:
+      asin: B0CKS9DXKF
       cardKingdomId: '289326'
       csiId: '387163'
       hareruyaId: '146418'
@@ -3252,6 +3255,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2023-09-15'
     identifiers:
+      asin: B0CJX9Z38N
       cardKingdomId: '283662'
       hareruyaId: '139762'
       tcgplayerProductId: '515013'
@@ -3447,6 +3451,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2022-10-25'
     identifiers:
+      asin: B0BD78SYXS
       cardKingdomId: '267855'
       csiId: '345077'
       hareruyaId: '125385'
@@ -3523,6 +3528,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2023-04-28'
     identifiers:
+      asin: B0C4K1NMGN
       cardKingdomId: '283668'
       csiId: '368716'
       hareruyaId: '168019'
@@ -3638,6 +3644,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2023-08-29'
     identifiers:
+      asin: B0CGGCVCHP
       hareruyaId: '135360'
       tcgplayerProductId: '501845'
     contents:
@@ -3757,6 +3764,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2022-08-05'
     identifiers:
+      asin: B0B9ZP2F1R
       cardKingdomId: '258372'
       csiId: '343816'
       hareruyaId: '118641'
@@ -3835,6 +3843,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2022-10-25'
     identifiers:
+      asin: B0BD77MGJS
       cardKingdomId: '267857'
       csiId: '345079'
       hareruyaId: '125383'
@@ -4489,6 +4498,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2025-11-18'
     identifiers:
+      asin: B0G5QMXCPC
       cardKingdomId: '321712'
       tcgplayerProductId: '662602'
     contents:
@@ -4684,6 +4694,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2023-09-15'
     identifiers:
+      asin: B0CJWY4RPG
       cardKingdomId: '283658'
       hareruyaId: '139764'
       tcgplayerProductId: '515011'
@@ -5480,6 +5491,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2025-10-27'
     identifiers:
+      asin: B0G1CXVDBF
       cardKingdomId: '319932'
       hareruyaId: '186223'
       mcmId: '851806'
@@ -5515,6 +5527,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2026-03-02'
     identifiers:
+      asin: B0GNLVK2W5
       cardKingdomId: '323668'
       tcgplayerProductId: '677405'
     contents:
@@ -5759,6 +5772,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2026-05-12'
     identifiers:
+      asin: B0GZ9Z748H
       cardKingdomId: '326857'
       tcgplayerProductId: '691188'
     contents:
@@ -5807,6 +5821,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2025-05-13'
     identifiers:
+      asin: B0F8YMZD88
       cardKingdomId: '315822'
       hareruyaId: '177519'
       mcmId: '823320'
@@ -6192,6 +6207,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2026-02-16'
     identifiers:
+      asin: B0GKYFBHJ4
       cardKingdomId: '323516'
       hareruyaId: '188527'
       tcgplayerProductId: '673779'
@@ -6341,6 +6357,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2022-05-06'
     identifiers:
+      asin: B0B1V7WDXL
       cardKingdomId: '255187'
       csiId: '337223'
       hareruyaId: '112536'
@@ -6412,6 +6429,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2025-07-29'
     identifiers:
+      asin: B0FLF43VGP
       cardKingdomId: '318048'
       mcmId: '839947'
       tcgplayerProductId: '646799'
@@ -6446,6 +6464,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2023-09-15'
     identifiers:
+      asin: B0CJXJ67PD
       cardKingdomId: '283656'
       hareruyaId: '139766'
       tcgplayerProductId: '515009'
@@ -6610,6 +6629,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2026-03-03'
     identifiers:
+      asin: B0GSHT638K
       cardKingdomId: '324576'
       hareruyaId: '189903'
       tcgplayerProductId: '680229'
@@ -6847,6 +6867,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2026-03-03'
     identifiers:
+      asin: B0GSHNPY2L
       cardKingdomId: '324584'
       hareruyaId: '189902'
       tcgplayerProductId: '680233'
@@ -7767,6 +7788,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2022-10-25'
     identifiers:
+      asin: B0BD78N7CG
       cardKingdomId: '267859'
       csiId: '345081'
       hareruyaId: '125381'
@@ -7803,6 +7825,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2022-10-25'
     identifiers:
+      asin: B0BD77KY24
       cardKingdomId: '267853'
       csiId: '345075'
       hareruyaId: '125387'
@@ -7890,6 +7913,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2022-07-22'
     identifiers:
+      asin: B09THHZ663
       cardKingdomId: '258021'
       csiId: '343521'
       hareruyaId: '116427'
@@ -8994,6 +9018,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2023-11-30'
     identifiers:
+      asin: B0CKS8C2QW
       cardKingdomId: '312873'
       csiId: '377607'
       hareruyaId: '146426'
@@ -9142,6 +9167,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2023-08-29'
     identifiers:
+      asin: B0CGGT32JJ
       hareruyaId: '135368'
       tcgplayerProductId: '501834'
     contents:
@@ -9257,6 +9283,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2026-05-12'
     identifiers:
+      asin: B0GZ9M727M
       cardKingdomId: '326853'
       tcgplayerProductId: '691182'
     contents:
@@ -9292,6 +9319,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2026-05-12'
     identifiers:
+      asin: B0GZ9TBYP9
       cardKingdomId: '326855'
       tcgplayerProductId: '691184'
     contents:
@@ -9576,6 +9604,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2024-05-30'
     identifiers:
+      asin: B0D4JGWJ7Q
       cardKingdomId: '313163'
       cardtraderId: '290331'
       csiId: '392725'
@@ -9612,6 +9641,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2024-05-30'
     identifiers:
+      asin: B0D4JGDCNL
       cardKingdomId: '313161'
       cardtraderId: '290334'
       csiId: '392732'
@@ -10986,6 +11016,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2023-12-18'
     identifiers:
+      asin: B0CQ3FDJ7S
       cardKingdomId: '312869'
       csiId: '377598'
       hareruyaId: '146422'
@@ -11928,6 +11959,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2025-05-13'
     identifiers:
+      asin: B0F8W7P9KB
       cardKingdomId: '315819'
       hareruyaId: '177512'
       mcmId: '823333'
@@ -13516,6 +13548,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2024-05-30'
     identifiers:
+      asin: B0D4KD9212
       cardKingdomId: '313158'
       csiId: '392753'
       hareruyaId: '159285'
@@ -14157,6 +14190,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2022-07-22'
     identifiers:
+      asin: B09THKY1ZQ
       cardKingdomId: '258027'
       csiId: '343523'
       hareruyaId: '116425'
@@ -15310,6 +15344,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2020-06-03'
     identifiers:
+      asin: B08LLHZCQN
       cardKingdomId: '233855'
       cardtraderId: '133608'
       csiId: '298660'
@@ -16221,6 +16256,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2025-10-27'
     identifiers:
+      asin: B0FWRTB5GB
       cardKingdomId: '319951'
       hareruyaId: '186222'
       mcmId: '851815'
@@ -16656,6 +16692,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2025-05-13'
     identifiers:
+      asin: B0F8Z2CJ8J
       cardKingdomId: '315827'
       hareruyaId: '177518'
       mcmId: '823351'

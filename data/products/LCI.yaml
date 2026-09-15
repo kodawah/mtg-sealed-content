@@ -273,6 +273,7 @@ products:
     subtype: PRERELEASE
     release_date: '2023-11-17'
     identifiers:
+      asin: B0CMVT1L3Y
       cardKingdomId: '285491'
       cardtraderId: '261712'
       mcmId: '734178'

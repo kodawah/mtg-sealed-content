@@ -96,6 +96,7 @@ products:
     subtype: COLLECTOR
     identifiers:
       abuId: '2686905'
+      asin: B0GF44F4MG
       cardKingdomId: '327042'
       cardtraderId: '370618'
       mcmId: '869496'
@@ -132,6 +133,7 @@ products:
     subtype: COLLECTOR
     identifiers:
       abuId: '2686904'
+      asin: B0G8836V29
       cardKingdomId: '327041'
       cardtraderId: '370621'
       mcmId: '869492'
@@ -148,6 +150,7 @@ products:
     subtype: DRAFT
     identifiers:
       abuId: '2686962'
+      asin: B0G867CCWN
       cardKingdomId: '327047'
       cardtraderId: '370623'
       mcmId: '869507'
@@ -184,6 +187,7 @@ products:
     release_date: '2026-07-17'
     identifiers:
       abuId: '2686961'
+      asin: B0G87RDQPV
       cardKingdomId: '327064'
       cardtraderId: '370626'
       mcmId: '869525'
@@ -279,6 +283,7 @@ products:
     subtype: PLAY
     identifiers:
       abuId: '2686903'
+      asin: B0GF4MXFPC
       cardKingdomId: '327046'
       cardtraderId: '370616'
       mcmId: '869494'
@@ -306,6 +311,7 @@ products:
     subtype: PLAY
     identifiers:
       abuId: '2686902'
+      asin: B0GML7Q8Y3
       cardKingdomId: '327045'
       cardtraderId: '370619'
       mcmId: '869490'

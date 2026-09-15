@@ -82,6 +82,7 @@ products:
     subtype: FAT_PACK
     identifiers:
       abuId: '1101212'
+      asin: B00DQ51RAI
       cardKingdomId: '191121'
       cardtraderId: '48028'
       csiId: '187089'
@@ -434,6 +435,7 @@ products:
     subtype: PRERELEASE
     identifiers:
       abuId: '1101224'
+      asin: B00FDX3RUY
       cardKingdomId: '191755'
       cardtraderId: '48040'
       mcmId: '264373'

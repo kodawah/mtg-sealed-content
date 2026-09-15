@@ -309,6 +309,7 @@ products:
     release_date: '2019-01-19'
     identifiers:
       abuId: '1557883'
+      asin: B07MWHFSZQ
       cardKingdomId: '223080'
       cardtraderId: '48972'
       mcmId: '368861'
@@ -442,6 +443,7 @@ products:
     release_date: '2019-01-11'
     identifiers:
       abuId: '1558146'
+      asin: B07N4B2YRJ
       cardtraderId: '48897'
       csiId: '271373'
       mcmId: '368517'

@@ -165,6 +165,7 @@ products:
     release_date: '2020-09-25'
     identifiers:
       abuId: '2688023'
+      asin: B08GZGWXHL
       cardKingdomId: '236811'
       cardtraderId: '145651'
       csiId: '302484'
@@ -215,6 +216,7 @@ products:
     release_date: '2020-09-18'
     identifiers:
       abuId: '1892553'
+      asin: B08GCWZC4D
       cardKingdomId: '236807'
       cardtraderId: '145665'
       mcmId: '486964'
@@ -395,6 +397,7 @@ products:
     release_date: '2020-09-25'
     identifiers:
       abuId: '1899671'
+      asin: B08K2VXXMS
       cardtraderId: '146526'
       mcmId: '495229'
       tcgplayerProductId: '221915'

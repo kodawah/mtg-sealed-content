@@ -48,6 +48,7 @@ products:
     subtype: COLLECTOR
     identifiers:
       abuId: '2627972'
+      asin: B0DV27CY5V
       cardKingdomId: '317938'
       cardtraderId: '323531'
       csiId: '417500'
@@ -99,6 +100,7 @@ products:
     subtype: GIFT_BUNDLE
     identifiers:
       abuId: '2627974'
+      asin: B0DV1VCPQF
       cardKingdomId: '318211'
       cardtraderId: '345036'
       hareruyaId: '180434'
@@ -145,6 +147,7 @@ products:
     subtype: PLAY
     identifiers:
       abuId: '2627971'
+      asin: B0DV1QYQ2N
       cardKingdomId: '317940'
       cardtraderId: '323529'
       mcmId: '814386'
@@ -221,6 +224,7 @@ products:
     subtype: OTHER
     identifiers:
       abuId: '2627975'
+      asin: B0DV1R45NV
       cardKingdomId: '317942'
       cardtraderId: '323536'
       mcmId: '814458'

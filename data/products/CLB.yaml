@@ -289,6 +289,7 @@ products:
     release_date: '2022-06-10'
     identifiers:
       abuId: '2190703'
+      asin: B09VBJP8P2
       cardKingdomId: '260408'
       cardtraderId: '207756'
       csiId: '334305'
@@ -367,6 +368,7 @@ products:
     subtype: SET
     identifiers:
       abuId: '2190704'
+      asin: B09VB27SZ3
       cardKingdomId: '260412'
       cardtraderId: '207757'
       csiId: '334341'

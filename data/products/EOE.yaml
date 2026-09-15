@@ -5,6 +5,7 @@ products:
     subtype: DEFAULT
     identifiers:
       abuId: '2617208'
+      asin: B0DTRW3GMM
       cardKingdomId: '316074'
       cardtraderId: '322696'
       csiId: '409096'
@@ -46,6 +47,7 @@ products:
     subtype: COLLECTOR
     identifiers:
       abuId: '2617206'
+      asin: B0DTRPG4NC
       cardKingdomId: '316072'
       cardtraderId: '322544'
       csiId: '409093'
@@ -73,6 +75,7 @@ products:
     subtype: COLLECTOR
     identifiers:
       abuId: '2617205'
+      asin: B0DTRWVTGH
       cardKingdomId: '316070'
       cardtraderId: '322687'
       hareruyaId: '177188'
@@ -127,6 +130,7 @@ products:
     subtype: PLAY
     identifiers:
       abuId: '2617207'
+      asin: B0DTRZ38J3
       cardKingdomId: '316073'
       cardtraderId: '322543'
       csiId: '409091'
@@ -155,6 +159,7 @@ products:
     subtype: PLAY
     identifiers:
       abuId: '2616421'
+      asin: B0FPGQHDDW
       cardKingdomId: '316071'
       cardtraderId: '322686'
       hareruyaId: '177186'
@@ -172,6 +177,7 @@ products:
     subtype: PRERELEASE
     identifiers:
       abuId: '2617211'
+      asin: B0FJHGJY9N
       cardtraderId: '322695'
       mcmId: '813347'
       miniaturemarketId: d9c6fde2f45548b3cb26b24c50609937

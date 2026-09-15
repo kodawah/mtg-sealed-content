@@ -45,6 +45,7 @@ products:
     release_date: '2019-10-04'
     identifiers:
       abuId: '1596563'
+      asin: B082VGZZ7J
       cardKingdomId: '227304'
       cardtraderId: '59638'
       csiId: '285170'
@@ -84,6 +85,7 @@ products:
     release_date: '2019-10-04'
     identifiers:
       abuId: '1596564'
+      asin: B07YVJFDSP
       cardKingdomId: '227306'
       cardtraderId: '59639'
       csiId: '285171'
@@ -451,6 +453,7 @@ products:
     release_date: '2019-09-27'
     identifiers:
       abuId: '1598462'
+      asin: B07YLBVN19
       cardKingdomId: '227295'
       cardtraderId: '60217'
       csiId: '286101'

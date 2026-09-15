@@ -76,6 +76,7 @@ products:
     release_date: '2024-03-08'
     identifiers:
       abuId: '2470262'
+      asin: B0CKD5DCZP
       cardKingdomId: '291464'
       cardtraderId: '265027'
       csiId: '374366'
@@ -103,6 +104,7 @@ products:
     release_date: '2024-03-08'
     identifiers:
       abuId: '2470264'
+      asin: B0CKD1LVGW
       cardKingdomId: '291465'
       cardtraderId: '265029'
       csiId: '374365'
@@ -130,6 +132,7 @@ products:
     release_date: '2024-03-08'
     identifiers:
       abuId: '2470263'
+      asin: B0CKD4ZCT3
       cardKingdomId: '291466'
       cardtraderId: '265028'
       csiId: '374367'
@@ -157,6 +160,7 @@ products:
     release_date: '2024-03-08'
     identifiers:
       abuId: '2470355'
+      asin: B0CKD85XVG
       cardKingdomId: '291467'
       cardtraderId: '265026'
       csiId: '374364'

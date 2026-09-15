@@ -5,6 +5,7 @@ products:
     subtype: BATTLE
     identifiers:
       abuId: '1100554'
+      asin: B00NUN66GG
       cardtraderId: '47891'
       mcmId: '260417'
       tcgplayerProductId: '172938'
@@ -274,6 +275,7 @@ products:
     release_date: '2013-02-01'
     identifiers:
       abuId: '1100571'
+      asin: B00B1ETNGG
       cardKingdomId: '188884'
       cardtraderId: '47889'
       csiId: '192768'
@@ -321,6 +323,7 @@ products:
     release_date: '2013-02-01'
     identifiers:
       abuId: '1100572'
+      asin: B00B1EUMAW
       cardKingdomId: '188888'
       cardtraderId: '47890'
       mcmId: '259877'

@@ -60,6 +60,7 @@ products:
     release_date: '2023-04-21'
     identifiers:
       abuId: '2323040'
+      asin: B0BNM1SZDC
       cardKingdomId: '274994'
       cardtraderId: '238104'
       csiId: '354589'
@@ -114,6 +115,7 @@ products:
     release_date: '2023-04-21'
     identifiers:
       abuId: '2323041'
+      asin: B0BNLY6V1P
       cardKingdomId: '274996'
       cardtraderId: '238106'
       csiId: '354591'

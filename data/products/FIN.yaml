@@ -6,6 +6,7 @@ products:
     release_date: '2025-06-13'
     identifiers:
       abuId: '2594498'
+      asin: B0DTMNNYN1
       cardKingdomId: '312843'
       cardtraderId: '322077'
       csiId: '408926'
@@ -58,6 +59,7 @@ products:
     release_date: '2025-12-05'
     identifiers:
       abuId: '2640478'
+      asin: B0FP6H8J6Q
       cardKingdomId: '321466'
       cardtraderId: '352425'
       csiId: '428693'
@@ -232,6 +234,7 @@ products:
     release_date: '2025-06-13'
     identifiers:
       abuId: '2594494'
+      asin: B0DTMQBLSY
       cardKingdomId: '312842'
       cardtraderId: '322072'
       csiId: '408624'
@@ -442,6 +445,7 @@ products:
     release_date: '2025-06-13'
     identifiers:
       abuId: '2594509'
+      asin: B0DTMVS4NM
       cardKingdomId: '312845'
       cardtraderId: '322111'
       hareruyaId: '174107'

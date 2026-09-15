@@ -66,6 +66,7 @@ products:
     category: BUNDLE
     subtype: DEFAULT
     identifiers:
+      asin: B0G866V9ZF
       cardKingdomId: '324619'
       cardtraderId: '370613'
       mcmId: '869387'
@@ -106,6 +107,7 @@ products:
     release_date: '2026-05-15'
     identifiers:
       abuId: '2675221'
+      asin: B0G87VXM5G
       cardKingdomId: '324637'
       cardtraderId: '370614'
       csiId: '432419'
@@ -186,6 +188,7 @@ products:
     subtype: COLLECTOR
     identifiers:
       abuId: '2675214'
+      asin: B0G87BJ9F3
       cardKingdomId: '324621'
       cardtraderId: '370592'
       hareruyaId: '189495'
@@ -203,6 +206,7 @@ products:
     subtype: DRAFT
     identifiers:
       abuId: '2675222'
+      asin: B0G86Z91GX
       cardKingdomId: '324620'
       cardtraderId: '370615'
       mcmId: '869392'
@@ -259,6 +263,7 @@ products:
     subtype: PLAY
     identifiers:
       abuId: '2675211'
+      asin: B0GFDJ7GVL
       cardKingdomId: '324624'
       cardtraderId: '370593'
       mcmId: '869356'
@@ -286,6 +291,7 @@ products:
     subtype: PLAY
     identifiers:
       abuId: '2675212'
+      asin: B0GMLXFX4R
       cardKingdomId: '324623'
       cardtraderId: '370591'
       hareruyaId: '189493'
@@ -340,6 +346,7 @@ products:
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
+      asin: B0GX7W5R6Z
       cardtraderId: '370602'
       hareruyaId: '194979'
       mcmId: '869372'
@@ -362,6 +369,7 @@ products:
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
+      asin: B0GX84R5C5
       cardtraderId: '370604'
       hareruyaId: '194982'
       mcmId: '869374'
@@ -428,6 +436,7 @@ products:
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
+      asin: B0GX7VFCJ2
       cardtraderId: '370605'
       hareruyaId: '194980'
       mcmId: '869375'

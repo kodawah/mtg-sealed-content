@@ -35,6 +35,7 @@ products:
     release_date: '2015-07-17'
     identifiers:
       abuId: '1476902'
+      asin: B013RZ6SNW
       cardKingdomId: '201581'
       cardtraderId: '48286'
       csiId: '212316'
@@ -54,6 +55,7 @@ products:
     release_date: '2015-07-17'
     identifiers:
       abuId: '1100856'
+      asin: B00U0HGM3M
       cardKingdomId: '201586'
       cardtraderId: '48302'
       csiId: '212325'

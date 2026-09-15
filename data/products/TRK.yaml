@@ -2,13 +2,6 @@ code: trk
 products:
   Star Trek Beam Me Up Bundle:
     category: BUNDLE
-    subtype: GIFT_BUNDLE
-    identifiers:
-      cardKingdomId: '334181'
-      cardtraderId: '400884'
-      mcmId: '897533'
-      scgId: SLD-MTG-BUN-TRKBEAM-EN
-      tcgplayerProductId: '706154'
     contents:
       card_count: 1
       other:
@@ -25,25 +18,26 @@ products:
       - count: 1
         name: Star Trek Collector Booster Pack
         set: trk
+    identifiers:
+      cardKingdomId: '334181'
+      cardtraderId: '400884'
+      mcmId: '897533'
+      scgId: SLD-MTG-BUN-TRKBEAM-EN
+      tcgplayerProductId: '706154'
+    subtype: GIFT_BUNDLE
   Star Trek Beam Me Up Bundle Case:
     category: BUNDLE_CASE
-    subtype: GIFT_BUNDLE
-    identifiers:
-      cardtraderId: '405219'
-      tcgplayerProductId: '706155'
     contents:
       sealed:
       - count: 6
         name: Star Trek Beam Me Up Bundle
         set: trk
+    identifiers:
+      cardtraderId: '405219'
+      tcgplayerProductId: '706155'
+    subtype: GIFT_BUNDLE
   Star Trek Beginner Box:
     category: BOX_SET
-    subtype: STARTER
-    identifiers:
-      cardtraderId: '400882'
-      mcmId: '897525'
-      miniaturemarketId: 019f815d3a327029ba0bf2e06c4ee093
-      tcgplayerProductId: '706147'
     contents:
       other:
       - name: 2 Instant Play Decks
@@ -51,21 +45,20 @@ products:
       - name: 2 Learn-to-Play guides
       - name: 2 Spindown life counters
       - name: 2 Playmats
+    identifiers:
+      asin: B0H6H4J3QF
+      cardtraderId: '400882'
+      mcmId: '897525'
+      miniaturemarketId: 019f815d3a327029ba0bf2e06c4ee093
+      tcgplayerProductId: '706147'
+    subtype: STARTER
   Star Trek Beginner Box Case:
     category: BOX_SET
-    subtype: STARTER
     identifiers:
       tcgplayerProductId: '706148'
+    subtype: STARTER
   Star Trek Bundle:
     category: BUNDLE
-    subtype: DEFAULT
-    identifiers:
-      cardKingdomId: '334180'
-      cardtraderId: '400881'
-      mcmId: '897528'
-      miniaturemarketId: 019f815cfa1773cf8546f1766a7e9198
-      scgId: SLD-MTG-BUN-TRK-EN
-      tcgplayerProductId: '706150'
     contents:
       card_count: 1
       other:
@@ -79,74 +72,76 @@ products:
       - count: 9
         name: Star Trek Play Booster Pack
         set: trk
+    identifiers:
+      asin: B0H6H1XTK6
+      cardKingdomId: '334180'
+      cardtraderId: '400881'
+      mcmId: '897528'
+      miniaturemarketId: 019f815cfa1773cf8546f1766a7e9198
+      scgId: SLD-MTG-BUN-TRK-EN
+      tcgplayerProductId: '706150'
+    subtype: DEFAULT
   Star Trek Bundle Case:
     category: BUNDLE_CASE
-    subtype: DEFAULT
-    identifiers:
-      cardtraderId: '405218'
-      tcgplayerProductId: '706152'
     contents:
       sealed:
       - count: 6
         name: Star Trek Bundle
         set: trk
+    identifiers:
+      cardtraderId: '405218'
+      tcgplayerProductId: '706152'
+    subtype: DEFAULT
   Star Trek Collector Booster Box:
     category: BOOSTER_BOX
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Star Trek Collector Booster Pack
+        set: trk
     identifiers:
       cardKingdomId: '334183'
       cardtraderId: '400880'
       mcmId: '897523'
       scgId: SLD-MTG-BBX-TRKCOLLECTOR-EN
       tcgplayerProductId: '706142'
-    contents:
-      sealed:
-      - count: 12
-        name: Star Trek Collector Booster Pack
-        set: trk
+    subtype: COLLECTOR
   Star Trek Collector Booster Box Case:
     category: BOOSTER_CASE
-    subtype: COLLECTOR
-    identifiers:
-      tcgplayerProductId: '706144'
     contents:
       sealed:
       - count: 6
         name: Star Trek Collector Booster Box
         set: trk
+    identifiers:
+      tcgplayerProductId: '706144'
+    subtype: COLLECTOR
   Star Trek Collector Booster Box Master Case:
     category: BOOSTER_CASE
-    subtype: COLLECTOR
-    identifiers:
-      tcgplayerProductId: '706146'
     contents:
       sealed:
       - count: 6
         name: Star Trek Collector Booster Box Case
         set: trk
+    identifiers:
+      tcgplayerProductId: '706146'
+    subtype: COLLECTOR
   Star Trek Collector Booster Pack:
     category: BOOSTER_PACK
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: trk
     identifiers:
       cardKingdomId: '334182'
       cardtraderId: '409506'
       mcmId: '897522'
       scgId: SLD-MTG-PCK-TRKCOLLECTOR-EN
       tcgplayerProductId: '706141'
-    contents:
-      card_count: 15
-      pack:
-      - code: collector
-        set: trk
+    subtype: COLLECTOR
   Star Trek Draft Night:
     category: LIMITED
-    subtype: DRAFT
-    identifiers:
-      cardKingdomId: '334184'
-      cardtraderId: '400883'
-      mcmId: '897536'
-      scgId: SLD-MTG-DFT-TRK-EN
-      tcgplayerProductId: '706162'
     contents:
       other:
       - name: 90 Non-foil basic lands
@@ -159,44 +154,56 @@ products:
       - count: 1
         name: Star Trek Collector Booster Pack
         set: trk
+    identifiers:
+      cardKingdomId: '334184'
+      cardtraderId: '400883'
+      mcmId: '897536'
+      scgId: SLD-MTG-DFT-TRK-EN
+      tcgplayerProductId: '706162'
+    subtype: DRAFT
   Star Trek Draft Night Case:
     category: LIMITED_CASE
-    subtype: DRAFT
-    identifiers:
-      tcgplayerProductId: '706164'
     contents:
       sealed:
       - count: 6
         name: Star Trek Draft Night
         set: trk
+    identifiers:
+      tcgplayerProductId: '706164'
+    subtype: DRAFT
   Star Trek Play Booster Box:
     category: BOOSTER_BOX
-    subtype: PLAY
-    identifiers:
-      cardKingdomId: '334186'
-      cardtraderId: '400879'
-      mcmId: '897524'
-      scgId: SLD-MTG-BBX-TRKPLAY-EN
-      tcgplayerProductId: '706138'
     contents:
       sealed:
       - count: 30
         name: Star Trek Play Booster Pack
         set: trk
+    identifiers:
+      asin: B0H6H2D3JF
+      cardKingdomId: '334186'
+      cardtraderId: '400879'
+      mcmId: '897524'
+      scgId: SLD-MTG-BBX-TRKPLAY-EN
+      tcgplayerProductId: '706138'
+    subtype: PLAY
   Star Trek Play Booster Box Case:
     category: BOOSTER_CASE
-    subtype: PLAY
-    identifiers:
-      scgId: SLD-MTG-BBX-TRKPLAYCASE-EN
-      tcgplayerProductId: '706140'
     contents:
       sealed:
       - count: 6
         name: Star Trek Play Booster Box
         set: trk
+    identifiers:
+      scgId: SLD-MTG-BBX-TRKPLAYCASE-EN
+      tcgplayerProductId: '706140'
+    subtype: PLAY
   Star Trek Play Booster Pack:
     category: BOOSTER_PACK
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: trk
     identifiers:
       cardKingdomId: '334185'
       cardtraderId: '409505'
@@ -204,18 +211,9 @@ products:
       miniaturemarketId: 019f815c77ce739eba5594e226f9d742
       scgId: SLD-MTG-PCK-TRKPLAY-EN
       tcgplayerProductId: '706136'
-    contents:
-      card_count: 14
-      pack:
-      - code: play
-        set: trk
+    subtype: PLAY
   Star Trek Prerelease Pack:
     category: LIMITED
-    subtype: PRERELEASE
-    identifiers:
-      cardtraderId: '400885'
-      mcmId: '897520'
-      tcgplayerProductId: '706227'
     contents:
       other:
       - name: 1 Spindown die
@@ -224,24 +222,23 @@ products:
       - count: 6
         name: Star Trek Play Booster Pack
         set: trk
+    identifiers:
+      cardtraderId: '400885'
+      mcmId: '897520'
+      tcgplayerProductId: '706227'
+    subtype: PRERELEASE
   Star Trek Prerelease Pack Case:
     category: LIMITED_CASE
-    subtype: PRERELEASE
-    identifiers:
-      tcgplayerProductId: '709039'
     contents:
       sealed:
       - count: 15
         name: Star Trek Prerelease Pack
         set: trk
+    identifiers:
+      tcgplayerProductId: '709039'
+    subtype: PRERELEASE
   Star Trek Scene Box Case:
     category: BOX_SET
-    subtype: OTHER
-    identifiers:
-      cardtraderId: '406821'
-      mcmId: '903175'
-      miniaturemarketId: 019f815d228972a989d8ad7a799a0471
-      tcgplayerProductId: '706160'
     contents:
       sealed:
       - count: 2
@@ -250,16 +247,14 @@ products:
       - count: 2
         name: Star Trek Scene Box Divergent Timelines
         set: trk
+    identifiers:
+      cardtraderId: '406821'
+      mcmId: '903175'
+      miniaturemarketId: 019f815d228972a989d8ad7a799a0471
+      tcgplayerProductId: '706160'
+    subtype: OTHER
   Star Trek Scene Box Divergent Timelines:
     category: BOX_SET
-    subtype: OTHER
-    identifiers:
-      cardKingdomId: '334187'
-      cardtraderId: '400887'
-      mcmId: '897535'
-      miniaturemarketId: 019f815d22a07330a32938ae7d3aefe2
-      scgId: SLD-MTG-BXS-TRK-EN-DIVERGENT
-      tcgplayerProductId: '706158'
     contents:
       card_count: 6
       deck:
@@ -272,16 +267,16 @@ products:
       - count: 3
         name: Star Trek Play Booster Pack
         set: trk
+    identifiers:
+      cardKingdomId: '334187'
+      cardtraderId: '400887'
+      mcmId: '897535'
+      miniaturemarketId: 019f815d22a07330a32938ae7d3aefe2
+      scgId: SLD-MTG-BXS-TRK-EN-DIVERGENT
+      tcgplayerProductId: '706158'
+    subtype: OTHER
   Star Trek Scene Box Enterprise-Q:
     category: BOX_SET
-    subtype: OTHER
-    identifiers:
-      cardKingdomId: '334188'
-      cardtraderId: '400886'
-      mcmId: '897534'
-      miniaturemarketId: 019f815d2ed4726cabaca04d61ac07f1
-      scgId: SLD-MTG-BXS-TRK-EN-ENTERPRISEQ
-      tcgplayerProductId: '706157'
     contents:
       card_count: 6
       deck:
@@ -294,3 +289,11 @@ products:
       - count: 3
         name: Star Trek Play Booster Pack
         set: trk
+    identifiers:
+      cardKingdomId: '334188'
+      cardtraderId: '400886'
+      mcmId: '897534'
+      miniaturemarketId: 019f815d2ed4726cabaca04d61ac07f1
+      scgId: SLD-MTG-BXS-TRK-EN-ENTERPRISEQ
+      tcgplayerProductId: '706157'
+    subtype: OTHER

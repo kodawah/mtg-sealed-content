@@ -66,6 +66,7 @@ products:
     release_date: '2023-10-13'
     identifiers:
       abuId: '2407570'
+      asin: B0C3TLCWYG
       cardKingdomId: '283469'
       cardtraderId: '246951'
       csiId: '362395'
@@ -94,6 +95,7 @@ products:
     release_date: '2023-10-13'
     identifiers:
       abuId: '2407569'
+      asin: B0C3T95WCR
       cardKingdomId: '283468'
       cardtraderId: '246950'
       csiId: '362394'
@@ -122,6 +124,7 @@ products:
     release_date: '2023-10-13'
     identifiers:
       abuId: '2407572'
+      asin: B0C3TJQ4Z4
       cardKingdomId: '283467'
       cardtraderId: '246953'
       csiId: '362396'
@@ -150,6 +153,7 @@ products:
     release_date: '2023-10-13'
     identifiers:
       abuId: '2407571'
+      asin: B0C3T16WJ9
       cardKingdomId: '283466'
       cardtraderId: '246952'
       csiId: '362393'
