@@ -209,6 +209,32 @@ MULTI_PACK_RE = re.compile(
     r"|\b(?!1\b)\d+\s+booster\s+packs\b", re.I)
 
 
+# Foil treatment is already decided by the shape signature, so leaving the
+# words in the scored string only depresses the score of the right candidate:
+# "Secret Lair Drop Garden Buds Rainbow Foil" against a listing's "Garden Buds
+# (Foil Edition)" loses on "drop" and "rainbow" even though both are accounted
+# for. "Drop" is likewise a constant the catalog puts on every Secret Lair.
+COMPARE_NOISE = re.compile(
+    r"\b(non\s*foil|nonfoil|traditional|rainbow|galaxy|raised|textured|gilded|"
+    r"halo|surge|confetti|etched|neon ink|step and compleat|foil|drop)\b", re.I)
+
+
+def title_set_codes(title, valid):
+    """Set codes a listing names outright -- "Prerelease Pack : Core Set 2019
+    (M19)" says which year it means far more reliably than the score does,
+    where Core Set 2021 is three points behind. Only codes the catalog
+    actually has count, so ordinary bracketed words are ignored."""
+    found = set()
+    for token in re.findall(r"[({\[]\s*([A-Za-z0-9]{2,5})\s*[)}\]]", title):
+        if token.upper() in valid:
+            found.add(token.upper())
+    return found
+
+
+def compare_key(normalized):
+    return re.sub(r"\s+", " ", COMPARE_NOISE.sub(" ", normalized)).strip()
+
+
 def ignore_reason(title):
     """Why this listing is not a catalog product, or None if it looks real."""
     hit = IGNORE_ANYWHERE_RE.search(title)
@@ -235,10 +261,12 @@ def main():
         data = yaml.safe_load(path.read_text())
         for pname, pbody in (data.get("products") or {}).items():
             pnorm = normalize(pname)
-            known.append((pname, path.stem, pnorm, shape(pnorm)))
+            known.append((pname, path.stem, compare_key(pnorm), shape(pnorm)))
             existing = (pbody.get("identifiers") or {}).get("asin")
             if existing:
                 known_asins[str(existing)] = pname
+
+    valid_codes = {k[1].upper() for k in known}
 
     print(f"{len(entries)} amazon entries vs {len(known)} known products",
           file=sys.stderr)
@@ -266,33 +294,41 @@ def main():
                                       "reason": "no content after normalization"})
             continue
         qshape = shape(query, name)
+        query = compare_key(query)
+        if not query:
+            buckets["ignore"].append({"name": name, "asin": asin,
+                                      "reason": "no content after normalization"})
+            continue
 
         # Shape ranks candidates rather than only vetoing the winner: a
         # "(Foil Edition)" listing must reach its "Rainbow Foil" sibling
         # instead of losing by a token to the bare non-foil name.
+        codes = title_set_codes(name, valid_codes)
         scored = sorted(
-            ((tier(qshape, k[3]), fuzz.token_sort_ratio(query, k[2]),
-              k[0], k[1], k[3]) for k in known),
-            key=lambda s: (s[0], s[1]),
+            ((tier(qshape, k[3]), k[1].upper() in codes,
+              fuzz.token_sort_ratio(query, k[2]), k[0], k[1], k[3])
+             for k in known),
+            key=lambda s: (s[0], s[1], s[2]),
             reverse=True,
         )
         # Shape only outranks similarity among candidates that are plausible
         # on name alone; without this a tier-2 candidate scoring 53 beats the
         # tier-1 product the listing actually names at 97.
-        plausible = [s for s in scored if s[1] >= CANDIDATE_FLOOR]
+        plausible = [s for s in scored if s[2] >= CANDIDATE_FLOOR]
         if plausible:
-            scored = plausible + [s for s in scored if s[1] < CANDIDATE_FLOOR]
+            scored = plausible + [s for s in scored if s[2] < CANDIDATE_FLOOR]
         else:
-            scored = sorted(scored, key=lambda s: -s[1])
+            scored = sorted(scored, key=lambda s: -s[2])
         best = scored[0]
-        # Compare only against runners-up of the same shape tier; a lower tier
-        # is a different product, not a near-miss.
-        peers = [s for s in scored[1:] if s[0] == best[0]]
-        margin = best[1] - peers[0][1] if peers else 100
+        # Compare only against runners-up of the same standing: a different
+        # shape tier is a different product, and a candidate whose set code the
+        # listing did not name is not the near-miss it looks like.
+        peers = [s for s in scored[1:] if s[0] == best[0] and s[1] == best[1]]
+        margin = best[2] - peers[0][2] if peers else 100
         shape_tier = best[0]
         shape_ok = shape_tier == 2
-        best = (best[1], best[2], best[3], best[4])
-        scored = [(s[1], s[2], s[3], s[4]) for s in scored]
+        best = (best[2], best[3], best[4], best[5])
+        scored = [(s[2], s[3], s[4], s[5]) for s in scored]
 
         record = {
             "name": name, "asin": asin, "score": best[0], "margin": margin,

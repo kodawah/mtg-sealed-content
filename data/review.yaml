@@ -40,11 +40,6 @@ amazon:
     identifiers:
       asin: B000RFBM8C
     subtype: UNKNOWN
-  2011 Core Set Booster Pack (M11) Magic The Gathering CCG:
-    category: UNKNOWN
-    identifiers:
-      asin: B003VWQYV8
-    subtype: UNKNOWN
   2015 Core Set - Mercurial Pretender Intro Pack:
     category: UNKNOWN
     identifiers:
@@ -829,11 +824,6 @@ amazon:
     identifiers:
       asin: B000FFL5G8
     subtype: UNKNOWN
-  'MTG Elite Secret Lair: vroooOOOMMMMMM! (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F9TTZJP4
-    subtype: UNKNOWN
   MTG Legendary Pack 40 Count with Guaranteed Legendary Creature:
     category: UNKNOWN
     identifiers:
@@ -905,21 +895,6 @@ amazon:
     identifiers:
       asin: B0FNWZW4XB
     subtype: UNKNOWN
-  'MTG Prerelease Pack : Core Set 2019 (M19)':
-    category: UNKNOWN
-    identifiers:
-      asin: B07F6DV9CD
-    subtype: UNKNOWN
-  'MTG Prerelease Pack : Core Set 2021 (M21)':
-    category: UNKNOWN
-    identifiers:
-      asin: B08B45QTPX
-    subtype: UNKNOWN
-  'MTG Prerelease Pack : Modern Horizons 3 (MH3)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CX9CB93D
-    subtype: UNKNOWN
   MTG Rare Card Pack – 30 Unique Rare Cards:
     category: UNKNOWN
     identifiers:
@@ -986,45 +961,15 @@ amazon:
     identifiers:
       asin: B0GNLQ739K
     subtype: UNKNOWN
-  'MTG Secret Lair x Dwarf Fortress: Create New World (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0GZ99J7R6
-    subtype: UNKNOWN
   'MTG Secret Lair x Fallout: Beyond Vault 33​ (Non-Foil Edition)':
     category: UNKNOWN
     identifiers:
       asin: B0GKWT11PT
     subtype: UNKNOWN
-  'MTG Secret Lair x Fallout: Greet The Dog​ (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0GKWQBFN7
-    subtype: UNKNOWN
   'MTG Secret Lair x Fallout: Rad​ (Foil Edition)':
     category: UNKNOWN
     identifiers:
       asin: B0GKY922R5
-    subtype: UNKNOWN
-  'MTG Secret Lair x Fallout: Rad​ (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0GKX4WQHH
-    subtype: UNKNOWN
-  'MTG Secret Lair x Fallout: Welcome to New Vegas​ (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0GKWSDW93
-    subtype: UNKNOWN
-  MTG Secret Lair x Ghost of Tsushima (Non-Foil Edition):
-    category: UNKNOWN
-    identifiers:
-      asin: B0G2K1LC1K
-    subtype: UNKNOWN
-  'MTG Secret Lair x God of War: Norse (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0G2JZXQJL
     subtype: UNKNOWN
   'MTG Secret Lair x Horizon: Into The Forbidden West (Foil Edition)':
     category: UNKNOWN
@@ -1081,21 +1026,6 @@ amazon:
     identifiers:
       asin: B0G2JY65Z3
     subtype: UNKNOWN
-  'MTG Secret Lair: Alien Auroras (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0FLDXNFHJ
-    subtype: UNKNOWN
-  'MTG Secret Lair: Arcade Racers (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DXDB9ZMV
-    subtype: UNKNOWN
-  'MTG Secret Lair: Arcade Racers (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DXDBRHF9
-    subtype: UNKNOWN
   'MTG Secret Lair: Death is in The Eyes of The Beholder I (Foil Edition)':
     category: UNKNOWN
     identifiers:
@@ -1126,71 +1056,6 @@ amazon:
     identifiers:
       asin: B0F8YTMZ9W
     subtype: UNKNOWN
-  'MTG Secret Lair: Everything is ON FIRE (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F8YMLZYF
-    subtype: UNKNOWN
-  'MTG Secret Lair: Featuring: Andrew MACLEAN (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DC5LHF7V
-    subtype: UNKNOWN
-  'MTG Secret Lair: Featuring: Deathburger (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0FLDY1GCC
-    subtype: UNKNOWN
-  'MTG Secret Lair: Featuring: Jay Howell (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F8YJJ76V
-    subtype: UNKNOWN
-  'MTG Secret Lair: Featuring: Luke Pearson (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DXDHJY4Q
-    subtype: UNKNOWN
-  'MTG Secret Lair: Featuring: Mitsuhiro Arita (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DXDH7NPG
-    subtype: UNKNOWN
-  'MTG Secret Lair: Food Tokens - Oishii! (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F2YFMHNC
-    subtype: UNKNOWN
-  'MTG Secret Lair: Food Tokens - Oishii! (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F2Y684T3
-    subtype: UNKNOWN
-  'MTG Secret Lair: Garden Buds (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F31P4KH2
-    subtype: UNKNOWN
-  'MTG Secret Lair: Garden Buds (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F31NNZ8W
-    subtype: UNKNOWN
-  'MTG Secret Lair: Goblingram (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D4KCJTW8
-    subtype: UNKNOWN
-  'MTG Secret Lair: Goblingram (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D4JFPRCJ
-    subtype: UNKNOWN
-  'MTG Secret Lair: Lorwyn Lightboxes (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DXDHHJN1
-    subtype: UNKNOWN
   'MTG Secret Lair: Nuestra Magia (English, Foil Edition)':
     category: UNKNOWN
     identifiers:
@@ -1200,21 +1065,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0FF3PZMCX
-    subtype: UNKNOWN
-  'MTG Secret Lair: Pick ‘em & Stick ‘em (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F31MP5FK
-    subtype: UNKNOWN
-  'MTG Secret Lair: Pick ‘em & Stick ‘em (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F31MQKYW
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret LAIR X Brain Dead: Lands (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DC5LM6HK
     subtype: UNKNOWN
   'MTG Secret Lair: Secret Lair High: Class of ''87 (Foil Edition)':
     category: UNKNOWN
@@ -1231,26 +1081,6 @@ amazon:
     identifiers:
       asin: B0FWN86PKH
     subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Ghost Busters: Slimer (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DJGG3ZD9
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Ghost Busters: Slimer (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DJGFVC78
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Ghost Busters: The Real Ghost Busters (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DJGH7JSV
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Ghost Busters: The Real Ghost Busters (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DJGGBH68
-    subtype: UNKNOWN
   'MTG Secret Lair: Secret Lair x Marvel''s Deadpool (Foil Edition)':
     category: UNKNOWN
     identifiers:
@@ -1261,16 +1091,6 @@ amazon:
     identifiers:
       asin: B0F3W3GM5H
     subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Marvel''s Spider-Man: Venom Unleashed - Inks (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0FT7LBHR5
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Sonic: Chasing Adventure (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0FLF79RR5
-    subtype: UNKNOWN
   'MTG Secret Lair: Secret Lair x Sonic: Friends & Foes (Foil Edition)':
     category: UNKNOWN
     identifiers:
@@ -1280,11 +1100,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0FLDW54D3
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Sonic: Turbo Gear (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0FLFBSX6J
     subtype: UNKNOWN
   'MTG Secret Lair: Secret Lair x Sonic: Turbo Gear (Non-Foil Edition)':
     category: UNKNOWN
@@ -1301,36 +1116,6 @@ amazon:
     identifiers:
       asin: B0F2ZJS7RK
     subtype: UNKNOWN
-  'MTG Secret Lair: Sheldon''s SPELLBOOK (Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D9GCQTXS
-    subtype: UNKNOWN
-  'MTG Secret Lair: Sheldon''s SPELLBOOK (Non-Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D9GBRCNY
-    subtype: UNKNOWN
-  'MTG Secret Lair: Showcase: Duskmourn (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DJGHP9BY
-    subtype: UNKNOWN
-  'MTG Secret Lair: Showcase: Duskmourn (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DJGFVQ76
-    subtype: UNKNOWN
-  'MTG Secret Lair: Twisted Toons (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F3W34G4H
-    subtype: UNKNOWN
-  'MTG Secret Lair: Twisted Toons (Non-Foil Edition)!':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F3W2ZQK7
-    subtype: UNKNOWN
   'MTG Secret Lair: an Exhibition of Adventure (Foil Edition)':
     category: UNKNOWN
     identifiers:
@@ -1340,16 +1125,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0DFVV87GT
-    subtype: UNKNOWN
-  'MTG Secret Lair: sAnS Mercy (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D4KD9YT1
-    subtype: UNKNOWN
-  'MTG Secret Lair: sAnS Mercy (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D4KC4SNF
     subtype: UNKNOWN
   'MTG Secret Lair: vroooOOOMMMMMM! (Foil Edition)':
     category: UNKNOWN
@@ -1452,11 +1227,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B09PF95127
-    subtype: UNKNOWN
-  'Magic TCG Magic: The Gathering Secret Lair: Thrilling Tales of The Undead (Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B09PF8F5VR
     subtype: UNKNOWN
   ? Magic The Gathering (MTG Theros Intro Pack - Devotion to Darkness Theme Deck (Includes
     2 Booster Packs) Black (Abhorrent Overlord)
@@ -1854,11 +1624,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0B9ZQK581
-    subtype: UNKNOWN
-  'Magic The Gathering Secret Lair: Featuring: Phoebe Wahl (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D1CQCZ7G
     subtype: UNKNOWN
   Magic The Gathering Selesnya Return to Ravnica Guild Box Sealed:
     category: UNKNOWN
@@ -2277,30 +2042,10 @@ amazon:
     identifiers:
       asin: B09YKW1HF6
     subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Featuring: Gary Baseman (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CJYH66BP
-    subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Gift Wrapped Foil Edition':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CNYBL1C3
-    subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Gift Wrapped Non-Foil Edition':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CNYB1114
-    subtype: UNKNOWN
   'Magic: The Gathering Secret Lair: MTG Summer Superdrop Bundle':
     category: UNKNOWN
     identifiers:
       asin: B08HCZN8L8
-    subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Midnight Hunt Foil':
-    category: UNKNOWN
-    identifiers:
-      asin: B09PF84VBJ
     subtype: UNKNOWN
   'Magic: The Gathering Secret Lair: Monster Anatomy 101 (Foil Etched)':
     category: UNKNOWN
@@ -2635,21 +2380,6 @@ amazon:
     identifiers:
       asin: B09LNVB3FY
     subtype: UNKNOWN
-  Secret Lair Back in My Day! Non-Foil Version:
-    category: UNKNOWN
-    identifiers:
-      asin: B0H2LXTXMH
-    subtype: UNKNOWN
-  Secret Lair Back in My Day! Traditional Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      asin: B0H2LSYFJW
-    subtype: UNKNOWN
-  'Secret Lair Featuring: Kevin Eastman (Colors) Non-Foil Edition':
-    category: UNKNOWN
-    identifiers:
-      asin: B0GS7JZLXT
-    subtype: UNKNOWN
   'Secret Lair Featuring: Kevin Eastman (Inks) Foil Edition':
     category: UNKNOWN
     identifiers:
@@ -2669,16 +2399,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0GS7HGN3P
-    subtype: UNKNOWN
-  Secret Lair Inked Non-Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      asin: B0H2LQ239B
-    subtype: UNKNOWN
-  Secret Lair Inked Rainbow Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      asin: B0H2LMM4M5
     subtype: UNKNOWN
   Secret Lair Mother's Day 2021 - Foil box - sealed:
     category: UNKNOWN
