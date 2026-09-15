@@ -6,6 +6,7 @@ else:
     import sealed_yaml
 
 import argparse
+import json
 import re
 import sys
 import yaml
@@ -146,6 +147,12 @@ def main(argv=None):
              "auto-match, to avoid false friends (default: 8).",
     )
     parser.add_argument(
+        "--apply-matches",
+        metavar="PATH",
+        help="Apply the 'sure' bucket of a check_amazon_match.py JSON report "
+             "instead of matching interactively.",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="With --auto, print the matches that would be applied without "
@@ -255,6 +262,46 @@ def main(argv=None):
     for stem, known_data in sealed_yaml.iter_sets():
         for product_name in known_data["products"].keys():
             known_products.append((product_name, stem))
+
+    def run_apply_matches(report_path):
+        """Apply the unambiguous matches a check_amazon_match.py run already
+        settled. That matcher weighs the distinctions raw fuzzy scoring misses
+        (Box vs Pack, Collector vs Play, Foil vs Non Foil), so its verdicts are
+        taken as given here rather than re-scored against --auto's thresholds."""
+        with open(report_path) as report_file:
+            buckets = json.load(report_file)
+
+        applied = conflicts = missing = 0
+        for record in buckets.get("sure", []):
+            target_file = Path("data/products") / f"{record['code']}.yaml"
+            handled = (record["name"], {"asin": record["asin"]})
+
+            with open(target_file) as product_file:
+                products = yaml.safe_load(product_file)
+            if record["best"] not in products["products"]:
+                print(f"MISSING {record['best']!r} in {target_file.name}")
+                missing += 1
+                continue
+
+            if args.dry_run:
+                print(f"{record['asin']} -> {record['best']!r} [{record['code']}]")
+                applied += 1
+                continue
+
+            ok, existing = apply_identifier(handled, record["best"], target_file)
+            if ok:
+                remove_from_review(handled)
+                applied += 1
+            else:
+                print(f"CONFLICT {record['best']!r} already has asin {existing}")
+                conflicts += 1
+
+        print(f"\nApplied {applied}, {conflicts} conflicts, {missing} missing"
+              + (" (dry run, nothing written)" if args.dry_run else ""))
+
+    if args.apply_matches:
+        run_apply_matches(args.apply_matches)
+        return
 
     if args.auto:
         run_auto()

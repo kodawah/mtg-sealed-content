@@ -20,6 +20,8 @@ from pathlib import Path
 import yaml
 from thefuzz import fuzz
 
+AMAZON_URL = "https://www.amazon.com/dp/{}"
+
 SURE_SCORE = 92
 SURE_MARGIN = 6
 CANDIDATE_FLOOR = 72
@@ -305,6 +307,19 @@ def main():
         key=lambda r: (r["best"], -r["score"]),
     )
 
+    # Matches that clear every bar except that the listing never said whether
+    # it ships as a box or a pack, where the catalog carries both. Nothing can
+    # settle that from the title alone, so they are flagged for a human with a
+    # link to the listing rather than guessed at.
+    # No margin requirement: a box and its pack score almost identically, so
+    # the tie is the ambiguity itself, not a reason to skip flagging it.
+    flagged = [r for r in buckets["multiple"] if r["shape_tier"] == 1
+               and r["score"] >= SURE_SCORE]
+    flagged_ids = {id(r) for r in flagged}
+    buckets["multiple"] = [r for r in buckets["multiple"]
+                           if id(r) not in flagged_ids]
+    buckets["ambiguous"] = sorted(flagged, key=lambda r: -r["score"])
+
     out = Path(sys.argv[1] if len(sys.argv) > 1 else "amazon_match.json")
     out.write_text(json.dumps(buckets, indent=1))
     write_report(buckets, out.with_suffix(".md"), len(entries), len(known))
@@ -328,6 +343,8 @@ def write_report(buckets, path, n_entries, n_known):
         f"| competing listings | {len(buckets['competing'])} | several ASINs for "
         "the SAME product |",
         f"| ignore | {len(buckets['ignore'])} | accessories and reseller lots |",
+        f"| box/pack unstated | {len(buckets['ambiguous'])} | would be sure, but "
+        "the listing never said which |",
         f"| no match | {len(buckets['nomatch'])} | nothing in the catalog "
         "resembles it |",
         "",
@@ -339,6 +356,17 @@ def write_report(buckets, path, n_entries, n_known):
                    f"— {r['score']}/+{r['margin']}")
         out.append(f"    - listing: {r['name']}")
 
+    out += ["", "## Box or pack unstated — check the listing (%d)"
+            % len(buckets["ambiguous"]), "",
+            "Everything else agrees; the catalog has both a box and a pack and "
+            "the title names neither.", ""]
+    for r in buckets["ambiguous"]:
+        out.append(f"- [{r['asin']}]({AMAZON_URL.format(r['asin'])}) — "
+                   f"{r['name']}")
+        out.append(f"    - {r['score']}: **{r['best']}** [{r['code']}]")
+        for c in r["runners_up"][:3]:
+            out.append(f"    - {c['score']}: {c['product']} [{c['code']}]")
+
     out += ["", "## Competing listings — pick one ASIN each (%d)"
             % len(buckets["competing"]), ""]
     last = None
@@ -346,12 +374,13 @@ def write_report(buckets, path, n_entries, n_known):
         if r["best"] != last:
             out.append(f"- **{r['best']}** [{r['code']}]")
             last = r["best"]
-        out.append(f"    - `{r['asin']}` ({r['score']}) {r['name']}")
+        out.append(f"    - [{r['asin']}]({AMAZON_URL.format(r['asin'])}) "
+                   f"({r['score']}) {r['name']}")
 
     out += ["", "## Multiple candidates (%d)" % len(buckets["multiple"]), ""]
     for r in sorted(buckets["multiple"], key=lambda x: -x["score"]):
         note = "" if r["shape_tier"] == 2 else "  (box/pack unstated)"
-        out.append(f"- `{r['asin']}` {r['name']}")
+        out.append(f"- [{r['asin']}]({AMAZON_URL.format(r['asin'])}) {r['name']}")
         out.append(f"    - {r['score']}: {r['best']} [{r['code']}]{note}")
         for c in r["runners_up"][:3]:
             out.append(f"    - {c['score']}: {c['product']} [{c['code']}]")
