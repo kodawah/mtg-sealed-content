@@ -153,6 +153,12 @@ def main(argv=None):
              "instead of matching interactively.",
     )
     parser.add_argument(
+        "--apply-ignores",
+        action="store_true",
+        help="With --apply-matches, also retire the report's 'ignore' bucket "
+             "to ignore.yaml so those listings stop resurfacing.",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="With --auto, print the matches that would be applied without "
@@ -296,7 +302,26 @@ def main(argv=None):
                 print(f"CONFLICT {record['best']!r} already has asin {existing}")
                 conflicts += 1
 
+        retired = 0
+        if args.apply_ignores:
+            ignore_path = Path("data/ignore.yaml")
+            ignore = yaml.safe_load(ignore_path.read_text()) or {}
+            section = ignore.setdefault("amazon", {})
+            for record in buckets.get("ignore", []):
+                if args.dry_run:
+                    print(f"ignore {record['asin']} ({record['reason']}) "
+                          f"{record['name'][:60]}")
+                else:
+                    section[record["asin"]] = record["name"]
+                    remove_from_review((record["name"],
+                                        {"asin": record["asin"]}))
+                retired += 1
+            if not args.dry_run:
+                ignore_path.write_text(
+                    yaml.safe_dump(ignore, allow_unicode=True))
+
         print(f"\nApplied {applied}, {conflicts} conflicts, {missing} missing"
+              + (f", {retired} retired to ignore.yaml" if retired else "")
               + (" (dry run, nothing written)" if args.dry_run else ""))
 
     if args.apply_matches:
