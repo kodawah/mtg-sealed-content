@@ -39,6 +39,7 @@ products:
     subtype: COMMANDER
     identifiers:
       abuId: '1100318'
+      asin: B01MYY5KSF
       cardKingdomId: '191767'
       cardtraderId: '44765'
       csiId: '196663'
@@ -56,6 +57,7 @@ products:
     subtype: COMMANDER
     identifiers:
       abuId: '1100319'
+      asin: B00FUSBCCC
       cardKingdomId: '191766'
       cardtraderId: '44766'
       csiId: '196660'

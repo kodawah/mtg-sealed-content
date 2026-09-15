@@ -65,35 +65,10 @@ amazon:
     identifiers:
       asin: B010OK2A9O
     subtype: UNKNOWN
-  '2018 MTG Commander Deck: Nature''s Vengeance Deck':
-    category: UNKNOWN
-    identifiers:
-      asin: B07GCSKCZW
-    subtype: UNKNOWN
   2021 Arena Starter Kit:
     category: UNKNOWN
     identifiers:
       asin: B098884RQ5
-    subtype: UNKNOWN
-  2021 Challenger Deck – Azorius Control (Blue-White):
-    category: UNKNOWN
-    identifiers:
-      asin: B08VQZHK99
-    subtype: UNKNOWN
-  2022 Challenger Deck – Dimir Control (Blue-Black):
-    category: UNKNOWN
-    identifiers:
-      asin: B09LLQJBJP
-    subtype: UNKNOWN
-  2022 Challenger Deck – Gruul Stompy (Red-Green):
-    category: UNKNOWN
-    identifiers:
-      asin: B09LLWTH35
-    subtype: UNKNOWN
-  2022 Challenger Deck – Rakdos Vampires (Black-Red):
-    category: UNKNOWN
-    identifiers:
-      asin: B09LLZPFVV
     subtype: UNKNOWN
   2022 Starter Kit | 2 Ready-to-Play Decks:
     category: UNKNOWN
@@ -228,16 +203,6 @@ amazon:
     identifiers:
       asin: B0F378RDBW
     subtype: UNKNOWN
-  Adventures in The Forgotten Realms Commander Deck – Aura of Courage (Green-White-Blue):
-    category: UNKNOWN
-    identifiers:
-      asin: B093CLHWN1
-    subtype: UNKNOWN
-  Adventures in The Forgotten Realms Commander Deck – Dungeons of Death (White-Blue-Black):
-    category: UNKNOWN
-    identifiers:
-      asin: B093CHJXX8
-    subtype: UNKNOWN
   Adventures in the Forgotten Realms Collector Booster | 15 Magic Cards:
     category: UNKNOWN
     identifiers:
@@ -268,11 +233,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0851LNG5N
-    subtype: UNKNOWN
-  Assassin's Creed Beyond Booster Pack [7 Cards Per Pack]:
-    category: UNKNOWN
-    identifiers:
-      asin: B0GXCCH6GD
     subtype: UNKNOWN
   ? Assassin’s Creed Beyond Booster Box | 24 Beyond Boosters (7 Cards in Each Pack)
     | Collectible Trading Card Game for Ages 13+
@@ -318,11 +278,6 @@ amazon:
   : category: UNKNOWN
     identifiers:
       asin: B0FHJJS17L
-    subtype: UNKNOWN
-  'Avatar: The Last Airbender Jumpstart Booster Box | 24 Packs | 2-Player Card Game':
-    category: UNKNOWN
-    identifiers:
-      asin: B0FJNDCD6S
     subtype: UNKNOWN
   ? 'Avatar: The Last Airbender Scene Box 1 - The Black Sun Invasion | 6 Foil Borderless
     Scene Cards, 6 Art Cards, 3 Play Boosters + Display Easel'
@@ -425,11 +380,6 @@ amazon:
     identifiers:
       asin: B0DTSR4NHZ
     subtype: UNKNOWN
-  Commander 2019 Merciless Rage Deck | 100-Card Ready-to-Play Deck | 3 Foil Commanders | Factory Sealed:
-    category: UNKNOWN
-    identifiers:
-      asin: B07SP5K9KV
-    subtype: UNKNOWN
   ? Commander Bundle (Mystic Purple) - 2X Health Counters, MTG Command Zone Tray,
     Spin Down Dice, Dry Erase Tokens - Compatible for MTG
   : category: UNKNOWN
@@ -445,11 +395,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B08J88XGMD
-    subtype: UNKNOWN
-  Commander Legends – Reap the Tides | 100 Card Ready-to-Play Deck | 1 Foil Commander | Blue-Green:
-    category: UNKNOWN
-    identifiers:
-      asin: B08J88GGV2
     subtype: UNKNOWN
   'Commander Legends: Battle for Baldur’s Gate Collector Booster | 15 Magic Cards':
     category: UNKNOWN
@@ -913,11 +858,6 @@ amazon:
     identifiers:
       asin: B099YMZSHW
     subtype: UNKNOWN
-  'Innistrad: Crimson Vow Commander Deck – Spirit Squadron (White-Blue)':
-    category: UNKNOWN
-    identifiers:
-      asin: B099YKB3W1
-    subtype: UNKNOWN
   'Innistrad: Crimson Vow Draft Booster Box | 36 Packs + Dracula Box Topper (541 Magic Cards)':
     category: UNKNOWN
     identifiers:
@@ -932,16 +872,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0996TVMTY
-    subtype: UNKNOWN
-  'Innistrad: Midnight Hunt Commander Deck – Coven Counters (Green-White)':
-    category: UNKNOWN
-    identifiers:
-      asin: B099776RW4
-    subtype: UNKNOWN
-  'Innistrad: Midnight Hunt Commander Deck – Undead Unleashed (Blue-Black)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0996ZSZS3
     subtype: UNKNOWN
   Iron Myr - Scars of Mirrodin:
     category: UNKNOWN
@@ -985,11 +915,6 @@ amazon:
     identifiers:
       asin: B09M8ZFLZJ
     subtype: UNKNOWN
-  'Kamigawa: Neon Dynasty Commander Deck – Buckle Up (White-Blue)':
-    category: UNKNOWN
-    identifiers:
-      asin: B09M91LBNH
-    subtype: UNKNOWN
   Khans of Tarkir Event Deck Magic The Gathering Card Game Wizards of the Coast:
     category: UNKNOWN
     identifiers:
@@ -1021,11 +946,6 @@ amazon:
     identifiers:
       asin: B0DKZN15D5
     subtype: UNKNOWN
-  MTG - Zendikar Rising Theme Booster Display (12 Packs) - English:
-    category: UNKNOWN
-    identifiers:
-      asin: B08FZWDB3F
-    subtype: UNKNOWN
   'MTG 100 Land Pack: 20 of Each Basic Color - Compatible with Magic':
     category: UNKNOWN
     identifiers:
@@ -1051,11 +971,6 @@ amazon:
   : category: UNKNOWN
     identifiers:
       asin: B0D2DX3R6J
-    subtype: UNKNOWN
-  'MTG Booster Pack : Kaladesh (KLD)':
-    category: UNKNOWN
-    identifiers:
-      asin: B01LRTZCSM
     subtype: UNKNOWN
   'MTG Booster Pack Collector : Modern Horizons 2 (MH2)':
     category: UNKNOWN
@@ -1118,11 +1033,6 @@ amazon:
     identifiers:
       asin: B099GS9H8V
     subtype: UNKNOWN
-  MTG Magic Commander Legends Battle for Baldur's Gate Prerelease Pack Kit:
-    category: UNKNOWN
-    identifiers:
-      asin: B0B31WTWDV
-    subtype: UNKNOWN
   MTG Magic Kaldheim Prerelease Pack Kit - 6 Packs:
     category: UNKNOWN
     identifiers:
@@ -1152,11 +1062,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B00LFOFFW8
-    subtype: UNKNOWN
-  MTG Magic the Gathering Kamigawa Neon Dynasty Prerelease Booster Packs Kit:
-    category: UNKNOWN
-    identifiers:
-      asin: B09SBHZCL4
     subtype: UNKNOWN
   'MTG Planeswalker Deck : Ravnica Allegiance (RNA) Dovin':
     category: UNKNOWN
@@ -1244,11 +1149,6 @@ amazon:
     identifiers:
       asin: B0GNLPP99C
     subtype: UNKNOWN
-  'MTG Secret Lair x Dungeons & Dragons: Strahd''s Descent (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0GNLMT971
-    subtype: UNKNOWN
   'MTG Secret Lair x Dungeons & Dragons: Strahd''s Descent (Non-Foil Edition)':
     category: UNKNOWN
     identifiers:
@@ -1258,11 +1158,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0GNLHV45F
-    subtype: UNKNOWN
-  'MTG Secret Lair x Dungeons & Dragons: Whispers in Candlekeep (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0GNLTTQ48
     subtype: UNKNOWN
   'MTG Secret Lair x Dwarf Fortress: Create New World (Non-Foil Edition)':
     category: UNKNOWN
@@ -1294,11 +1189,6 @@ amazon:
     identifiers:
       asin: B0GKWSDW93
     subtype: UNKNOWN
-  'MTG Secret Lair x God of War: Norse (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0G2K3SN4M
-    subtype: UNKNOWN
   'MTG Secret Lair x God of War: Norse (Non-Foil Edition)':
     category: UNKNOWN
     identifiers:
@@ -1313,16 +1203,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0G2JYL6ZF
-    subtype: UNKNOWN
-  'MTG Secret Lair x My Little Pony: Friendship is Magic (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0GZ9BMRQK
-    subtype: UNKNOWN
-  'MTG Secret Lair x My Little Pony: The Lands of Equestria (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0GZ923FQ2
     subtype: UNKNOWN
   'MTG Secret Lair x Teenage Mutant Ninja Turtles: The Last Ronin (Foil Edition)':
     category: UNKNOWN
@@ -1374,21 +1254,6 @@ amazon:
     identifiers:
       asin: B0G2JY65Z3
     subtype: UNKNOWN
-  'MTG Secret Lair: Adventures of The Little Witch (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F6MPSMN2
-    subtype: UNKNOWN
-  'MTG Secret Lair: Adventures of The Little Witch (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F6M2CGG8
-    subtype: UNKNOWN
-  'MTG Secret Lair: Aether Drifters (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DXDC1XYT
-    subtype: UNKNOWN
   'MTG Secret Lair: Alien Auroras (Non-Foil Edition)':
     category: UNKNOWN
     identifiers:
@@ -1403,31 +1268,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0DXDBRHF9
-    subtype: UNKNOWN
-  'MTG Secret Lair: Artist Series: Jesper Ejsing (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DXDHWJCK
-    subtype: UNKNOWN
-  'MTG Secret Lair: Artist Series: Jesper Ejsing (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DXDH1FCW
-    subtype: UNKNOWN
-  'MTG Secret Lair: Artist Series: Rovina CAI (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D1CTFB2Z
-    subtype: UNKNOWN
-  'MTG Secret Lair: City Styles 2: Dressed to Kill (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0HF1PXHT9
-    subtype: UNKNOWN
-  'MTG Secret Lair: City Styles 2: Dressed to Kill (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DXDG2X2B
     subtype: UNKNOWN
   'MTG Secret Lair: Death is in The Eyes of The Beholder I (Foil Edition)':
     category: UNKNOWN
@@ -1449,26 +1289,6 @@ amazon:
     identifiers:
       asin: B0DFVTT39G
     subtype: UNKNOWN
-  'MTG Secret Lair: Deceptive Divination (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CVBHJHL6
-    subtype: UNKNOWN
-  'MTG Secret Lair: Deceptive Divination (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CV659J3N
-    subtype: UNKNOWN
-  'MTG Secret Lair: Diabolical Dioramas (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D1CTLGHH
-    subtype: UNKNOWN
-  'MTG Secret Lair: Diabolical Dioramas (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D1CRB6P2
-    subtype: UNKNOWN
   'MTG Secret Lair: Dreaming Darkly​ (Non-Foil Edition) MTG':
     category: UNKNOWN
     identifiers:
@@ -1484,11 +1304,6 @@ amazon:
     identifiers:
       asin: B0F8YMLZYF
     subtype: UNKNOWN
-  'MTG Secret Lair: Featuring: Andrew MACLEAN (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DC5L8LM4
-    subtype: UNKNOWN
   'MTG Secret Lair: Featuring: Andrew MACLEAN (Non-Foil Edition)':
     category: UNKNOWN
     identifiers:
@@ -1499,30 +1314,15 @@ amazon:
     identifiers:
       asin: B0FLDY1GCC
     subtype: UNKNOWN
-  'MTG Secret Lair: Featuring: Jay Howell (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F8YSFM22
-    subtype: UNKNOWN
   'MTG Secret Lair: Featuring: Jay Howell (Non-Foil Edition)':
     category: UNKNOWN
     identifiers:
       asin: B0F8YJJ76V
     subtype: UNKNOWN
-  'MTG Secret Lair: Featuring: Luke Pearson (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DXDJ2QQQ
-    subtype: UNKNOWN
   'MTG Secret Lair: Featuring: Luke Pearson (Non-Foil Edition)':
     category: UNKNOWN
     identifiers:
       asin: B0DXDHJY4Q
-    subtype: UNKNOWN
-  'MTG Secret Lair: Featuring: Mitsuhiro Arita (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DXDHC55Z
     subtype: UNKNOWN
   'MTG Secret Lair: Featuring: Mitsuhiro Arita (Non-Foil Edition)':
     category: UNKNOWN
@@ -1559,30 +1359,10 @@ amazon:
     identifiers:
       asin: B0D4JFPRCJ
     subtype: UNKNOWN
-  'MTG Secret Lair: Just Add Milk: Second Helpings (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CV9VQG6S
-    subtype: UNKNOWN
-  'MTG Secret Lair: Just Add Milk: Second Helpings (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CV642RKB
-    subtype: UNKNOWN
   'MTG Secret Lair: Lorwyn Lightboxes (Foil Edition)':
     category: UNKNOWN
     identifiers:
       asin: B0DXDHHJN1
-    subtype: UNKNOWN
-  'MTG Secret Lair: Lorwyn Lightboxes (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DXDH4KXB
-    subtype: UNKNOWN
-  'MTG Secret Lair: Monstrous Magazines (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DJGFH4S4
     subtype: UNKNOWN
   'MTG Secret Lair: Nuestra Magia (English, Foil Edition)':
     category: UNKNOWN
@@ -1594,16 +1374,6 @@ amazon:
     identifiers:
       asin: B0FF3PZMCX
     subtype: UNKNOWN
-  'MTG Secret Lair: Outlaw Anthology Vol. 1: Rebellious Renegades (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D4KDGN4W
-    subtype: UNKNOWN
-  'MTG Secret Lair: Outlaw Anthology Vol. 2: Sinister Scoundrels (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D4KBS2JX
-    subtype: UNKNOWN
   'MTG Secret Lair: Pick ‘em & Stick ‘em (Foil Edition)':
     category: UNKNOWN
     identifiers:
@@ -1614,65 +1384,20 @@ amazon:
     identifiers:
       asin: B0F31MQKYW
     subtype: UNKNOWN
-  'MTG Secret Lair: Pixel Perfect | Extra Life 2024 (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DK5XVTL1
-    subtype: UNKNOWN
-  'MTG Secret Lair: Pixel Perfect | Extra Life 2024 (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DK5T6JK2
-    subtype: UNKNOWN
-  'MTG Secret Lair: Prismatic Nightmares (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CV64S3NM
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret LAIR X Brain Dead: Creatures (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DC5KXSM2
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret LAIR X Brain Dead: Creatures (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DC5KXN59
-    subtype: UNKNOWN
   'MTG Secret Lair: Secret LAIR X Brain Dead: Lands (Foil Edition)':
     category: UNKNOWN
     identifiers:
       asin: B0DC5LM6HK
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret LAIR X Brain Dead: Staples (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DC5KVLV4
     subtype: UNKNOWN
   'MTG Secret Lair: Secret Lair High: Class of ''87 (Foil Edition)':
     category: UNKNOWN
     identifiers:
       asin: B0F31P698Z
     subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair High: Class of ''87 (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F31MHG34
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Fallout: Vault Boy (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D1CRSL72
-    subtype: UNKNOWN
   'MTG Secret Lair: Secret Lair x Furby: Doo-ay NOO-lah​ (Non-Foil Edition)':
     category: UNKNOWN
     identifiers:
       asin: B0FWMJRLPL
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Furby: Furbys: The Gathering (Confetti Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0FWNG6D12
     subtype: UNKNOWN
   'MTG Secret Lair: Secret Lair x Furby: Furbys: The Gathering​ (Foil Edition)':
     category: UNKNOWN
@@ -1699,36 +1424,6 @@ amazon:
     identifiers:
       asin: B0FWNX7MCW
     subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x KEXP: Where The Music Matters (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F8YPGYMS
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x KEXP: You are Not Alone (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F8YQQ9Z8
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x KEXP: You are Not Alone (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F8YMDPWX
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Marvel''s Black Panther (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DMNFSWX5
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Marvel''s Black Panther (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DMNFLFNZ
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Marvel''s Captain America (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DMNLD1TC
-    subtype: UNKNOWN
   'MTG Secret Lair: Secret Lair x Marvel''s Deadpool (Foil Edition)':
     category: UNKNOWN
     identifiers:
@@ -1739,25 +1434,10 @@ amazon:
     identifiers:
       asin: B0F3W3GM5H
     subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Marvel''s Iron Man (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DMNCWZZM
-    subtype: UNKNOWN
   'MTG Secret Lair: Secret Lair x Marvel''s Spider-Man: Venom Unleashed - Inks (Non-Foil Edition)':
     category: UNKNOWN
     identifiers:
       asin: B0FT7LBHR5
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Marvel''s Storm (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DMNH37LY
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Marvel''s Storm (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DMNL4W73
     subtype: UNKNOWN
   'MTG Secret Lair: Secret Lair x Sonic: Friends & Foes (Foil Edition)':
     category: UNKNOWN
@@ -1799,50 +1479,15 @@ amazon:
     identifiers:
       asin: B0D9GBRCNY
     subtype: UNKNOWN
-  'MTG Secret Lair: Showcase: BLOOMBURROW (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DC5LR7JW
-    subtype: UNKNOWN
   'MTG Secret Lair: Showcase: Duskmourn (Non-Foil Edition)':
     category: UNKNOWN
     identifiers:
       asin: B0DJGFVQ76
     subtype: UNKNOWN
-  'MTG Secret Lair: Showcase: Murders at Karlov Manor (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CVBGHYT7
-    subtype: UNKNOWN
-  'MTG Secret Lair: Showcase: Murders at Karlov Manor (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CV64V27G
-    subtype: UNKNOWN
-  'MTG Secret Lair: Showcase: Outlaws of Thunder Junction (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D4KD4LMJ
-    subtype: UNKNOWN
-  'MTG Secret Lair: They Grow Up So Fast (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F31QFJXX
-    subtype: UNKNOWN
   'MTG Secret Lair: They Grow Up So Fast (Non-Foil Edition)':
     category: UNKNOWN
     identifiers:
       asin: B0F31PDGNH
-    subtype: UNKNOWN
-  'MTG Secret Lair: Tome of The Astral Sorceress (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DJGHKHN7
-    subtype: UNKNOWN
-  'MTG Secret Lair: Tome of The Astral Sorceress (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DJGFBTVD
     subtype: UNKNOWN
   'MTG Secret Lair: Twisted Toons (Foil Edition)':
     category: UNKNOWN
@@ -1953,21 +1598,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0FZWRLT7H
-    subtype: UNKNOWN
-  Magic - Secret Lair - Showcase Dominaria United (Textured Foil Edition):
-    category: UNKNOWN
-    identifiers:
-      asin: B0DGHYQ167
-    subtype: UNKNOWN
-  Magic - Secret Lair Pictures of The Floating World (Foil Edition) - Sealed:
-    category: UNKNOWN
-    identifiers:
-      asin: B0FTT9MSQ2
-    subtype: UNKNOWN
-  'Magic - Secret Lair: Kamigawa: the Manga: the Cards - Foil Sealed':
-    category: UNKNOWN
-    identifiers:
-      asin: B0GY3SZHGY
     subtype: UNKNOWN
   'Magic - Secret Lair: Neon Dynasty Neon Ink Foil Edition - Sealed':
     category: UNKNOWN
@@ -2203,11 +1833,6 @@ amazon:
     identifiers:
       asin: B094P1MJVC
     subtype: UNKNOWN
-  Magic The Gathering Challenger Deck - Second Sun Control SW:
-    category: UNKNOWN
-    identifiers:
-      asin: B07D4GM7DN
-    subtype: UNKNOWN
   Magic The Gathering Commander Legends Booster Pack - 2 Legends - Total 20 MTG Cards (1 Draft Booster):
     category: UNKNOWN
     identifiers:
@@ -2438,16 +2063,6 @@ amazon:
     identifiers:
       asin: B01903MXZM
     subtype: UNKNOWN
-  Magic The Gathering Pioneer Challenger Deck 2021 – Mono Red Burn (Red) for ages 13+ years:
-    category: UNKNOWN
-    identifiers:
-      asin: B099XB41NF
-    subtype: UNKNOWN
-  Magic The Gathering Pioneer Challenger Deck 2022 - Orzhov Humans (White-Black):
-    category: UNKNOWN
-    identifiers:
-      asin: B0B466DF42
-    subtype: UNKNOWN
   Magic The Gathering Prerelease Kit MTG Strixhaven Lorehold:
     category: UNKNOWN
     identifiers:
@@ -2463,55 +2078,20 @@ amazon:
     identifiers:
       asin: B00NKW5AF0
     subtype: UNKNOWN
-  'Magic The Gathering Secret Lair x Avatar: The Last Airbender - The Ember Island Players (Non-Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0G5QHKMNB
-    subtype: UNKNOWN
-  'Magic The Gathering Secret Lair x Avatar: The Last Airbender | A Lot to Learn (Non-Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0G5Q36NFS
-    subtype: UNKNOWN
   'Magic The Gathering Secret Lair: 30th Anniversary Countdown Kit':
     category: UNKNOWN
     identifiers:
       asin: B0BNCKKB7F
-    subtype: UNKNOWN
-  'Magic The Gathering Secret Lair: Artist Series: Magali Villeneuve (Non-Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0B9ZS1R26
-    subtype: UNKNOWN
-  'Magic The Gathering Secret Lair: Artist Series: Volkan Baga (Non-Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0BD5MLR6L
     subtype: UNKNOWN
   'Magic The Gathering Secret Lair: Beadle and Grimm''s Here Be Dragons - Ultra Limited, One of 10,000 Sold!':
     category: UNKNOWN
     identifiers:
       asin: B0B9ZQK581
     subtype: UNKNOWN
-  'Magic The Gathering Secret Lair: Featuring: Phoebe Wahl (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0D1CSFHW4
-    subtype: UNKNOWN
   'Magic The Gathering Secret Lair: Featuring: Phoebe Wahl (Non-Foil Edition)':
     category: UNKNOWN
     identifiers:
       asin: B0D1CQCZ7G
-    subtype: UNKNOWN
-  'Magic The Gathering Secret Lair: Hard-Boiled Thrillers (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CVBJJLQJ
-    subtype: UNKNOWN
-  'Magic The Gathering Secret Lair: Hard-Boiled Thrillers (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CV65RPSC
     subtype: UNKNOWN
   Magic The Gathering Selesnya Return to Ravnica Guild Box Sealed:
     category: UNKNOWN
@@ -2543,11 +2123,6 @@ amazon:
   : category: UNKNOWN
     identifiers:
       asin: B07WK5PB5D
-    subtype: UNKNOWN
-  Magic The Gathering Throne of Eldraine Faerie Schemes Brawl Deck C67460000-FAE:
-    category: UNKNOWN
-    identifiers:
-      asin: B082VGJ991
     subtype: UNKNOWN
   'Magic The Gathering United Dominaria Jumpstart Booster | 20 Cards - English, Model: MTG745, Color: Multicolor':
     category: UNKNOWN
@@ -2638,11 +2213,6 @@ amazon:
     identifiers:
       asin: B00ZSRT786
     subtype: UNKNOWN
-  Magic the Gathering (MTG) Battle for Zendikar Booster Box Display (36 packs):
-    category: UNKNOWN
-    identifiers:
-      asin: B00X4MW1QM
-    subtype: UNKNOWN
   Magic the Gathering (MTG) Born of the Gods Intro Pack - Forgestoker Dragon - Red (Includes 2 Booster Packs):
     category: UNKNOWN
     identifiers:
@@ -2659,25 +2229,10 @@ amazon:
     identifiers:
       asin: B078F1L92X
     subtype: UNKNOWN
-  Magic the Gathering - Commander 2013 - Mind Seize Deck:
-    category: UNKNOWN
-    identifiers:
-      asin: B01MYY5KSF
-    subtype: UNKNOWN
-  Magic the Gathering - Commander 2013 - Nature of the Beast Deck:
-    category: UNKNOWN
-    identifiers:
-      asin: B00FUSBCCC
-    subtype: UNKNOWN
   Magic the Gathering 50 Cards Includes 25+ Rares/Uncommons MTG Cards Collection Foils & mythics possible!:
     category: UNKNOWN
     identifiers:
       asin: B004U7R980
-    subtype: UNKNOWN
-  Magic the Gathering Aether Revolt 15-card sealed booster pack (1 pack):
-    category: UNKNOWN
-    identifiers:
-      asin: B01N41SCBL
     subtype: UNKNOWN
   Magic the Gathering Aetherdrift Commander Deck Eternal Might White/Blue/Black (SD2):
     category: UNKNOWN
@@ -2734,11 +2289,6 @@ amazon:
     identifiers:
       asin: B000WG1NIA
     subtype: UNKNOWN
-  Magic the Gathering MTG Unhinged Booster Pack [Toy]:
-    category: UNKNOWN
-    identifiers:
-      asin: B0007Y66ES
-    subtype: UNKNOWN
   'Magic the Gathering MTG: Modern Masters Booster Box (24 Booster Packs)':
     category: UNKNOWN
     identifiers:
@@ -2775,16 +2325,6 @@ amazon:
     identifiers:
       asin: B0G1D51J9L
     subtype: UNKNOWN
-  Magic the Gathering Secret Lair Trick or Treat (Non-Foil):
-    category: UNKNOWN
-    identifiers:
-      asin: B0G1CTM4XD
-    subtype: UNKNOWN
-  'Magic the Gathering Secret Lair x Avatar: The Last Airbender - A Lot to Learn (Rainbow Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0G5QJP2FW
-    subtype: UNKNOWN
   Magic the Gathering Secret Lair x Chucky Foil Edition:
     category: UNKNOWN
     identifiers:
@@ -2794,21 +2334,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0GR211VYY
-    subtype: UNKNOWN
-  'Magic the Gathering Secret Lair x Furby: Doo-ay NOO-lah​​ (Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0G1CYGC26
-    subtype: UNKNOWN
-  'Magic the Gathering Secret Lair x Furby: Doo-ay NOO-lah​​ (Non-Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0G1CYTCWM
-    subtype: UNKNOWN
-  'Magic the Gathering Secret Lair x Furby: Furbys: The Gathering​​​ (Non-Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0G1D3WFK4
     subtype: UNKNOWN
   'Magic the Gathering Secret Lair x God of War: Norse (Non-Foil)':
     category: UNKNOWN
@@ -2829,16 +2354,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0FJHB1TRW
-    subtype: UNKNOWN
-  'Magic the Gathering Secret Lair x Spongebob Squarepants: Lands Under The Sea (Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F2VZZVV7
-    subtype: UNKNOWN
-  'Magic the Gathering Secret Lair x Spongebob Squarepants: Legends of Bikini Bottom (Non-Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F2WQQ3QQ
     subtype: UNKNOWN
   Magic the Gathering Secret Lair x The Last of Us Part I (Foil):
     category: UNKNOWN
@@ -2869,11 +2384,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B00EV405RY
-    subtype: UNKNOWN
-  Magic the Gathering Torment Booster Box [Toy]:
-    category: UNKNOWN
-    identifiers:
-      asin: B000JJJURQ
     subtype: UNKNOWN
   Magic the Gathering | Basic Lands Set of 10 (Space Swamps):
     category: UNKNOWN
@@ -3754,11 +3264,6 @@ amazon:
     identifiers:
       asin: B099YBFFYF
     subtype: UNKNOWN
-  'Magic: The Gathering MTG Gatecrash Booster Box - Sealed Box (36 Packs)':
-    category: UNKNOWN
-    identifiers:
-      asin: B00A64UDPW
-    subtype: UNKNOWN
   'Magic: The Gathering MTG-M21-SK-EN Arena Starter Kit Display':
     category: UNKNOWN
     identifiers:
@@ -3794,21 +3299,6 @@ amazon:
     identifiers:
       asin: B092KM6N2M
     subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Artist Series: John Avon Non-Foil Edition':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CKRWDSLN
-    subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Artist Series: Kev Walker (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CJYJSMRT
-    subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Artist Series: Ryan Alexander Lee (Non-Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CGB3TPTB
-    subtype: UNKNOWN
   'Magic: The Gathering Secret Lair: Featuring: Gary Baseman (Non-Foil Edition)':
     category: UNKNOWN
     identifiers:
@@ -3829,11 +3319,6 @@ amazon:
     identifiers:
       asin: B08HCZN8L8
     subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Meditations on Nature Non-Foil Edition':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CKRX1RLD
-    subtype: UNKNOWN
   'Magic: The Gathering Secret Lair: Midnight Hunt Foil':
     category: UNKNOWN
     identifiers:
@@ -3843,21 +3328,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B09PF9FN88
-    subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: More Adventures in Middle-Earth (Non-Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CGGDMLZV
-    subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Paradise Frost Non-Foil Edition':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CNY8S115
-    subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Secret Lair x Dr Who: The Dalek Lands Non-Foil Edition':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CKRTN4JW
     subtype: UNKNOWN
   'Magic: The Gathering Secret Lair: Showcase: All Will Be One Step-and-Compleat Edition':
     category: UNKNOWN
@@ -3873,31 +3343,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0C4JVC9G8
-    subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Showcase: The Lost Caverns of Ixalan Foil Edition':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CNYCBJ6V
-    subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Showcase: The Lost Caverns of Ixalan Non-Foil Edition':
-    category: UNKNOWN
-    identifiers:
-      asin: B0CNYCF9H5
-    subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Special Guest: Yuko Shimizu (Non-Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0HF1SJG7D
-    subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: The Astrology Lands: Pisces (Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0B9ZD7ZLL
-    subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Wizards of The Street (Non-Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0BSBC9YC7
     subtype: UNKNOWN
   'Magic: The Gathering Secret Lair: x Arcane Lands (Non-Foil)':
     category: UNKNOWN
@@ -4021,11 +3466,6 @@ amazon:
     identifiers:
       asin: B0GF44MVBP
     subtype: UNKNOWN
-  Marvel Super Heroes Jumpstart Booster Box | 24 Packs | 2-Player Card Game:
-    category: UNKNOWN
-    identifiers:
-      asin: B0GF4M5P4C
-    subtype: UNKNOWN
   Marvel Super Heroes Prerelease Kit:
     category: UNKNOWN
     identifiers:
@@ -4100,11 +3540,6 @@ amazon:
     identifiers:
       asin: B0BSPS3T6P
     subtype: UNKNOWN
-  'NEO Kamigawa: Neon Dynasty Draft Booster Single Pack':
-    category: UNKNOWN
-    identifiers:
-      asin: B09M8XG3PR
-    subtype: UNKNOWN
   ? National Geographic Mega Magic Kit with 75+ Tricks for Kids Ages 8-12 | Perform
     Classic Illusions, Performance Props, STEM Learning, Video Instructions from a
     Professional Magician, Birthday Gift
@@ -4172,20 +3607,10 @@ amazon:
     identifiers:
       asin: B0BJ7N3Y61
     subtype: UNKNOWN
-  Pioneer Challenger Deck 2021 – Azorius Spirits (White-Blue):
-    category: UNKNOWN
-    identifiers:
-      asin: B099X8WTG5
-    subtype: UNKNOWN
   Pioneer Challenger Deck 2021 – Lotus Field Combo (Black-Green-Blue), 13+ years:
     category: UNKNOWN
     identifiers:
       asin: B099XB5KFX
-    subtype: UNKNOWN
-  Pioneer Challenger Deck 2022 - Gruul Stompy (Red-Green):
-    category: UNKNOWN
-    identifiers:
-      asin: B0B4657D5B
     subtype: UNKNOWN
   Pioneer Challenger Decks 2021 – Orzhov Auras (White-Black), ages 13+ years:
     category: UNKNOWN
@@ -4291,11 +3716,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0F8JFXH4N
-    subtype: UNKNOWN
-  Secret Lair - Dracula Lands Foil:
-    category: UNKNOWN
-    identifiers:
-      asin: B0B1V74L9M
     subtype: UNKNOWN
   Secret Lair - Pixel Snow Lands Foil:
     category: UNKNOWN
@@ -4406,11 +3826,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0G6GRGVTY
-    subtype: UNKNOWN
-  'Secret Lair x Garfield: Our Only Thought is to Entertain You​ (Traditional Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0H6ZMVJ6K
     subtype: UNKNOWN
   'Secret Lair x Horizon: Into The Forbidden West (Non-Foil)':
     category: UNKNOWN
@@ -4539,16 +3954,6 @@ amazon:
     identifiers:
       asin: B00AZ3X4BY
     subtype: UNKNOWN
-  Streets of New Capenna Collector Booster Box | 12 Packs + 1 Box Topper (181 Magic Cards):
-    category: UNKNOWN
-    identifiers:
-      asin: B09SVPC9BH
-    subtype: UNKNOWN
-  Streets of New Capenna Draft Booster Box | 36 Packs + 1 Box Topper (541 Magic Cards):
-    category: UNKNOWN
-    identifiers:
-      asin: B09SVMSMKV
-    subtype: UNKNOWN
   Streets of New Capenna Draft Booster | 15 Magic Cards:
     category: UNKNOWN
     identifiers:
@@ -4628,11 +4033,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0DSQXNKJZ
-    subtype: UNKNOWN
-  'Tarkir: Dragonstorm - Play Booster Box, 30 Boxes':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DSQZC4PB
     subtype: UNKNOWN
   'Tarkir: Dragonstorm - Play Booster | English | 14 Playing Cards | Magic: The Gathering MTG | Draft & Set Booster Combined':
     category: UNKNOWN
@@ -4760,11 +4160,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B07K8NLMQ7
-    subtype: UNKNOWN
-  Unfinity Collector Booster Box | 12 Packs + Box Topper (181 Magic Cards):
-    category: UNKNOWN
-    identifiers:
-      asin: B09LM4YVG3
     subtype: UNKNOWN
   Unfinity Collector Booster | 15 Magic Cards:
     category: UNKNOWN

@@ -136,6 +136,7 @@ products:
     release_date: '2022-02-18'
     identifiers:
       abuId: '2122849'
+      asin: B09M8XG3PR
       cardKingdomId: '255734'
       cardtraderId: '201802'
       csiId: '327532'
@@ -188,6 +189,7 @@ products:
     release_date: '2022-02-18'
     identifiers:
       abuId: '2151470'
+      asin: B09SBHZCL4
       cardKingdomId: '255735'
       cardtraderId: '202603'
       mcmId: '609500'

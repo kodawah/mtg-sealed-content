@@ -22,7 +22,7 @@ from thefuzz import fuzz
 
 AMAZON_URL = "https://www.amazon.com/dp/{}"
 
-SURE_SCORE = 92
+SURE_SCORE = 85
 SURE_MARGIN = 6
 CANDIDATE_FLOOR = 72
 
@@ -97,7 +97,7 @@ FOILS = [
 ]
 
 
-def normalize(name):
+def normalize(name, listing=False):
     name = unicodedata.normalize("NFKC", name)
     name = re.sub(r"[®™©℠]", "", name)
     name = name.replace("—", " ").replace("–", " ")
@@ -110,10 +110,14 @@ def normalize(name):
     name = re.sub(r"\b\d+\s*(packs?|cards?|boosters?|decks?|count|ct)\b", " ",
                   name, flags=re.I)
     # A blurb listing what is inside ("3 Foil Cards", "1 Alt-Art Foil Promo")
-    # is not the product's own foil treatment.
-    name = re.sub(r"\b\d+\s+(?:[\w-]+\s+){0,2}foil\b", " ", name, flags=re.I)
-    name = re.sub(r"\bfoil\s+(?:cards?|lands?|tokens?|promos?)\b", " ", name,
-                  flags=re.I)
+    # is not the product's own foil treatment. Only Amazon titles carry such
+    # blurbs; a catalog name is authoritative text, and stripping it this way
+    # ate the treatment off names that simply end in a number -- "Class of 87
+    # Rainbow Foil" became "Class of", so the foil drop could never be found.
+    if listing:
+        name = re.sub(r"\b\d+\s+(?:[\w-]+\s+){0,2}foil\b", " ", name, flags=re.I)
+        name = re.sub(r"\bfoil\s+(?:cards?|lands?|tokens?|promos?)\b", " ",
+                      name, flags=re.I)
     name = BOILERPLATE_RE.sub(" ", name)
     name = re.sub(r"[^a-zA-Z0-9\s']", " ", name)
     return re.sub(r"\s+", " ", name).strip().lower()
@@ -130,6 +134,10 @@ def shape(normalized, raw=None):
             break
     if container is None and raw and SINGLE_PACK_RE.search(raw):
         container = "pack"
+    # No catalog product is a bundle of loose packs, so this never matches one
+    if (raw and container in ("pack", "bundle")
+            and not SINGLE_PACK_RE.search(raw) and MULTI_PACK_RE.search(raw)):
+        container = "multipack"
     kinds = frozenset(t for t in BOOSTER_TYPES if re.search(rf"\b{t}\b", low))
     foil = "plain"
     for phrase, label in FOILS:
@@ -191,6 +199,15 @@ def foil_compatible(query, candidate):
 SINGLE_PACK_RE = re.compile(
     r"\b(1|one|single)\s+pack\b|\bpack of \d+\s+(magic\s+)?cards?\b", re.I)
 
+# Sellers bundle several boosters and title it like the single ("Booster Pack
+# Bundle (Includes 3 booster packs)", "Booster 3-Pack"). The catalog has no
+# entry for those, and calling one the single pack is how a 3-pack ends up
+# recorded as the product itself.
+MULTI_PACK_RE = re.compile(
+    r"\b(?!1\b)\d+[\s-]*pack\b|\bpack bundle\b|\bbundle of \d+\b"
+    r"|\bincludes?\s+\d+\s+(?:booster\s+)?packs\b"
+    r"|\b(?!1\b)\d+\s+booster\s+packs\b", re.I)
+
 
 def ignore_reason(title):
     """Why this listing is not a catalog product, or None if it looks real."""
@@ -243,7 +260,7 @@ def main():
                                       "reason": reason})
             continue
 
-        query = normalize(name)
+        query = normalize(name, listing=True)
         if not query:
             buckets["ignore"].append({"name": name, "asin": asin,
                                       "reason": "no content after normalization"})

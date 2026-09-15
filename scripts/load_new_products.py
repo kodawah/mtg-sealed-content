@@ -1008,6 +1008,23 @@ AMAZON_SEARCH_QUERIES = [
     "magic the gathering prerelease",
     "magic the gathering starter kit",
     "magic the gathering secret lair",
+    # Product lines the queries above never reach. The catalog holds 293 theme
+    # decks, 218 intro packs, 94 duel decks, 68 planeswalker decks and 44
+    # challenger decks, and before these queries existed almost none of them
+    # had ever turned up in a search.
+    "magic the gathering theme deck",
+    "magic the gathering intro pack",
+    "magic the gathering duel decks",
+    "magic the gathering planeswalker deck",
+    "magic the gathering challenger deck",
+    "magic the gathering event deck",
+    "magic the gathering fat pack",
+    "magic the gathering deck builders toolkit",
+    "magic the gathering collector booster",
+    "magic the gathering draft booster",
+    "magic the gathering set booster",
+    "magic the gathering jumpstart",
+    "magic the gathering game night",
 ]
 
 
@@ -1095,6 +1112,12 @@ def load_amazon(_):
         # non-English listings
         "foreign language",
         "japanese",
+        # Omega products are a separate line the catalog does not track, and
+        # every other scraper here skips them
+        "omega pack",
+        "omega box",
+        "omega booster",
+        "omega collector",
     ]
 
     candidates = {}
