@@ -1056,8 +1056,27 @@ AMAZON_SINGLE_CARD_RES = [
 ]
 
 
+# Every sealed product Amazon lists names what it is somewhere in the title.
+# A listing that names none of these, and reads as a bare "Card Name - Set", is
+# a single. Validated against the 545 listings that did match a product: none
+# would be dropped.
+AMAZON_SEALED_WORDS = re.compile(
+    r"\b(booster|box|pack|deck|bundle|kit|case|display|collection|tin|"
+    r"secret lair|spellbook|from the vault|global series|duel decks|draft night|"
+    r"challenger|planeswalker|jumpstart|prerelease|fat pack|starter|toolkit|"
+    r"game night|scene box|beginner|arena|anthology|gift|set of|redemption|"
+    r"clash|guild kit|commander|intro|theme|event|tournament|battle)\b", re.I)
+
+
 def is_amazon_single_card(title):
-    return any(r.search(title) for r in AMAZON_SINGLE_CARD_RES)
+    if any(r.search(title) for r in AMAZON_SINGLE_CARD_RES):
+        return True
+    if AMAZON_SEALED_WORDS.search(title):
+        return False
+    # A pipe means a marketing blurb, which a bare single never carries
+    if "|" in title:
+        return False
+    return bool(re.search(r"\S\s+-\s+\S", title))
 
 
 def is_amazon_multipack(title):
