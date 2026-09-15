@@ -120,6 +120,7 @@ products:
     subtype: THEME
     identifiers:
       abuId: '1100947'
+      asin: B000REJMSK
       cardKingdomId: '1427'
       cardtraderId: '45974'
       hareruyaId: '28175'
@@ -136,6 +137,7 @@ products:
     subtype: THEME
     identifiers:
       abuId: '1100951'
+      asin: B000RELPOE
       cardKingdomId: '1426'
       cardtraderId: '45975'
       hareruyaId: '28177'

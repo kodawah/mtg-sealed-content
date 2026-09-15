@@ -5,6 +5,7 @@ products:
     subtype: SECRET_LAIR
     release_date: '2022-11-16'
     identifiers:
+      asin: B0BTTY74JN
       cardKingdomId: '269545'
       cardtraderId: '228648'
       csiId: '354374'

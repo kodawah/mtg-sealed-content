@@ -2896,6 +2896,7 @@ products:
       - code: bonus-aether-drifters
         set: sld
     identifiers:
+      asin: B0HG1Z9PCJ
       cardKingdomId: '313005'
       tcgplayerProductId: '618111'
     release_date: '2025-02-11'
@@ -5802,6 +5803,7 @@ products:
       - name: 'Dungeons & Dragons: Whispers in Candlekeep Foil Edition'
         set: sld
     identifiers:
+      asin: B0GNLHV45F
       cardKingdomId: '323680'
       tcgplayerProductId: '677409'
     release_date: '2026-03-02'
@@ -6346,6 +6348,7 @@ products:
       - name: 'Fallout: Welcome to New Vegas Foil Edition'
         set: sld
     identifiers:
+      asin: B0GKY9LG2N
       cardKingdomId: '323520'
       hareruyaId: '188526'
       tcgplayerProductId: '673787'
@@ -7773,6 +7776,7 @@ products:
         set: sld
     identifiers:
       abuId: '2666507'
+      asin: B0G2JYL6ZF
       cardKingdomId: '321480'
       cardtraderId: '354221'
       hareruyaId: '186255'
@@ -12362,6 +12366,7 @@ products:
       - code: bonus-secret-lair-x-marvels-spider-man-heroic-deeds
         set: sld
     identifiers:
+      asin: B0FV4SPY4G
       cardKingdomId: '319555'
       hareruyaId: '183697'
       tcgplayerProductId: '653119'
@@ -12482,6 +12487,7 @@ products:
       - code: bonus-secret-lair-x-marvels-spider-man-villainous-plots
         set: sld
     identifiers:
+      asin: B0FV4NNHMH
       cardKingdomId: '319561'
       hareruyaId: '183696'
       tcgplayerProductId: '653126'

@@ -223,6 +223,7 @@ products:
     subtype: EVENT
     identifiers:
       abuId: '1100770'
+      asin: B008NXTB8I
       cardKingdomId: '187957'
       cardtraderId: '47781'
       csiId: '164838'
