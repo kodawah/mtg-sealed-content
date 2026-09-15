@@ -1028,6 +1028,23 @@ AMAZON_SEARCH_QUERIES = [
 ]
 
 
+# A bundle of loose boosters ("Booster 3-Pack", "Booster Pack Bundle") is a
+# reseller's grouping with no catalog entry, and it reads as the single pack.
+# "\bpack\b" deliberately does not match the plural, so a real box saying
+# "(36 packs)" survives.
+AMAZON_MULTIPACK_RE = re.compile(
+    r"\b(?!1\b)\d+[\s-]*pack\b|\bpack bundle\b|\bbundle of \d+\s+(?:booster|pack)",
+    re.I,
+)
+
+
+def is_amazon_multipack(title):
+    # Only a structural name counts ("Booster 3-Pack", "Booster Pack Bundle").
+    # "Includes N booster packs" is a contents blurb that real products carry
+    # too -- an Intro Pack says it, and dropping on it discarded them.
+    return bool(AMAZON_MULTIPACK_RE.search(title))
+
+
 def amazon_listing_score(div, title_div):
     """Rank listings of the same product by how unlikely they are to be a
     duplicate: the official listing carries the Magic/Wizards brand line and
@@ -1177,6 +1194,9 @@ def load_amazon(_):
                 # Reseller listings of single cards carry the collector
                 # number, e.g. "Gift of Immortality (14/249)"
                 if re.search(r"\(\d+/\d+\)", title):
+                    continue
+
+                if is_amazon_multipack(title):
                     continue
 
                 # Bulk card lots lead with the count ("1000 Magic The
