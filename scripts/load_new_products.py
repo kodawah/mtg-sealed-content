@@ -1038,6 +1038,28 @@ AMAZON_MULTIPACK_RE = re.compile(
 )
 
 
+# Amazon's sealed searches surface a great many single cards, which fuzzy
+# matching then pairs with whatever sealed product shares the set name. They
+# are recognisable by shape: a card name, a dash, then the set or the Mystery
+# Booster line it came from, or a bare collector number, or a rarity.
+AMAZON_SINGLE_CARD_RES = [
+    # "Aggressive Urge - Mystery Booster - Rivals of Ixalan"
+    re.compile(r"\s-\s.*\bmystery booster\b", re.I),
+    # "Diabolic Tutor - Magic 2011 (M11) - Uncommon"
+    re.compile(r"[-–|]\s*(common|uncommon|rare|mythic(\s+rare)?)\s*$", re.I),
+    # "Millennial Gargoyle (232) - Gatecrash"; digits only, so a real product's
+    # "(Retail Edition)" or "(504 Magic Cards)" is untouched
+    re.compile(r"\(\d{1,3}\)"),
+    re.compile(r"\(\d+/\d+\)"),
+    # "Nicol Bolas - Timeshifted"
+    re.compile(r"\s-\s(timeshifted|foil)\s*$", re.I),
+]
+
+
+def is_amazon_single_card(title):
+    return any(r.search(title) for r in AMAZON_SINGLE_CARD_RES)
+
+
 def is_amazon_multipack(title):
     # Only a structural name counts ("Booster 3-Pack", "Booster Pack Bundle").
     # "Includes N booster packs" is a contents blurb that real products carry
@@ -1191,9 +1213,7 @@ def load_amazon(_):
                 if any(tag.lower() in title.lower() for tag in skip_tags):
                     continue
 
-                # Reseller listings of single cards carry the collector
-                # number, e.g. "Gift of Immortality (14/249)"
-                if re.search(r"\(\d+/\d+\)", title):
+                if is_amazon_single_card(title):
                     continue
 
                 if is_amazon_multipack(title):
