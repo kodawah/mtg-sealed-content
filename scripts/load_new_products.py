@@ -1167,9 +1167,20 @@ def load_amazon(_):
         "poker",
         "protector case",
         "mtg tokens",
-        # non-English listings
+        # non-English listings -- these are separate products from the
+        # English ones they otherwise match exactly
         "foreign language",
         "japanese",
+        "korean",
+        "german version",
+        "french version",
+        "spanish version",
+        "italian version",
+        "portuguese",
+        "russian",
+        "simplified chinese",
+        "traditional chinese",
+        "chinese version",
         # Omega products are a separate line the catalog does not track, and
         # every other scraper here skips them
         "omega pack",

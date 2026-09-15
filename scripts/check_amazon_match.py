@@ -235,6 +235,52 @@ def compare_key(normalized):
     return re.sub(r"\s+", " ", COMPARE_NOISE.sub(" ", normalized)).strip()
 
 
+BRAND_RE = re.compile(r"^(?:(?:magic:?\s*the\s*gathering|mtg|magic)\s*[-:|]?\s*)+",
+                      re.I)
+SEALED_WORD_RE = re.compile(
+    r"\b(booster|box|pack|deck|bundle|kit|case|display|collection|tin|"
+    r"secret lair|spellbook|duel decks|draft night|challenger|planeswalker|"
+    r"jumpstart|prerelease|starter|toolkit|game night|scene box|anthology|"
+    r"clash|guild kit|commander|intro|theme|event|tournament|battle|set of)\b",
+    re.I)
+PRODUCT_LINE_RE = re.compile(
+    r"\b(duel decks?|planeswalker deck|theme deck|intro pack|commander deck|"
+    r"challenger deck|event deck)\b", re.I)
+
+
+def plain_words(text):
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", text.lower())).strip()
+
+
+def catalog_set_names(known):
+    """How the catalog spells each set: the words before the first sealed word
+    in a product name."""
+    names = set()
+    for pname, *_ in known:
+        m = SEALED_WORD_RE.search(pname)
+        if m and m.start() > 0:
+            pre = plain_words(pname[:m.start()])
+            if pre:
+                names.add(pre)
+    return names
+
+
+def is_card_from_a_product(title, setnames):
+    """"Armadillo Cloak - Duel Decks: Phyrexia vs the Coalition" is a card that
+    came out of a duel deck, not the duel deck. The sealed-word filters in the
+    scraper let these through because the product line is a sealed word. What
+    separates them from a real "Dissension - Azorius Ascendant Theme Deck" is
+    the head: a set the catalog knows, or a card name it does not."""
+    segments = [s.strip() for s
+                in re.split(r"\s-\s|\s–\s", BRAND_RE.sub("", title).strip())
+                if s.strip()]
+    if len(segments) < 2 or not PRODUCT_LINE_RE.search(segments[-1]):
+        return False
+    if any(SEALED_WORD_RE.search(s) for s in segments[:-1]):
+        return False
+    return plain_words(segments[0]) not in setnames
+
+
 def ignore_reason(title):
     """Why this listing is not a catalog product, or None if it looks real."""
     hit = IGNORE_ANYWHERE_RE.search(title)
@@ -267,6 +313,7 @@ def main():
                 known_asins[str(existing)] = pname
 
     valid_codes = {k[1].upper() for k in known}
+    setnames = catalog_set_names(known)
 
     print(f"{len(entries)} amazon entries vs {len(known)} known products",
           file=sys.stderr)
@@ -283,6 +330,8 @@ def main():
             continue
 
         reason = ignore_reason(name)
+        if not reason and is_card_from_a_product(name, setnames):
+            reason = "single card from a product"
         if reason:
             buckets["ignore"].append({"name": name, "asin": asin,
                                       "reason": reason})
@@ -340,6 +389,11 @@ def main():
                            for s in scored[1:5]],
         }
 
+        # A wide margin is deliberately NOT a substitute for similarity. Tried
+        # as one, it settled "Secret Lair: Monster Anatomy 101" onto "Mothers
+        # Day 2021 Foil" and "Dissension Booster" onto "Ninth Edition Demo
+        # Booster": when the right product scores badly or is missing from the
+        # catalog, the gap back to third place is wide and means nothing.
         if best[0] >= SURE_SCORE and margin >= SURE_MARGIN and shape_ok:
             buckets["sure"].append(record)
         elif best[0] >= CANDIDATE_FLOOR:

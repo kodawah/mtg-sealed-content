@@ -286,11 +286,6 @@ amazon:
     identifiers:
       asin: B07X2QTM94
     subtype: UNKNOWN
-  Bundle Aetherdrift (French Version), D4134101, Multicoloured:
-    category: UNKNOWN
-    identifiers:
-      asin: B0DP1HV4RX
-    subtype: UNKNOWN
   Card Game MTG Dungeons and Dragons Adventures in The Forgotten Realms Prerelease Kit - 6 Draft Boosters, Dice, Promo:
     category: UNKNOWN
     identifiers:
@@ -1239,80 +1234,25 @@ amazon:
     identifiers:
       asin: B004VJBODI
     subtype: UNKNOWN
-  'Magic The Gathering - Angel of Salvation - Duel Decks: Elspeth vs Tezzeret':
-    category: UNKNOWN
-    identifiers:
-      asin: B005S5H0YQ
-    subtype: UNKNOWN
-  'Magic The Gathering - Armadillo Cloak - Duel Decks: Phyrexia vs The Coalition':
-    category: UNKNOWN
-    identifiers:
-      asin: B005S5J1ES
-    subtype: UNKNOWN
-  'Magic The Gathering - Brain Weevil - Duel Decks: Izzet vs Golgari':
-    category: UNKNOWN
-    identifiers:
-      asin: B00B1UR3US
-    subtype: UNKNOWN
-  'Magic The Gathering - Call to Heel - Duel Decks: Izzet vs Golgari':
-    category: UNKNOWN
-    identifiers:
-      asin: B00B1UQTB2
-    subtype: UNKNOWN
   Magic The Gathering - Champion's Helm - Commander:
     category: UNKNOWN
     identifiers:
       asin: B0062DR84A
-    subtype: UNKNOWN
-  'Magic The Gathering - Djinn Illuminatus - Duel Decks: Izzet vs Golgari':
-    category: UNKNOWN
-    identifiers:
-      asin: B00B1UQMIC
     subtype: UNKNOWN
   Magic The Gathering - Ghave, Guru of Spores - Commander:
     category: UNKNOWN
     identifiers:
       asin: B0062DR6PG
     subtype: UNKNOWN
-  'Magic The Gathering - Greater Mossdog - Duel Decks: Izzet vs Golgari':
-    category: UNKNOWN
-    identifiers:
-      asin: B00B1UQJ3K
-    subtype: UNKNOWN
   Magic The Gathering - Innistrad Crimson Vow Draft Booster Packet Multicoloured C90600000:
     category: UNKNOWN
     identifiers:
       asin: B09MBPTX1C
     subtype: UNKNOWN
-  'Magic The Gathering - Luminous Angel - Duel Decks: Divine vs Demonic':
-    category: UNKNOWN
-    identifiers:
-      asin: B005S5GETI
-    subtype: UNKNOWN
-  'Magic The Gathering - Oni Possession - Duel Decks: Divine vs Demonic':
-    category: UNKNOWN
-    identifiers:
-      asin: B005S5GG9Q
-    subtype: UNKNOWN
-  'Magic The Gathering - Rancor - Duel Decks: Anthology':
-    category: UNKNOWN
-    identifiers:
-      asin: B00QFPCMVY
-    subtype: UNKNOWN
-  'Magic The Gathering - Righteous Cause - Duel Decks: Divine vs Demonic':
-    category: UNKNOWN
-    identifiers:
-      asin: B005S5GO8O
-    subtype: UNKNOWN
   Magic The Gathering - Sapphire Medallion - Commander 2014:
     category: UNKNOWN
     identifiers:
       asin: B00P6O4NMQ
-    subtype: UNKNOWN
-  'Magic The Gathering - Shrewd Hatchling - Duel Decks: Izzet vs Golgari':
-    category: UNKNOWN
-    identifiers:
-      asin: B00B1UQQQU
     subtype: UNKNOWN
   'Magic The Gathering - The Brother''s War: Mishra''s Burnished Banner Prerelease Kit':
     category: UNKNOWN
@@ -1922,11 +1862,6 @@ amazon:
     identifiers:
       asin: B0BKTKHDHJ
     subtype: UNKNOWN
-  'Magic: Battle for Zendikar: Korean Booster Pack':
-    category: UNKNOWN
-    identifiers:
-      asin: B0163OJKA2
-    subtype: UNKNOWN
   'Magic: The Gathering (MTG)- Journey into Nyx Event Deck':
     category: UNKNOWN
     identifiers:
@@ -2134,11 +2069,6 @@ amazon:
   : category: UNKNOWN
     identifiers:
       asin: B0G87CB5VB
-    subtype: UNKNOWN
-  Marvel Super Heroes Bundle, Trading Card Game (German Version):
-    category: UNKNOWN
-    identifiers:
-      asin: B0G8TTN3CM
     subtype: UNKNOWN
   ? Marvel Super Heroes Collector’s Edition Commander Deck Bundle - Includes All 4
     Surge Foil Decks (Avengers Assemble, Wakanda Forever, The Fantastic Four, Doom
@@ -2625,11 +2555,6 @@ amazon:
     identifiers:
       asin: B08WF7V8CB
     subtype: UNKNOWN
-  Sword of Feast and Famine - Magic Modern Event Deck:
-    category: UNKNOWN
-    identifiers:
-      asin: B00IR2W4WA
-    subtype: UNKNOWN
   Symbiotic Swarm Ikoria Commander Deck | 100 Card Deck | 4 Foil Legendary Creatures:
     category: UNKNOWN
     identifiers:
@@ -2650,11 +2575,6 @@ amazon:
   : category: UNKNOWN
     identifiers:
       asin: B0DSQVBPZT
-    subtype: UNKNOWN
-  Teenage Mutant Ninja Turtles - Bundle (German Version):
-    category: UNKNOWN
-    identifiers:
-      asin: B0FRD8Y5GZ
     subtype: UNKNOWN
   ? Teenage Mutant Ninja Turtles - Bundle | 9 Play Boosters, 30 Lands, Foil Alt-Art
     Promo Card + Exclusive Accessories | Collectible Trading Card Game
@@ -2758,11 +2678,6 @@ amazon:
     identifiers:
       asin: B07V5XF9X1
     subtype: UNKNOWN
-  'Thunderheads - Duel Decks: Izzet vs Golgari':
-    category: UNKNOWN
-    identifiers:
-      asin: B00B1UR042
-    subtype: UNKNOWN
   Timeless Wisdom Ikoria Commander Deck | 100 Card Deck | 4 Foil Legendary Creatures:
     category: UNKNOWN
     identifiers:
@@ -2830,11 +2745,6 @@ amazon:
   : category: UNKNOWN
     identifiers:
       asin: '1787890783'
-    subtype: UNKNOWN
-  'Whitemane Lion - Duel Decks: Venser vs Koth':
-    category: UNKNOWN
-    identifiers:
-      asin: B007SPWFBW
     subtype: UNKNOWN
   Wild Card Trick Kit - Professional Card Magic Tricks Explained Including Special Magic Cards for Performing:
     category: UNKNOWN
