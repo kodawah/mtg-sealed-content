@@ -11315,6 +11315,7 @@ products:
       - code: bonus-secret-lair-x-dungeons-and-dragons-death-is-in-the-eyes-of-the-beholder-ii
         set: sld
     identifiers:
+      asin: B0DFVTT39G
       cardKingdomId: '313074'
       cardtraderId: '299860'
       mcmId: '785695'
@@ -11332,6 +11333,7 @@ products:
       - code: bonus-secret-lair-x-dungeons-and-dragons-death-is-in-the-eyes-of-the-beholder-ii
         set: sld
     identifiers:
+      asin: B0DFVW72P8
       cardKingdomId: '313073'
       tcgplayerProductId: '565548'
     release_date: '2024-08-28'
@@ -12702,6 +12704,7 @@ products:
       - name: Nuestra Magia
         set: sld
     identifiers:
+      asin: B0FF3PZMCX
       cardKingdomId: '316069'
       cardtraderId: '360763'
       mcmId: '830613'
@@ -12721,6 +12724,7 @@ products:
       - name: Nuestra Magia Foil Edition
         set: sld
     identifiers:
+      asin: B0FF3N4QLC
       cardKingdomId: '316068'
       mcmId: '830614'
       tcgplayerProductId: '636316'
