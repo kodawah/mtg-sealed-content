@@ -82,6 +82,7 @@ products:
     subtype: EVENT
     identifiers:
       abuId: '1100646'
+      asin: B00J2269WA
       cardKingdomId: '194348'
       cardtraderId: '48105'
       csiId: '187138'
@@ -152,6 +153,7 @@ products:
     subtype: INTRO
     identifiers:
       abuId: '1100652'
+      asin: B00K3HCWMY
       cardKingdomId: '193937'
       cardtraderId: '48107'
       csiId: '202687'
@@ -194,6 +196,7 @@ products:
     subtype: INTRO
     identifiers:
       abuId: '1100654'
+      asin: B00K3HCXV4
       cardKingdomId: '193938'
       cardtraderId: '48106'
       mcmId: '266589'
@@ -239,6 +242,7 @@ products:
     subtype: INTRO
     identifiers:
       abuId: '1100655'
+      asin: B00K3HCZIK
       cardKingdomId: '193940'
       cardtraderId: '48108'
       csiId: '202689'
@@ -260,6 +264,7 @@ products:
     subtype: INTRO
     identifiers:
       abuId: '1100657'
+      asin: B00K3HCYSG
       cardKingdomId: '193939'
       cardtraderId: '48109'
       csiId: '202688'

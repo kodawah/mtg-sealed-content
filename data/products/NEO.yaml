@@ -5,6 +5,7 @@ products:
     subtype: DRAFT_SET
     release_date: '2022-02-18'
     identifiers:
+      asin: B09M8YCGTG
       tcgplayerProductId: '257565'
     contents:
       sealed:

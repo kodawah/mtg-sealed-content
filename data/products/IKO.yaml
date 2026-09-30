@@ -107,6 +107,7 @@ products:
     release_date: '2020-05-15'
     identifiers:
       abuId: '2183765'
+      asin: B07ZSCWSMN
       cardKingdomId: '232124'
       cardtraderId: '107991'
       csiId: '294225'
@@ -126,6 +127,7 @@ products:
     release_date: '2020-05-15'
     identifiers:
       abuId: '1828972'
+      asin: B07ZSDG5YH
       cardKingdomId: '232120'
       cardtraderId: '107992'
       csiId: '294219'

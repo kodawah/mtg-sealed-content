@@ -85,6 +85,7 @@ products:
     subtype: DRAFT
     identifiers:
       abuId: '1100743'
+      asin: B004VJBODI
       cardKingdomId: '184977'
       cardtraderId: '47625'
       csiId: '97797'
@@ -180,6 +181,7 @@ products:
     subtype: FAT_PACK
     identifiers:
       abuId: '1100763'
+      asin: B004VJBOE2
       cardKingdomId: '184979'
       cardtraderId: '47633'
       csiId: '97822'

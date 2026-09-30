@@ -2,96 +2,95 @@ code: fdc
 products:
   Foundations Commander Deck Calling All Angels:
     category: DECK
-    subtype: COMMANDER
-    release_date: '2026-10-02'
+    contents:
+      card_count: 100
+      deck:
+      - name: Calling All Angels
+        set: fdc
     identifiers:
       abuId: '2721564'
+      asin: B0GXC5T8LG
       cardKingdomId: '331654'
       cardtraderId: '389398'
       mcmId: '886191'
       miniaturemarketId: 019fd2e0cf837106ba7692f091b8bfce
       scgId: SLD-MTG-CMD-FDC-EN-ANGELS
       tcgplayerProductId: '693140'
+    release_date: '2026-10-02'
+    subtype: COMMANDER
+  Foundations Commander Deck Keen Engineering:
+    category: DECK
     contents:
       card_count: 100
       deck:
-      - name: Calling All Angels
+      - name: Keen Engineering
         set: fdc
-  Foundations Commander Deck Keen Engineering:
-    category: DECK
-    subtype: COMMANDER
-    release_date: '2026-10-02'
     identifiers:
       abuId: '2721565'
+      asin: B0GXCH6X4K
       cardKingdomId: '331655'
       cardtraderId: '389399'
       mcmId: '886195'
       miniaturemarketId: 019fd2e0db217218be0e51a72c37a972
       scgId: SLD-MTG-CMD-FDC-EN-ENGINEERING
       tcgplayerProductId: '693141'
+    release_date: '2026-10-02'
+    subtype: COMMANDER
+  Foundations Commander Deck Reign of Dragons:
+    category: DECK
     contents:
       card_count: 100
       deck:
-      - name: Keen Engineering
+      - name: Reign of Dragons
         set: fdc
-  Foundations Commander Deck Reign of Dragons:
-    category: DECK
-    subtype: COMMANDER
-    release_date: '2026-10-02'
     identifiers:
       abuId: '2721567'
+      asin: B0GXCBTVG4
       cardKingdomId: '331657'
       cardtraderId: '389401'
       mcmId: '886198'
       miniaturemarketId: 019fd2e0e6b370bc898626b5bc0fe6df
       scgId: SLD-MTG-CMD-FDC-EN-DRAGONS
       tcgplayerProductId: '693143'
-    contents:
-      card_count: 100
-      deck:
-      - name: Reign of Dragons
-        set: fdc
+    release_date: '2026-10-02'
+    subtype: COMMANDER
   Foundations Commander Deck Tramplesaurus Rex:
     category: DECK
-    subtype: COMMANDER
-    release_date: '2026-10-02'
-    identifiers:
-      abuId: '2721568'
-      cardKingdomId: '331658'
-      cardtraderId: '389402'
-      mcmId: '886200'
-      scgId: SLD-MTG-CMD-FDC-EN-REX
-      tcgplayerProductId: '693144'
     contents:
       card_count: 100
       deck:
       - name: Tramplesaurus Rex
         set: fdc
+    identifiers:
+      abuId: '2721568'
+      asin: B0GXC8T76T
+      cardKingdomId: '331658'
+      cardtraderId: '389402'
+      mcmId: '886200'
+      scgId: SLD-MTG-CMD-FDC-EN-REX
+      tcgplayerProductId: '693144'
+    release_date: '2026-10-02'
+    subtype: COMMANDER
   Foundations Commander Deck Wretched Ranks:
     category: DECK
-    subtype: COMMANDER
-    release_date: '2026-10-02'
+    contents:
+      card_count: 100
+      deck:
+      - name: Wretched Ranks
+        set: fdc
     identifiers:
       abuId: '2721566'
+      asin: B0GXCKJ5JH
       cardKingdomId: '331656'
       cardtraderId: '389400'
       mcmId: '886197'
       miniaturemarketId: 019fd2e0fde07078898529bbceb6f6ed
       scgId: SLD-MTG-CMD-FDC-EN-WRETCHED
       tcgplayerProductId: '693142'
-    contents:
-      card_count: 100
-      deck:
-      - name: Wretched Ranks
-        set: fdc
+    release_date: '2026-10-02'
+    subtype: COMMANDER
   Foundations Commander Decks Set of 5:
     category: SUBSET
-    subtype: COMMANDER
-    identifiers:
-      cardKingdomId: '331659'
-      mcmId: '903009'
-      scgId: SLD-MTG-CMD-FDC-EN-SETOF5
-      tcgplayerProductId: '707496'
     contents:
       sealed:
       - count: 1
@@ -109,3 +108,9 @@ products:
       - count: 1
         name: Foundations Commander Deck Wretched Ranks
         set: fdc
+    identifiers:
+      cardKingdomId: '331659'
+      mcmId: '903009'
+      scgId: SLD-MTG-CMD-FDC-EN-SETOF5
+      tcgplayerProductId: '707496'
+    subtype: COMMANDER

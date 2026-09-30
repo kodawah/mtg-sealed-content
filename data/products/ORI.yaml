@@ -6,6 +6,7 @@ products:
     release_date: '2015-06-03'
     identifiers:
       abuId: '1100851'
+      asin: B010OK2A9O
       cardKingdomId: '201580'
       cardtraderId: '48287'
       csiId: '212315'
@@ -173,6 +174,7 @@ products:
     release_date: '2015-06-24'
     identifiers:
       abuId: '1107935'
+      asin: B01903MXE8
       cardKingdomId: '201693'
       cardtraderId: '48299'
       mcmId: '283386'
@@ -194,6 +196,7 @@ products:
     release_date: '2015-06-24'
     identifiers:
       abuId: '1100863'
+      asin: B01903MXZM
       cardKingdomId: '201694'
       cardtraderId: '48297'
       mcmId: '283383'
@@ -262,6 +265,7 @@ products:
     release_date: '2015-06-24'
     identifiers:
       abuId: '1100865'
+      asin: B01903MVG8
       cardKingdomId: '201692'
       cardtraderId: '48300'
       mcmId: '283387'
@@ -283,6 +287,7 @@ products:
     release_date: '2015-06-24'
     identifiers:
       abuId: '1100866'
+      asin: B01903MW44
       cardKingdomId: '201691'
       cardtraderId: '48301'
       mcmId: '283384'

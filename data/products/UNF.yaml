@@ -82,6 +82,7 @@ products:
     release_date: '2021-11-30'
     identifiers:
       abuId: '2243049'
+      asin: B09LLH9BXJ
       cardKingdomId: '255568'
       cardtraderId: '201037'
       csiId: '327727'
@@ -115,6 +116,7 @@ products:
     release_date: '2022-10-07'
     identifiers:
       abuId: '2688295'
+      asin: B09LM2W1B1
       cardKingdomId: '265871'
       cardtraderId: '201039'
       csiId: '327728'

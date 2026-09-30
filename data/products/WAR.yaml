@@ -38,6 +38,7 @@ products:
     release_date: '2019-05-03'
     identifiers:
       abuId: '2183763'
+      asin: B07Q89PM5C
       cardKingdomId: '224021'
       cardtraderId: '56887'
       csiId: '272410'
@@ -198,6 +199,7 @@ products:
     release_date: '2019-05-03'
     identifiers:
       abuId: '1568035'
+      asin: B098K7FDHH
       cardKingdomId: '224029'
       cardtraderId: '56902'
       csiId: '272416'
@@ -219,6 +221,7 @@ products:
     subtype: PLANESWALKER
     identifiers:
       abuId: '1568034'
+      asin: B07SJ86SKR
       hareruyaId: '70588'
       scgId: SLD-MTG-INT-WARPWDECK-EN-SET2
       tcgplayerProductId: '185683'

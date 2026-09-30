@@ -1172,6 +1172,9 @@ def load_amazon(_):
         "foreign language",
         "japanese",
         "korean",
+        # bare language names too: a display is tagged "/German", not
+        # "German Version"
+        "german",
         "german version",
         "french version",
         "spanish version",
@@ -1187,6 +1190,11 @@ def load_amazon(_):
         "omega box",
         "omega booster",
         "omega collector",
+        # a pack whose contents are a lottery is not one catalog product
+        "randomly selected",
+        "randomly assorted",
+        "randomly chosen",
+        "random assortment",
     ]
 
     candidates = {}

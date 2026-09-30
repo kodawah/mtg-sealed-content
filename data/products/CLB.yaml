@@ -130,6 +130,7 @@ products:
     release_date: '2022-06-10'
     identifiers:
       abuId: '2195742'
+      asin: B09VB48C59
       cardKingdomId: '260610'
       cardtraderId: '208731'
       csiId: '334915'
@@ -164,6 +165,7 @@ products:
     release_date: '2022-06-10'
     identifiers:
       abuId: '2195743'
+      asin: B09VBGNJ7B
       cardKingdomId: '260611'
       cardtraderId: '208730'
       csiId: '334916'
@@ -197,6 +199,7 @@ products:
     release_date: '2022-06-10'
     identifiers:
       abuId: '2195741'
+      asin: B09VB9MX16
       cardKingdomId: '260609'
       cardtraderId: '208732'
       csiId: '334349'
@@ -230,6 +233,7 @@ products:
     release_date: '2022-06-10'
     identifiers:
       abuId: '2195740'
+      asin: B09VB2D2QP
       cardKingdomId: '260608'
       cardtraderId: '208733'
       csiId: '334348'

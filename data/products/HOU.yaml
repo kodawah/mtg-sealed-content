@@ -37,6 +37,7 @@ products:
     release_date: '2017-07-14'
     identifiers:
       abuId: '1796198'
+      asin: B07417KHHM
       cardKingdomId: '212828'
       cardtraderId: '48549'
       csiId: '232556'
@@ -56,6 +57,7 @@ products:
     release_date: '2017-07-14'
     identifiers:
       abuId: '1477010'
+      asin: B071KZ19BF
       cardKingdomId: '212829'
       cardtraderId: '48559'
       csiId: '241726'
@@ -116,6 +118,7 @@ products:
     release_date: '2017-07-14'
     identifiers:
       abuId: '1477011'
+      asin: B073K2F7B4
       cardKingdomId: '212882'
       cardtraderId: '48560'
       csiId: '232590'

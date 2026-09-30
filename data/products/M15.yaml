@@ -35,6 +35,7 @@ products:
     release_date: '2014-07-18'
     identifiers:
       abuId: '1476901'
+      asin: B00LXFTKUC
       cardKingdomId: '194904'
       cardtraderId: '48138'
       csiId: '199282'
@@ -191,6 +192,7 @@ products:
     subtype: INTRO
     identifiers:
       abuId: '1100825'
+      asin: B00LXFUA6A
       cardKingdomId: '195222'
       cardtraderId: '48148'
       csiId: '199297'
@@ -215,6 +217,7 @@ products:
     subtype: INTRO
     identifiers:
       abuId: '1100829'
+      asin: B00LPOVQKI
       cardKingdomId: '195220'
       cardtraderId: '48149'
       csiId: '199295'

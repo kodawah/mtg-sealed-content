@@ -5876,6 +5876,7 @@ products:
       - code: bonus-everything-is-on-fire
         set: sld
     identifiers:
+      asin: B0F8YTMZ9W
       cardKingdomId: '315823'
       hareruyaId: '177515'
       tcgplayerProductId: '632019'
@@ -8504,6 +8505,7 @@ products:
       - code: bonus-lil-walkers
         set: sld
     identifiers:
+      asin: B09THH24VM
       cardKingdomId: '258016'
       csiId: '343519'
       hareruyaId: '116429'
@@ -9212,6 +9214,7 @@ products:
       - code: bonus-monster-movie-marathon
         set: sld
     identifiers:
+      asin: B09PD1DJFW
       cardKingdomId: '252294'
       csiId: '325061'
       hareruyaId: '110345'
@@ -10090,6 +10093,7 @@ products:
       - code: bonus-pixelsnowlandsjpg
         set: sld
     identifiers:
+      asin: B0B1VB9F8V
       cardKingdomId: '255180'
       csiId: '337225'
       hareruyaId: '112529'
@@ -10757,6 +10761,7 @@ products:
       - name: 'Arcane: Lands'
         set: sld
     identifiers:
+      asin: B09PFCMR78
       cardKingdomId: '255192'
       cardtraderId: '204441'
       csiId: '337200'
@@ -11276,6 +11281,7 @@ products:
       - code: bonus-secret-lair-x-dungeons-and-dragons-death-is-in-the-eyes-of-the-beholder-i
         set: sld
     identifiers:
+      asin: B0DFVV7B8F
       cardKingdomId: '313080'
       cardtraderId: '299862'
       mcmId: '785694'
@@ -11293,6 +11299,7 @@ products:
       - code: bonus-secret-lair-x-dungeons-and-dragons-death-is-in-the-eyes-of-the-beholder-i
         set: sld
     identifiers:
+      asin: B0DFVTQ1DN
       cardKingdomId: '313077'
       tcgplayerProductId: '565545'
     release_date: '2024-08-28'
@@ -11718,6 +11725,7 @@ products:
       - name: 'FORTNITE: Landmarks and Locations Foil Edition'
         set: sld
     identifiers:
+      asin: B0BKTKHDHJ
       cardKingdomId: '263977'
       csiId: '343643'
       hareruyaId: '118677'
@@ -12283,6 +12291,7 @@ products:
         set: sld
     identifiers:
       abuId: '2596163'
+      asin: B0F3W3GM5H
       cardKingdomId: '312519'
       cardtraderId: '327910'
       hareruyaId: '177149'
@@ -12302,6 +12311,7 @@ products:
       - code: bonus-secret-lair-x-marvels-deadpool-april-pools-day
         set: sld
     identifiers:
+      asin: B0F3W2TDDQ
       cardKingdomId: '312518'
       tcgplayerProductId: '625877'
     release_date: '2025-04-02'
@@ -12863,6 +12873,7 @@ products:
         set: sld
     identifiers:
       abuId: '2629312'
+      asin: B0FLDW54D3
       cardKingdomId: '317324'
       cardtraderId: '349613'
       hareruyaId: '180455'
@@ -12881,6 +12892,7 @@ products:
       - code: bonus-secret-lair-x-sonic-the-hedgehog-friends-and-foes
         set: sld
     identifiers:
+      asin: B0FLF9B1VD
       cardKingdomId: '317323'
       hareruyaId: '180452'
       tcgplayerProductId: '643592'
@@ -13614,6 +13626,7 @@ products:
       - code: bonus-showcase-monster-anatomy-101
         set: sld
     identifiers:
+      asin: B09PF9FN88
       cardKingdomId: '252292'
       cardtraderId: '171449'
       csiId: '325048'
@@ -13755,6 +13768,7 @@ products:
       - name: Read the Fine Print Foil Etched Edition
         set: sld
     identifiers:
+      asin: B09PF9FH1N
       cardKingdomId: '252296'
       cardtraderId: '171517'
       csiId: '325057'
@@ -13777,6 +13791,7 @@ products:
       - name: Read the Fine Print Foil Edition
         set: sld
     identifiers:
+      asin: B09PF95127
       cardKingdomId: '252297'
       csiId: '325056'
       hareruyaId: '110340'
@@ -14408,6 +14423,7 @@ products:
       - code: bonus-spongebob-squarepants-lands-under-the-sea
         set: sld
     identifiers:
+      asin: B0F2ZJS7RK
       cardKingdomId: '312992'
       cardtraderId: '327914'
       mcmId: '818560'
@@ -15240,6 +15256,7 @@ products:
         set: sld
     identifiers:
       abuId: '2666502'
+      asin: B0G27G777L
       cardKingdomId: '321482'
       cardtraderId: '354211'
       hareruyaId: '186250'
@@ -15261,6 +15278,7 @@ products:
       - name: The Last of Us Part I Foil Edition
         set: sld
     identifiers:
+      asin: B0G27K6Z9D
       cardKingdomId: '321481'
       hareruyaId: '186228'
       tcgplayerProductId: '658347'
@@ -15279,6 +15297,7 @@ products:
         set: sld
     identifiers:
       abuId: '2666505'
+      asin: B0G2JXM2QK
       cardKingdomId: '321484'
       cardtraderId: '354213'
       hareruyaId: '186251'
@@ -15300,6 +15319,7 @@ products:
       - name: The Last of Us Part II Foil Edition
         set: sld
     identifiers:
+      asin: B0G2JYDPQL
       cardKingdomId: '321483'
       hareruyaId: '186229'
       tcgplayerProductId: '658349'
@@ -16858,6 +16878,7 @@ products:
       - code: bonus-vroooooommmmmm
         set: sld
     identifiers:
+      asin: B0F8YYPN1T
       cardKingdomId: '315828'
       hareruyaId: '177514'
       tcgplayerProductId: '632015'

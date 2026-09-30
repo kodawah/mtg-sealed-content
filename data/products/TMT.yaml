@@ -2,16 +2,6 @@ code: tmt
 products:
   Teenage Mutant Ninja Turtles Bundle:
     category: BUNDLE
-    subtype: DEFAULT
-    release_date: '2026-03-06'
-    identifiers:
-      abuId: '2662245'
-      cardKingdomId: '323216'
-      cardtraderId: '354091'
-      mcmId: '853682'
-      miniaturemarketId: 019b32a43ed870628641c4a1de4a1082
-      scgId: SLD-MTG-BUN-TMTBUNDLE-EN
-      tcgplayerProductId: '657856'
     contents:
       card:
       - foil: true
@@ -30,22 +20,35 @@ products:
       - count: 9
         name: Teenage Mutant Ninja Turtles Play Booster Pack
         set: tmt
+    identifiers:
+      abuId: '2662245'
+      cardKingdomId: '323216'
+      cardtraderId: '354091'
+      mcmId: '853682'
+      miniaturemarketId: 019b32a43ed870628641c4a1de4a1082
+      scgId: SLD-MTG-BUN-TMTBUNDLE-EN
+      tcgplayerProductId: '657856'
+    release_date: '2026-03-06'
+    subtype: DEFAULT
   Teenage Mutant Ninja Turtles Bundle Case:
     category: BUNDLE_CASE
-    subtype: DEFAULT
-    release_date: '2026-03-06'
-    identifiers:
-      cardtraderId: '405209'
-      tcgplayerProductId: '657857'
     contents:
       sealed:
       - count: 6
         name: Teenage Mutant Ninja Turtles Bundle
         set: tmt
+    identifiers:
+      cardtraderId: '405209'
+      tcgplayerProductId: '657857'
+    release_date: '2026-03-06'
+    subtype: DEFAULT
   Teenage Mutant Ninja Turtles Collector Booster Box:
     category: BOOSTER_BOX
-    subtype: COLLECTOR
-    release_date: '2026-03-06'
+    contents:
+      sealed:
+      - count: 12
+        name: Teenage Mutant Ninja Turtles Collector Booster Pack
+        set: tmt
     identifiers:
       abuId: '2662241'
       asin: B0FR6HHZKB
@@ -56,37 +59,37 @@ products:
       miniaturemarketId: 019b32a41a2270b3946680e7d8af9db1
       scgId: SLD-MTG-BBX-TMTCOLLECTOR-EN
       tcgplayerProductId: '657852'
-    contents:
-      sealed:
-      - count: 12
-        name: Teenage Mutant Ninja Turtles Collector Booster Pack
-        set: tmt
+    release_date: '2026-03-06'
+    subtype: COLLECTOR
   Teenage Mutant Ninja Turtles Collector Booster Box Case:
     category: BOOSTER_CASE
-    subtype: COLLECTOR
-    release_date: '2026-03-06'
-    identifiers:
-      tcgplayerProductId: '657853'
     contents:
       sealed:
       - count: 6
         name: Teenage Mutant Ninja Turtles Collector Booster Box
         set: tmt
+    identifiers:
+      tcgplayerProductId: '657853'
+    release_date: '2026-03-06'
+    subtype: COLLECTOR
   Teenage Mutant Ninja Turtles Collector Booster Box Master Case:
     category: BOOSTER_CASE
-    subtype: COLLECTOR
-    release_date: '2026-03-06'
-    identifiers:
-      tcgplayerProductId: '657854'
     contents:
       sealed:
       - count: 4
         name: Teenage Mutant Ninja Turtles Collector Booster Box Case
         set: tmt
+    identifiers:
+      tcgplayerProductId: '657854'
+    release_date: '2026-03-06'
+    subtype: COLLECTOR
   Teenage Mutant Ninja Turtles Collector Booster Pack:
     category: BOOSTER_PACK
-    subtype: COLLECTOR
-    release_date: '2026-03-06'
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: tmt
     identifiers:
       abuId: '2662243'
       asin: B0FR6HPWJB
@@ -97,31 +100,17 @@ products:
       miniaturemarketId: 019b32a42b7b71fcb2b8d361ce682702
       scgId: SLD-MTG-PCK-TMTCOLLECTOR-EN
       tcgplayerProductId: '657851'
-    contents:
-      card_count: 15
-      pack:
-      - code: collector
-        set: tmt
+    release_date: '2026-03-06'
+    subtype: COLLECTOR
   Teenage Mutant Ninja Turtles Collector Booster Pack Minimal Packaging:
     category: BOOSTER_PACK
-    subtype: COLLECTOR
-    identifiers:
-      tcgplayerProductId: '684660'
     contents:
       copy: Teenage Mutant Ninja Turtles Collector Booster Pack
+    identifiers:
+      tcgplayerProductId: '684660'
+    subtype: COLLECTOR
   Teenage Mutant Ninja Turtles Draft Night:
     category: LIMITED
-    subtype: DRAFT
-    release_date: '2026-03-06'
-    identifiers:
-      abuId: '2666521'
-      asin: B0FR7JTZT5
-      cardKingdomId: '323221'
-      cardtraderId: '354094'
-      mcmId: '853716'
-      miniaturemarketId: 019b32a486ba70cdbe0d408fe7403764
-      scgId: SLD-MTG-BUN-TMTDRAFT-EN
-      tcgplayerProductId: '657860'
     contents:
       card_count: 90
       deck:
@@ -137,40 +126,40 @@ products:
       - count: 1
         name: Teenage Mutant Ninja Turtles Collector Booster Pack
         set: tmt
+    identifiers:
+      abuId: '2666521'
+      asin: B0FR7JTZT5
+      cardKingdomId: '323221'
+      cardtraderId: '354094'
+      mcmId: '853716'
+      miniaturemarketId: 019b32a486ba70cdbe0d408fe7403764
+      scgId: SLD-MTG-BUN-TMTDRAFT-EN
+      tcgplayerProductId: '657860'
+    release_date: '2026-03-06'
+    subtype: DRAFT
   Teenage Mutant Ninja Turtles Draft Night Case:
     category: LIMITED_CASE
-    subtype: DRAFT
-    release_date: '2026-03-06'
-    identifiers:
-      tcgplayerProductId: '657861'
     contents:
       sealed:
       - count: 6
         name: Teenage Mutant Ninja Turtles Draft Night
         set: tmt
+    identifiers:
+      tcgplayerProductId: '657861'
+    release_date: '2026-03-06'
+    subtype: DRAFT
   Teenage Mutant Ninja Turtles Enemy Deck:
     category: DECK
-    subtype: DEFAULT
-    release_date: '2026-03-06'
-    identifiers: {}
     contents:
       card_count: 38
       deck:
       - name: Enemy Deck
         set: tmt
+    identifiers: {}
+    release_date: '2026-03-06'
+    subtype: DEFAULT
   Teenage Mutant Ninja Turtles Pizza Bundle:
     category: BUNDLE
-    subtype: DEFAULT
-    release_date: '2026-03-27'
-    identifiers:
-      abuId: '2662246'
-      asin: B0FR7G52PN
-      cardKingdomId: '323225'
-      cardtraderId: '354092'
-      mcmId: '853692'
-      miniaturemarketId: 019b32a44eb8706bac6500da4b5ffddd
-      scgId: SLD-MTG-BUN-TMTPIZZA-EN
-      tcgplayerProductId: '657863'
     contents:
       deck:
       - name: Teenage Mutant Ninja Turtles Pizza Bundle Land Pack
@@ -189,22 +178,36 @@ products:
       - count: 1
         name: Teenage Mutant Ninja Turtles Collector Booster Pack
         set: tmt
+    identifiers:
+      abuId: '2662246'
+      asin: B0FR7G52PN
+      cardKingdomId: '323225'
+      cardtraderId: '354092'
+      mcmId: '853692'
+      miniaturemarketId: 019b32a44eb8706bac6500da4b5ffddd
+      scgId: SLD-MTG-BUN-TMTPIZZA-EN
+      tcgplayerProductId: '657863'
+    release_date: '2026-03-27'
+    subtype: DEFAULT
   Teenage Mutant Ninja Turtles Pizza Bundle Case:
     category: BUNDLE_CASE
-    subtype: DEFAULT
-    release_date: '2026-03-27'
-    identifiers:
-      cardtraderId: '405210'
-      tcgplayerProductId: '657864'
     contents:
       sealed:
       - count: 4
         name: Teenage Mutant Ninja Turtles Pizza Bundle
         set: tmt
+    identifiers:
+      cardtraderId: '405210'
+      tcgplayerProductId: '657864'
+    release_date: '2026-03-27'
+    subtype: DEFAULT
   Teenage Mutant Ninja Turtles Play Booster Box:
     category: BOOSTER_BOX
-    subtype: PLAY
-    release_date: '2026-03-06'
+    contents:
+      sealed:
+      - count: 30
+        name: Teenage Mutant Ninja Turtles Play Booster Pack
+        set: tmt
     identifiers:
       abuId: '2662209'
       asin: B0FR6W5K12
@@ -214,27 +217,27 @@ products:
       miniaturemarketId: 019b32a3f9ba717d8e3a66c2aeb58bb3
       scgId: SLD-MTG-BBX-TMTPLAY-EN
       tcgplayerProductId: '657849'
-    contents:
-      sealed:
-      - count: 30
-        name: Teenage Mutant Ninja Turtles Play Booster Pack
-        set: tmt
+    release_date: '2026-03-06'
+    subtype: PLAY
   Teenage Mutant Ninja Turtles Play Booster Box Case:
     category: BOOSTER_CASE
-    subtype: PLAY
-    release_date: '2026-03-06'
-    identifiers:
-      scgId: SLD-MTG-BBX-TMTPLAYCASE-EN
-      tcgplayerProductId: '657850'
     contents:
       sealed:
       - count: 6
         name: Teenage Mutant Ninja Turtles Play Booster Box
         set: tmt
+    identifiers:
+      scgId: SLD-MTG-BBX-TMTPLAYCASE-EN
+      tcgplayerProductId: '657850'
+    release_date: '2026-03-06'
+    subtype: PLAY
   Teenage Mutant Ninja Turtles Play Booster Pack:
     category: BOOSTER_PACK
-    subtype: PLAY
-    release_date: '2026-03-06'
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: tmt
     identifiers:
       abuId: '2662242'
       cardKingdomId: '323219'
@@ -244,24 +247,10 @@ products:
       miniaturemarketId: 019b32a40af5712fbf5920ea1c471331
       scgId: SLD-MTG-PCK-TMTPLAY-EN
       tcgplayerProductId: '657848'
-    contents:
-      card_count: 14
-      pack:
-      - code: play
-        set: tmt
+    release_date: '2026-03-06'
+    subtype: PLAY
   Teenage Mutant Ninja Turtles Prerelease Pack:
     category: LIMITED
-    subtype: PRERELEASE
-    release_date: '2026-03-06'
-    identifiers:
-      abuId: '2666519'
-      asin: B0GHS8HB3Q
-      cardKingdomId: '323224'
-      cardtraderId: '354093'
-      mcmId: '853735'
-      miniaturemarketId: 019b32a4956a71dba4b8f1f968c52545
-      scgId: SLD-MTG-INT-TMTPRE-EN
-      tcgplayerProductId: '657862'
     contents:
       card_count: 1
       other:
@@ -274,62 +263,69 @@ products:
       - count: 6
         name: Teenage Mutant Ninja Turtles Play Booster Pack
         set: tmt
+    identifiers:
+      abuId: '2666519'
+      asin: B0GHS8HB3Q
+      cardKingdomId: '323224'
+      cardtraderId: '354093'
+      mcmId: '853735'
+      miniaturemarketId: 019b32a4956a71dba4b8f1f968c52545
+      scgId: SLD-MTG-INT-TMTPRE-EN
+      tcgplayerProductId: '657862'
+    release_date: '2026-03-06'
+    subtype: PRERELEASE
   Teenage Mutant Ninja Turtles Prerelease Pack Case:
     category: LIMITED_CASE
-    subtype: PRERELEASE
-    identifiers:
-      tcgplayerProductId: '688629'
     contents:
       sealed:
       - count: 15
         name: Teenage Mutant Ninja Turtles Prerelease Pack
         set: tmt
+    identifiers:
+      tcgplayerProductId: '688629'
+    subtype: PRERELEASE
   Teenage Mutant Ninja Turtles Theme Deck Donatello:
     category: DECK
-    subtype: THEME
-    release_date: '2026-03-06'
-    identifiers: {}
     contents:
       card_count: 60
       deck:
       - name: Donatello
         set: tmt
+    identifiers: {}
+    release_date: '2026-03-06'
+    subtype: THEME
   Teenage Mutant Ninja Turtles Theme Deck Leonardo:
     category: DECK
-    subtype: THEME
-    release_date: '2026-03-06'
-    identifiers: {}
     contents:
       card_count: 60
       deck:
       - name: Leonardo
         set: tmt
+    identifiers: {}
+    release_date: '2026-03-06'
+    subtype: THEME
   Teenage Mutant Ninja Turtles Theme Deck Michealangelo:
     category: DECK
-    subtype: THEME
-    release_date: '2026-03-06'
-    identifiers: {}
     contents:
       card_count: 60
       deck:
       - name: Michealangelo
         set: tmt
+    identifiers: {}
+    release_date: '2026-03-06'
+    subtype: THEME
   Teenage Mutant Ninja Turtles Theme Deck Raphael:
     category: DECK
-    subtype: THEME
-    release_date: '2026-03-06'
-    identifiers: {}
     contents:
       card_count: 60
       deck:
       - name: Raphael
         set: tmt
+    identifiers: {}
+    release_date: '2026-03-06'
+    subtype: THEME
   Teenage Mutant Ninja Turtles Tin Donatello:
     category: BOX_SET
-    subtype: OTHER
-    identifiers:
-      scgId: SLD-MTG-BUN-TMTTINDONATELLO-EN
-      tcgplayerProductId: '684671'
     contents:
       other:
       - name: Exclusive Sticker
@@ -337,36 +333,37 @@ products:
       - count: 3
         name: Teenage Mutant Ninja Turtles Play Booster Pack
         set: tmt
+    identifiers:
+      asin: B0FRCSL46P
+      scgId: SLD-MTG-BUN-TMTTINDONATELLO-EN
+      tcgplayerProductId: '684671'
+    subtype: OTHER
   Teenage Mutant Ninja Turtles Tin Leonardo:
     category: BOX_SET
-    subtype: OTHER
+    contents:
+      copy: Teenage Mutant Ninja Turtles Tin Donatello
     identifiers:
       scgId: SLD-MTG-BUN-TMTTINLEONARDO-EN
       tcgplayerProductId: '684672'
-    contents:
-      copy: Teenage Mutant Ninja Turtles Tin Donatello
+    subtype: OTHER
   Teenage Mutant Ninja Turtles Tin Michelangelo:
     category: BOX_SET
-    subtype: OTHER
+    contents:
+      copy: Teenage Mutant Ninja Turtles Tin Donatello
     identifiers:
       scgId: SLD-MTG-BUN-TMTTINMICHELANGELO-EN
       tcgplayerProductId: '684669'
-    contents:
-      copy: Teenage Mutant Ninja Turtles Tin Donatello
+    subtype: OTHER
   Teenage Mutant Ninja Turtles Tin Raphael:
     category: BOX_SET
-    subtype: OTHER
+    contents:
+      copy: Teenage Mutant Ninja Turtles Tin Donatello
     identifiers:
       scgId: SLD-MTG-BUN-TMTTINRAPHAEL-EN
       tcgplayerProductId: '684670'
-    contents:
-      copy: Teenage Mutant Ninja Turtles Tin Donatello
+    subtype: OTHER
   Teenage Mutant Ninja Turtles Tin Set of 5:
     category: SUBSET
-    subtype: OTHER
-    identifiers:
-      cardtraderId: '395106'
-      tcgplayerProductId: '684674'
     contents:
       sealed:
       - count: 1
@@ -384,27 +381,20 @@ products:
       - count: 1
         name: Teenage Mutant Ninja Turtles Tin Shredder
         set: tmt
+    identifiers:
+      cardtraderId: '395106'
+      tcgplayerProductId: '684674'
+    subtype: OTHER
   Teenage Mutant Ninja Turtles Tin Shredder:
     category: BOX_SET
-    subtype: OTHER
+    contents:
+      copy: Teenage Mutant Ninja Turtles Tin Donatello
     identifiers:
       scgId: SLD-MTG-BUN-TMTTINSHREDDER-EN
       tcgplayerProductId: '684673'
-    contents:
-      copy: Teenage Mutant Ninja Turtles Tin Donatello
+    subtype: OTHER
   Teenage Mutant Ninja Turtles Turtle Team-Up:
     category: MULTI_DECK
-    subtype: DEFAULT
-    release_date: '2026-03-06'
-    identifiers:
-      abuId: '2666520'
-      asin: B0FR7K693P
-      cardKingdomId: '323222'
-      cardtraderId: '354095'
-      mcmId: '853728'
-      miniaturemarketId: 019b32a4781271e3b2169c39e2b4f066
-      scgId: SLD-MTG-MLT-TMT-EN-TEAMUP
-      tcgplayerProductId: '657858'
     contents:
       other:
       - name: 1 Punch-out counter sheet
@@ -429,14 +419,25 @@ products:
       - count: 4
         name: Teenage Mutant Ninja Turtles Play Booster Pack
         set: tmt
+    identifiers:
+      abuId: '2666520'
+      asin: B0FR7K693P
+      cardKingdomId: '323222'
+      cardtraderId: '354095'
+      mcmId: '853728'
+      miniaturemarketId: 019b32a4781271e3b2169c39e2b4f066
+      scgId: SLD-MTG-MLT-TMT-EN-TEAMUP
+      tcgplayerProductId: '657858'
+    release_date: '2026-03-06'
+    subtype: DEFAULT
   Teenage Mutant Ninja Turtles Turtle Team-Up Case:
     category: DECK_BOX
-    subtype: DEFAULT
-    release_date: '2026-03-06'
-    identifiers:
-      tcgplayerProductId: '657859'
     contents:
       sealed:
       - count: 4
         name: Teenage Mutant Ninja Turtles Turtle Team-Up
         set: tmt
+    identifiers:
+      tcgplayerProductId: '657859'
+    release_date: '2026-03-06'
+    subtype: DEFAULT

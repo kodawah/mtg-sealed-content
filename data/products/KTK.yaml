@@ -51,6 +51,7 @@ products:
     subtype: EVENT
     identifiers:
       abuId: '1100701'
+      asin: B00PC4ZSYC
       cardKingdomId: '195604'
       cardtraderId: '48192'
       mcmId: '269221'

@@ -5,6 +5,7 @@ products:
     subtype: DRAFT_SET
     release_date: '2021-11-19'
     identifiers:
+      asin: B099YG4B3J
       tcgplayerProductId: '246454'
     contents:
       sealed:
@@ -128,6 +129,7 @@ products:
     release_date: '2021-11-19'
     identifiers:
       abuId: '2105431'
+      asin: B099YJ9DSP
       cardKingdomId: '252153'
       cardtraderId: '164055'
       csiId: '321273'
@@ -161,6 +163,7 @@ products:
     release_date: '2021-11-19'
     identifiers:
       abuId: '2111051'
+      asin: B09MBPTX1C
       cardKingdomId: '252162'
       cardtraderId: '164081'
       csiId: '321274'
@@ -262,6 +265,7 @@ products:
     release_date: '2021-11-19'
     identifiers:
       abuId: '2111061'
+      asin: B099YBFFYF
       cardKingdomId: '252165'
       cardtraderId: '164056'
       csiId: '321275'

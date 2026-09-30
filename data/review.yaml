@@ -10,11 +10,6 @@ amazon:
     identifiers:
       asin: B0G47LF7DX
     subtype: UNKNOWN
-  '1 Pack of Magic the Gathering MTG: Modern Masters Booster Pack (15 Cards)':
-    category: UNKNOWN
-    identifiers:
-      asin: B00C72CYNK
-    subtype: UNKNOWN
   '10x Counter & Tarmogoyf Dice for Magic: The Gathering and Other Games/CCG MTG':
     category: UNKNOWN
     identifiers:
@@ -40,16 +35,6 @@ amazon:
     identifiers:
       asin: B000RFBM8C
     subtype: UNKNOWN
-  2015 Core Set - Mercurial Pretender Intro Pack:
-    category: UNKNOWN
-    identifiers:
-      asin: B00LPOVQKI
-    subtype: UNKNOWN
-  2016 Origins Set Booster Box - MTG Magic the Gathering TCG Card Game - 36 pac...:
-    category: UNKNOWN
-    identifiers:
-      asin: B010OK2A9O
-    subtype: UNKNOWN
   2018 Challenge Deck - Counter Surge:
     category: UNKNOWN
     identifiers:
@@ -64,11 +49,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B07B6HN93N
-    subtype: UNKNOWN
-  2021 Arena Starter Kit:
-    category: UNKNOWN
-    identifiers:
-      asin: B098884RQ5
     subtype: UNKNOWN
   ? 36 Pieces Magic The Gathering Antique Metal Token Counter MTG Keyword Counters
     Creature Stats Buff Tokens for CCG Card Gaming Accessories
@@ -105,16 +85,6 @@ amazon:
   : category: UNKNOWN
     identifiers:
       asin: B0DWNDBJ9S
-    subtype: UNKNOWN
-  60-Card Theme Deck - Angels:
-    category: UNKNOWN
-    identifiers:
-      asin: B0FP44Z3S4
-    subtype: UNKNOWN
-  60-Card Theme Deck - Pirates:
-    category: UNKNOWN
-    identifiers:
-      asin: B0FP45F74D
     subtype: UNKNOWN
   ? 7-in-1 Metal Spinner for Tabletop RPGs, Fantasy Dragon Roulette Coin with Cthulhu
     Design, Zinc Alloy Dice Replacement for DND, MTG, Pathfinder, Shadowrun(Antique
@@ -182,21 +152,10 @@ amazon:
     identifiers:
       asin: 0738770302
     subtype: UNKNOWN
-  ? Assassin’s Creed Beyond Booster Box | 24 Beyond Boosters (7 Cards in Each Pack)
-    | Collectible Trading Card Game for Ages 13+
-  : category: UNKNOWN
-    identifiers:
-      asin: B0CTKWCNGZ
-    subtype: UNKNOWN
   Assassin’s Creed Bundle | 9 Beyond Boosters + Accessories | Collectible Trading Card Game for Ages 13+:
     category: UNKNOWN
     identifiers:
       asin: B0CTKXN28J
-    subtype: UNKNOWN
-  Assassin’s Creed Collector Booster | 10 Cards in Each Pack | Collectible Trading Card Game for Ages 13+:
-    category: UNKNOWN
-    identifiers:
-      asin: B0CTKVZBDB
     subtype: UNKNOWN
   ? Assassin’s Creed Starter Kit | Learn to Play Magic with 2 Assassin’s Creed-Themed
     Decks | 2 Player Collectible Card Game for Ages 13+
@@ -354,30 +313,10 @@ amazon:
     identifiers:
       asin: B08G9P71N3
     subtype: UNKNOWN
-  Commander Legends – Arm for Battle | 100 Card Ready-to-Play Deck | 1 Foil Commander | Red-White, C78590000:
-    category: UNKNOWN
-    identifiers:
-      asin: B08J88XGMD
-    subtype: UNKNOWN
   'Commander Legends: Battle for Baldur’s Gate Collector Booster | 15 Magic Cards':
     category: UNKNOWN
     identifiers:
       asin: B09VB56YBJ
-    subtype: UNKNOWN
-  'Commander Legends: Battle for Baldur’s Gate Commander Deck – Draconic Dissent + Collector Booster Sample Pack':
-    category: UNKNOWN
-    identifiers:
-      asin: B09VB48C59
-    subtype: UNKNOWN
-  'Commander Legends: Battle for Baldur’s Gate Commander Deck – Exit from Exile + Collector Booster Sample Pack':
-    category: UNKNOWN
-    identifiers:
-      asin: B09VBGNJ7B
-    subtype: UNKNOWN
-  'Commander Legends: Battle for Baldur’s Gate Commander Deck – Party Time + Collector Booster Sample Pack':
-    category: UNKNOWN
-    identifiers:
-      asin: B09VB2D2QP
     subtype: UNKNOWN
   Core Set 2019 (M19) Deck Builders Toolkit | 4 Booster Pack + 125 Cards | Accessories:
     category: UNKNOWN
@@ -393,16 +332,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B07PKWWGNH
-    subtype: UNKNOWN
-  Core Set 2021 (M21) Collector Booster | 15 Cards | Min. 4 Rares Per Pack:
-    category: UNKNOWN
-    identifiers:
-      asin: B0881YG43P
-    subtype: UNKNOWN
-  Core Set 2021 (M21) Draft Booster Box | 36 Booster Packs (540 Cards) | Latest Set:
-    category: UNKNOWN
-    identifiers:
-      asin: B0874B5G6M
     subtype: UNKNOWN
   Cornerstone Play Booster (14 Magic Cards) (English Version):
     category: UNKNOWN
@@ -458,11 +387,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B09ZMLKVBL
-    subtype: UNKNOWN
-  Dominaria United Commander Deck – Painbow + Collector Booster Sample Pack:
-    category: UNKNOWN
-    identifiers:
-      asin: B09ZJZYZ8K
     subtype: UNKNOWN
   Double Masters 2020 VIP Edition | 33 Cards (23 Foils):
     category: UNKNOWN
@@ -532,11 +456,6 @@ amazon:
     identifiers:
       asin: B0DTMXKCLW
     subtype: UNKNOWN
-  Final Fantasy Collector's Booster Display:
-    category: UNKNOWN
-    identifiers:
-      asin: B0DTS76B5L
-    subtype: UNKNOWN
   Final Fantasy Commander Deck Bundle (Includes All 4 Decks):
     category: UNKNOWN
     identifiers:
@@ -565,11 +484,6 @@ amazon:
     identifiers:
       asin: B0FP5TQPPZ
     subtype: UNKNOWN
-  Final Fantasy VII Commander Deck - Limit Break:
-    category: UNKNOWN
-    identifiers:
-      asin: B0DTN5LM6H
-    subtype: UNKNOWN
   ? Final Fantasy VIII Scene Box - Children of Fate | 6 Foil Borderless Scene Cards,
     6 Art Cards, 3 Play Boosters + 1 Display Easel
   : category: UNKNOWN
@@ -585,31 +499,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B084P1MZ4S
-    subtype: UNKNOWN
-  Foundations Commander Deck - Calling All Angels | 100-Card Deck + Accessories:
-    category: UNKNOWN
-    identifiers:
-      asin: B0GXC5T8LG
-    subtype: UNKNOWN
-  Foundations Commander Deck - Keen Engineering | 100-Card Deck + Accessories:
-    category: UNKNOWN
-    identifiers:
-      asin: B0GXCH6X4K
-    subtype: UNKNOWN
-  Foundations Commander Deck - Reign of Dragons | 100-Card Deck + Accessories:
-    category: UNKNOWN
-    identifiers:
-      asin: B0GXCBTVG4
-    subtype: UNKNOWN
-  Foundations Commander Deck - Tramplesaurus Rex | 100-Card Deck + Accessories:
-    category: UNKNOWN
-    identifiers:
-      asin: B0GXC8T76T
-    subtype: UNKNOWN
-  Foundations Commander Deck - Wretched Ranks | 100-Card Deck + Accessories:
-    category: UNKNOWN
-    identifiers:
-      asin: B0GXCKJ5JH
     subtype: UNKNOWN
   ? Foundations Commander Deck Bundle - All 5 Decks (Calling All Angels, Keen Engineering,
     Wretched Ranks, Reign of Dragons, Tramplesaurus Rex)
@@ -642,11 +531,6 @@ amazon:
     identifiers:
       asin: B0FRBHPTDT
     subtype: UNKNOWN
-  Game Envelope | Teenage Mutant Ninja Turtles (English Version):
-    category: UNKNOWN
-    identifiers:
-      asin: B0FRCSL46P
-    subtype: UNKNOWN
   Gruul Clans - Gatecrash Guild Box - Magic the Gathering - Sealed:
     category: UNKNOWN
     identifiers:
@@ -672,25 +556,10 @@ amazon:
     identifiers:
       asin: B07ZSCWNQH
     subtype: UNKNOWN
-  'Ikoria: Lair of Behemoths Collector Booster | 15 Card Booster Pack | Stylized Collectible Cards (C77470000)':
-    category: UNKNOWN
-    identifiers:
-      asin: B07ZSCWSMN
-    subtype: UNKNOWN
-  'Ikoria: Lair of Behemoths Draft Booster Box | 36 Draft Booster Packs (540 Cards + Box Topper) | Factory Sealed':
-    category: UNKNOWN
-    identifiers:
-      asin: B07ZSDG5YH
-    subtype: UNKNOWN
   'Innistrad: Crimson Vow Collector Booster | 15 Magic Cards':
     category: UNKNOWN
     identifiers:
       asin: B099YMZSHW
-    subtype: UNKNOWN
-  'Innistrad: Crimson Vow Draft Booster Box | 36 Packs + Dracula Box Topper (541 Magic Cards)':
-    category: UNKNOWN
-    identifiers:
-      asin: B099YJ9DSP
     subtype: UNKNOWN
   'Innistrad: Midnight Hunt Bundle | 8 Set Boosters + Accessories':
     category: UNKNOWN
@@ -723,11 +592,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B08N232PVL
-    subtype: UNKNOWN
-  'Kamigawa: Neon Dynasty 3-Booster Draft Pack | 45 Magic Cards':
-    category: UNKNOWN
-    identifiers:
-      asin: B09M8YCGTG
     subtype: UNKNOWN
   'Kamigawa: Neon Dynasty Bundle | 8 Set Boosters + Accessories':
     category: UNKNOWN
@@ -814,11 +678,6 @@ amazon:
     identifiers:
       asin: B0GVS3XT89
     subtype: UNKNOWN
-  MTG Dissension Booster:
-    category: UNKNOWN
-    identifiers:
-      asin: B000FFL5G8
-    subtype: UNKNOWN
   MTG Legendary Pack 40 Count with Guaranteed Legendary Creature:
     category: UNKNOWN
     identifiers:
@@ -833,11 +692,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B099GS9H8V
-    subtype: UNKNOWN
-  MTG Magic Kaldheim Prerelease Pack Kit - 6 Packs:
-    category: UNKNOWN
-    identifiers:
-      asin: B08QTR89GT
     subtype: UNKNOWN
   MTG Magic Scourge Pulverize Theme Deck NEW Pre Con Red Blue .HN#GG_634T6344 G134548TY56422:
     category: UNKNOWN
@@ -874,21 +728,11 @@ amazon:
     identifiers:
       asin: B00LFOFFW8
     subtype: UNKNOWN
-  MTG Magic the Gathering Theros Beyond Death - Both Planeswalker Decks! 180 Total Cards:
-    category: UNKNOWN
-    identifiers:
-      asin: B0821RD5G6
-    subtype: UNKNOWN
   ? 'MTG Metal Keyword Counters - Set of 24 Reversible Tokens - Includes Drawstring
     Pouch, Antique Metal Finish, Designed for MTG TCG Magic: The Gathering Accessory'
   : category: UNKNOWN
     identifiers:
       asin: B08DL6Z4VM
-    subtype: UNKNOWN
-  'MTG Planeswalker Deck : Ravnica Allegiance (RNA) Dovin':
-    category: UNKNOWN
-    identifiers:
-      asin: B0FNWZW4XB
     subtype: UNKNOWN
   MTG Rare Card Pack – 30 Unique Rare Cards:
     category: UNKNOWN
@@ -1001,16 +845,6 @@ amazon:
     identifiers:
       asin: B0G2J2ZYRT
     subtype: UNKNOWN
-  MTG Secret Lair x The Last Us Part II (Foil Edition):
-    category: UNKNOWN
-    identifiers:
-      asin: B0G2JYDPQL
-    subtype: UNKNOWN
-  MTG Secret Lair x The Last Us Part II (Non-Foil Edition):
-    category: UNKNOWN
-    identifiers:
-      asin: B0G2JXM2QK
-    subtype: UNKNOWN
   MTG Secret Lair x Uncharted (Foil Edition):
     category: UNKNOWN
     identifiers:
@@ -1020,16 +854,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0G2JY65Z3
-    subtype: UNKNOWN
-  'MTG Secret Lair: Death is in The Eyes of The Beholder I (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DFVTQ1DN
-    subtype: UNKNOWN
-  'MTG Secret Lair: Death is in The Eyes of The Beholder I (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DFVV7B8F
     subtype: UNKNOWN
   'MTG Secret Lair: Death is in The Eyes of The Beholder II (Foil Edition)':
     category: UNKNOWN
@@ -1045,11 +869,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0FWNMTWDG
-    subtype: UNKNOWN
-  'MTG Secret Lair: Everything is ON FIRE (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F8YTMZ9W
     subtype: UNKNOWN
   'MTG Secret Lair: Nuestra Magia (English, Foil Edition)':
     category: UNKNOWN
@@ -1076,26 +895,6 @@ amazon:
     identifiers:
       asin: B0FWN86PKH
     subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Marvel''s Deadpool (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F3W2TDDQ
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Marvel''s Deadpool (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F3W3GM5H
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Sonic: Friends & Foes (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0FLF9B1VD
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Sonic: Friends & Foes (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0FLDW54D3
-    subtype: UNKNOWN
   'MTG Secret Lair: Secret Lair x Sonic: Turbo Gear (Non-Foil Edition)':
     category: UNKNOWN
     identifiers:
@@ -1105,11 +904,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0F2ZKSMWC
-    subtype: UNKNOWN
-  'MTG Secret Lair: Secret Lair x Sponge Bob Squarepants: Lands Under the Sea (Non-Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F2ZJS7RK
     subtype: UNKNOWN
   'MTG Secret Lair: an Exhibition of Adventure (Foil Edition)':
     category: UNKNOWN
@@ -1121,25 +915,10 @@ amazon:
     identifiers:
       asin: B0DFVV87GT
     subtype: UNKNOWN
-  'MTG Secret Lair: vroooOOOMMMMMM! (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0F8YYPN1T
-    subtype: UNKNOWN
   MTG Super Heroes Play Booster Box | 30 Packs | Collectible Trading Card Game:
     category: UNKNOWN
     identifiers:
       asin: B0H38GBF5W
-    subtype: UNKNOWN
-  MTG-AER-BU-EN Aether Revolt Bundle:
-    category: UNKNOWN
-    identifiers:
-      asin: B01MXVZWMC
-    subtype: UNKNOWN
-  MTG-KLD-GB-EN Kaladesh Gift Box:
-    category: UNKNOWN
-    identifiers:
-      asin: B01L3TCZ22
     subtype: UNKNOWN
   'MTG: Duskmourn House of Horror Play Booster Box':
     category: UNKNOWN
@@ -1182,11 +961,6 @@ amazon:
     identifiers:
       asin: B0DQLY3V7W
     subtype: UNKNOWN
-  Magic Aether Revolt Planeswalker Deck English - 1 Deck - Randomly Selected:
-    category: UNKNOWN
-    identifiers:
-      asin: B01N0WZ8Z2
-    subtype: UNKNOWN
   Magic Deception Deck - Color Changing Magic Card Trick:
     category: UNKNOWN
     identifiers:
@@ -1197,20 +971,10 @@ amazon:
     identifiers:
       asin: B07WMZ7T9K
     subtype: UNKNOWN
-  Magic Hour Of Devastation Sealed MTG Bundle Box 10 Boosters:
-    category: UNKNOWN
-    identifiers:
-      asin: B071KZ19BF
-    subtype: UNKNOWN
   'Magic Kaladesh Planeswalker 60-card Deck: Chandra, Pyrogenius with 2 Booster Packs':
     category: UNKNOWN
     identifiers:
       asin: B01LPHL64U
-    subtype: UNKNOWN
-  'Magic NA The Gathering: Hour of Devastation Planeswalker Deck - Nicol Bola':
-    category: UNKNOWN
-    identifiers:
-      asin: B073K2F7B4
     subtype: UNKNOWN
   ? 'Magic Phyrexia: All Will Be One Bundle: Compleat Edition 1 Compleat Edition Booster,
     12 Set Boosters, and Exclusive Accessories, Multicolor, D20100000'
@@ -1218,21 +982,11 @@ amazon:
     identifiers:
       asin: B0BJ7MPSWS
     subtype: UNKNOWN
-  'Magic TCG Magic: The Gathering Secret Lair: Read The Fine Print (Foil Etched)':
-    category: UNKNOWN
-    identifiers:
-      asin: B09PF95127
-    subtype: UNKNOWN
   ? Magic The Gathering (MTG Theros Intro Pack - Devotion to Darkness Theme Deck (Includes
     2 Booster Packs) Black (Abhorrent Overlord)
   : category: UNKNOWN
     identifiers:
       asin: B00FBQLRZA
-    subtype: UNKNOWN
-  Magic The Gathering - 2012 Core Set Booster Box:
-    category: UNKNOWN
-    identifiers:
-      asin: B004VJBODI
     subtype: UNKNOWN
   Magic The Gathering - Champion's Helm - Commander:
     category: UNKNOWN
@@ -1243,11 +997,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0062DR6PG
-    subtype: UNKNOWN
-  Magic The Gathering - Innistrad Crimson Vow Draft Booster Packet Multicoloured C90600000:
-    category: UNKNOWN
-    identifiers:
-      asin: B09MBPTX1C
     subtype: UNKNOWN
   Magic The Gathering - Sapphire Medallion - Commander 2014:
     category: UNKNOWN
@@ -1273,11 +1022,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B005P106R6
-    subtype: UNKNOWN
-  Magic The Gathering 15088-S Hour of Devastation Card Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      asin: B07417KHHM
     subtype: UNKNOWN
   Magic The Gathering 2021 Challenger Decks Assortment | 8 Decks | 2 of Each:
     category: UNKNOWN
@@ -1309,31 +1053,10 @@ amazon:
     identifiers:
       asin: B00LXFTQDS
     subtype: UNKNOWN
-  Magic The Gathering C46330000 Ravnica Allegiance Booster Packet:
-    category: UNKNOWN
-    identifiers:
-      asin: B07LH24H8G
-    subtype: UNKNOWN
   'Magic The Gathering C75030000 Magic: The Gathering-2021 Core Set Draft Booster':
     category: UNKNOWN
     identifiers:
       asin: B08CW2WXZ1
-    subtype: UNKNOWN
-  Magic The Gathering C78530001 Modern Horizons 2 Draft Booster Pack, Multi:
-    category: UNKNOWN
-    identifiers:
-      asin: B097MQ2F2K
-    subtype: UNKNOWN
-  Magic The Gathering C97540001 Modern Horizons 2 Set Booster Pack, Multi:
-    category: UNKNOWN
-    identifiers:
-      asin: B094P1MJVC
-    subtype: UNKNOWN
-  ? 'Magic The Gathering Commander Legends: Battle for Baldur’s Gate Commander Deck
-    – Mind Flayarrrs + Collector Booster Sample Pack'
-  : category: UNKNOWN
-    identifiers:
-      asin: B09VB9MX16
     subtype: UNKNOWN
   Magic The Gathering Commander Masters Collector Booster (15 Cards):
     category: UNKNOWN
@@ -1365,60 +1088,15 @@ amazon:
     identifiers:
       asin: B09NDWH7YK
     subtype: UNKNOWN
-  'Magic The Gathering Innistrad: Crimson Vow 3-Booster Draft Pack | 45 Magic Cards':
-    category: UNKNOWN
-    identifiers:
-      asin: B099YG4B3J
-    subtype: UNKNOWN
-  Magic The Gathering Journey Into Nyx Fates Foreseen Blue Intro Pack (Includes Scourge of Fleets):
-    category: UNKNOWN
-    identifiers:
-      asin: B00K3HCWMY
-    subtype: UNKNOWN
   Magic The Gathering Journey Into Nyx Mortals of Myth White Intro Pack (Includes Dawnbringer Charioteers):
     category: UNKNOWN
     identifiers:
       asin: B00K3HCVV6
     subtype: UNKNOWN
-  Magic The Gathering Journey Into Nyx Pantheon's Power Black Intro Pack (Includes Doomwake Giant):
-    category: UNKNOWN
-    identifiers:
-      asin: B00K3HCXV4
-    subtype: UNKNOWN
-  Magic The Gathering Journey Into Nyx The Wilds and The Deep Green Intro Pack (Includes Heroes' Bane):
-    category: UNKNOWN
-    identifiers:
-      asin: B00K3HCZIK
-    subtype: UNKNOWN
-  Magic The Gathering Journey Into Nyx Voracious Rage Red Intro Pack (Includes Spawn of Thraxes):
-    category: UNKNOWN
-    identifiers:
-      asin: B00K3HCYSG
-    subtype: UNKNOWN
-  Magic The Gathering Kaldheim Commander Deck – Elven Empire | 100 Card Ready-to-Play Deck | Green-Black:
-    category: UNKNOWN
-    identifiers:
-      asin: B08NXWD5GQ
-    subtype: UNKNOWN
-  Magic The Gathering Kaldheim Commander Deck – Phantom Premonition | 100 Card Ready-to-Play Deck | Blue-White:
-    category: UNKNOWN
-    identifiers:
-      asin: B08NXYL2X2
-    subtype: UNKNOWN
-  Magic The Gathering Khans of Tarkir Event Deck (Includes 60 Card Deck with 10 rares & a 15 Card Sideboard):
-    category: UNKNOWN
-    identifiers:
-      asin: B00PC4ZSYC
-    subtype: UNKNOWN
   Magic The Gathering Life Meter:
     category: UNKNOWN
     identifiers:
       asin: B0CSG3CT7H
-    subtype: UNKNOWN
-  Magic The Gathering M13 2013 Core Set Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      asin: B00NKW54RO
     subtype: UNKNOWN
   'Magic The Gathering M13: MTG: 2013 Core Set Intro Pack: Path to Victory Theme Deck (Includes 2 Booster Packs)':
     category: UNKNOWN
@@ -1434,11 +1112,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B00LXFTMQY
-    subtype: UNKNOWN
-  Magic The Gathering M15 2015 Core Set Flames of The Dragon Intro Pack (red Deck Includes Siege Dragon):
-    category: UNKNOWN
-    identifiers:
-      asin: B00LXFUA6A
     subtype: UNKNOWN
   Magic The Gathering M15 2015 Core Set Hit The Ground Running Intro Pack (Blue Deck Includes Mercurial Pretender):
     category: UNKNOWN
@@ -1465,11 +1138,6 @@ amazon:
     identifiers:
       asin: B07NNDNBVK
     subtype: UNKNOWN
-  Magic The Gathering MTG BD-EN War of The Spark Booster Pack, Multi:
-    category: UNKNOWN
-    identifiers:
-      asin: B07Q89PM5C
-    subtype: UNKNOWN
   'Magic The Gathering MTG Commander Anthology 2018 Volume II Set: 4 Decks':
     category: UNKNOWN
     identifiers:
@@ -1485,65 +1153,20 @@ amazon:
     identifiers:
       asin: B08589Z9JV
     subtype: UNKNOWN
-  'Magic The Gathering MTG Throne of Eldraine: All 4 Brawl Decks!':
-    category: UNKNOWN
-    identifiers:
-      asin: B07W7V3D2T
-    subtype: UNKNOWN
-  Magic The Gathering MTG War of The Spark - Both Planeswalker Decks!:
-    category: UNKNOWN
-    identifiers:
-      asin: B07SJ86SKR
-    subtype: UNKNOWN
-  Magic The Gathering MTG Zendikar Rising Both 2020 New ZNC Commander Decks!:
-    category: UNKNOWN
-    identifiers:
-      asin: B08FYYKCGT
-    subtype: UNKNOWN
   Magic The Gathering MTG-GS1-EN Global Series Jiang Yanggu and Mu Yanling Duel Decks:
     category: UNKNOWN
     identifiers:
       asin: B07F7JJ8SK
-    subtype: UNKNOWN
-  Magic The Gathering MTG-KHM-BD-EN Kaldheim Draft Booster Pack, Multi:
-    category: UNKNOWN
-    identifiers:
-      asin: B08R5NVH3S
-    subtype: UNKNOWN
-  Magic The Gathering MTG-Rix-BD-EN Rivals of Ixalan Trading Card Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      asin: B076ST5G4K
     subtype: UNKNOWN
   Magic The Gathering Merfolk Observer:
     category: UNKNOWN
     identifiers:
       asin: B003IEB2KW
     subtype: UNKNOWN
-  Magic The Gathering Origins Blue Deck Intro Pack Take to The Sky:
-    category: UNKNOWN
-    identifiers:
-      asin: B01903MW44
-    subtype: UNKNOWN
   Magic The Gathering Origins Booster Box:
     category: UNKNOWN
     identifiers:
       asin: B01903MSAM
-    subtype: UNKNOWN
-  Magic The Gathering Origins Green Deck Intro Pack Hunting Pack:
-    category: UNKNOWN
-    identifiers:
-      asin: B01903MVG8
-    subtype: UNKNOWN
-  Magic The Gathering Origins Red Deck Intro Pack Assemble Victory:
-    category: UNKNOWN
-    identifiers:
-      asin: B01903MXE8
-    subtype: UNKNOWN
-  Magic The Gathering Origins White Deck Intro Pack Brave The Battle:
-    category: UNKNOWN
-    identifiers:
-      asin: B01903MXZM
     subtype: UNKNOWN
   'Magic The Gathering Phyrexia: All Will Be One Collector Booster | 15 Magic Cards':
     category: UNKNOWN
@@ -1626,11 +1249,6 @@ amazon:
     identifiers:
       asin: B07TMQ29WQ
     subtype: UNKNOWN
-  'Magic The Gathering: Marvel Super Heroes - Scene Box':
-    category: UNKNOWN
-    identifiers:
-      asin: B0GMLSB34Y
-    subtype: UNKNOWN
   'Magic The Gathering: Secret Lair - Secret Lair High: Class of 87 (Rainbow Foil)':
     category: UNKNOWN
     identifiers:
@@ -1679,11 +1297,6 @@ amazon:
     identifiers:
       asin: B00ZSPZAP2
     subtype: UNKNOWN
-  Magic the Gathering (MTG) Battle for Zendikar - Event Deck (with 10 Rares):
-    category: UNKNOWN
-    identifiers:
-      asin: B00ZSRT786
-    subtype: UNKNOWN
   'Magic the Gathering (MTG) Gatecrash Intro Pack: Boros Battalion (Includes 2 Booster Packs)':
     category: UNKNOWN
     identifiers:
@@ -1719,21 +1332,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B09SHX3K1K
-    subtype: UNKNOWN
-  Magic the Gathering Judgment Booster Pack by Wizards:
-    category: UNKNOWN
-    identifiers:
-      asin: B000JL6MHU
-    subtype: UNKNOWN
-  Magic the Gathering M12 2012 Core Set Fat Pack:
-    category: UNKNOWN
-    identifiers:
-      asin: B004VJBOE2
-    subtype: UNKNOWN
-  Magic the Gathering M15 2015 Core Set Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      asin: B00LXFTKUC
     subtype: UNKNOWN
   Magic the Gathering MTG - Born of the Gods Prerelease Pack - Destined To Dominate Black:
     category: UNKNOWN
@@ -1806,16 +1404,6 @@ amazon:
     identifiers:
       asin: B0FJHB1TRW
     subtype: UNKNOWN
-  Magic the Gathering Secret Lair x The Last of Us Part I (Foil):
-    category: UNKNOWN
-    identifiers:
-      asin: B0G27K6Z9D
-    subtype: UNKNOWN
-  Magic the Gathering Secret Lair x The Last of Us Part I (Non-Foil):
-    category: UNKNOWN
-    identifiers:
-      asin: B0G27G777L
-    subtype: UNKNOWN
   Magic the Gathering Secret Lair x The Last of Us Part II (Non-Foil):
     category: UNKNOWN
     identifiers:
@@ -1856,16 +1444,6 @@ amazon:
   : category: UNKNOWN
     identifiers:
       asin: B01IDZPVI4
-    subtype: UNKNOWN
-  'Magic the Gathering: Secret Lair for Fortnite - Landmarks and Locations (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0BKTKHDHJ
-    subtype: UNKNOWN
-  'Magic: The Gathering (MTG)- Journey into Nyx Event Deck':
-    category: UNKNOWN
-    identifiers:
-      asin: B00J2269WA
     subtype: UNKNOWN
   'Magic: The Gathering - Aetherdrift Commander Decks (Set of 2)':
     category: UNKNOWN
@@ -1912,16 +1490,6 @@ amazon:
     identifiers:
       asin: B09WC144TX
     subtype: UNKNOWN
-  'Magic: The Gathering - Precision Bolt - Planeswalker Deck Exclusive - Guilds of Ravnica':
-    category: UNKNOWN
-    identifiers:
-      asin: B07PR57ZHR
-    subtype: UNKNOWN
-  'Magic: The Gathering - Silverbeak Griffin - Planeswalker Deck Exclusive - Core Set 2019':
-    category: UNKNOWN
-    identifiers:
-      asin: B07H8QH762
-    subtype: UNKNOWN
   'Magic: The Gathering - Warden of Evos Isle - Jumpstart':
     category: UNKNOWN
     identifiers:
@@ -1942,11 +1510,6 @@ amazon:
     identifiers:
       asin: B089FP9MZM
     subtype: UNKNOWN
-  'Magic: The Gathering Innistrad: Crimson Vow Set Booster Box | 30 Packs + Dracula Box Topper (361 Magic Cards)':
-    category: UNKNOWN
-    identifiers:
-      asin: B099YBFFYF
-    subtype: UNKNOWN
   'Magic: The Gathering MTG-M21-SK-EN Arena Starter Kit Display':
     category: UNKNOWN
     identifiers:
@@ -1956,11 +1519,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0FQFPPZ4F
-    subtype: UNKNOWN
-  'Magic: The Gathering Mystery Booster Packet - 15 Cards Per Packet':
-    category: UNKNOWN
-    identifiers:
-      asin: B0843C3DMW
     subtype: UNKNOWN
   'Magic: The Gathering Prerelease Kit: MTG Innistrad Crimson Vow - 6 Packs, Promos, Dice':
     category: UNKNOWN
@@ -1982,11 +1540,6 @@ amazon:
     identifiers:
       asin: B08HCZN8L8
     subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: Monster Anatomy 101 (Foil Etched)':
-    category: UNKNOWN
-    identifiers:
-      asin: B09PF9FN88
-    subtype: UNKNOWN
   'Magic: The Gathering Secret Lair: Showcase: March of The Machine Vol. 1 (Halo Foil)':
     category: UNKNOWN
     identifiers:
@@ -2001,22 +1554,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B09THFQNGQ
-    subtype: UNKNOWN
-  'Magic: The Gathering Secret Lair: x Arcane Lands (Non-Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B09PFCMR78
-    subtype: UNKNOWN
-  ? 'Magic: The Gathering The Lord of The Rings Tales of Middle-Earth Realms & Relics
-    Box Topper Pack, Sealed Foil Card, 1 of 30 Possible Cards'
-  : category: UNKNOWN
-    identifiers:
-      asin: B0FVPZXZFR
-    subtype: UNKNOWN
-  'Magic: The Gathering Unfinity Draft Booster Box | 36 Packs + Box Topper (505 Magic Cards)':
-    category: UNKNOWN
-    identifiers:
-      asin: B09LLH9BXJ
     subtype: UNKNOWN
   'Magic: The Gathering Wilds of Eldraine Pre-Release Kit':
     category: UNKNOWN
@@ -2037,11 +1574,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B007BOWR0O
-    subtype: UNKNOWN
-  MagicCorner MTG War of The Spark Planeswalker Deck - Jace (ENG):
-    category: UNKNOWN
-    identifiers:
-      asin: B098K7FDHH
     subtype: UNKNOWN
   Magice the Gathering MTG Modern Horizons 3 Booster Packs:
     category: UNKNOWN
@@ -2100,25 +1632,10 @@ amazon:
     identifiers:
       asin: B0G87734WB
     subtype: UNKNOWN
-  Marvel Super Heroes/Play-Booster Display/German:
-    category: UNKNOWN
-    identifiers:
-      asin: B0H7Q314BK
-    subtype: UNKNOWN
-  Modern Horizons 2 Collector Booster Pack | 15 Magic Cards:
-    category: UNKNOWN
-    identifiers:
-      asin: B093QNYK76
-    subtype: UNKNOWN
   Modern Horizons 3 Collector Booster (15 Magic Cards):
     category: UNKNOWN
     identifiers:
       asin: B0CSVMVXGP
-    subtype: UNKNOWN
-  Modern Horizons III Play Booster Pack [14 Cards Per Pack]:
-    category: UNKNOWN
-    identifiers:
-      asin: B0GXCH8SQ8
     subtype: UNKNOWN
   'MtG: Oath of the Gatewatch Prerelease Pk':
     category: UNKNOWN
@@ -2141,11 +1658,6 @@ amazon:
   : category: UNKNOWN
     identifiers:
       asin: B00Q5P0NYC
-    subtype: UNKNOWN
-  Mystery Booster 2 Draft Booster Box (24 Packs):
-    category: UNKNOWN
-    identifiers:
-      asin: B0DJ1K1GDF
     subtype: UNKNOWN
   National Geographic Mega Magic Kit with 75+ Tricks for Kids Ages 8-12:
     category: UNKNOWN
@@ -2181,26 +1693,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0BJ7N3Y61
-    subtype: UNKNOWN
-  Pioneer Challenger Deck 2021 – Lotus Field Combo (Black-Green-Blue), 13+ years:
-    category: UNKNOWN
-    identifiers:
-      asin: B099XB5KFX
-    subtype: UNKNOWN
-  Pioneer Challenger Deck 2022 - Dimir Control (Blue-Black):
-    category: UNKNOWN
-    identifiers:
-      asin: B0B464TB9V
-    subtype: UNKNOWN
-  Pioneer Challenger Decks 2021 – Orzhov Auras (White-Black), ages 13+ years:
-    category: UNKNOWN
-    identifiers:
-      asin: B099WYKBS4
-    subtype: UNKNOWN
-  'Play Magic: The Gathering Pack - Final Fantasy (English Version)':
-    category: UNKNOWN
-    identifiers:
-      asin: B0DTSV9TTQ
     subtype: UNKNOWN
   Play Marvel Super Heroes Multipack:
     category: UNKNOWN
@@ -2258,11 +1750,6 @@ amazon:
     identifiers:
       asin: B0GXC9W89R
     subtype: UNKNOWN
-  Reality Fracture Commander Deck - Multiverse Reforged | 100-Card Deck + Accessories:
-    category: UNKNOWN
-    identifiers:
-      asin: B0GXC9SDV9
-    subtype: UNKNOWN
   Reality Fracture Draft Night | 1 Collector Booster, 12 Play Boosters, 90 Lands, 10 Tokens:
     category: UNKNOWN
     identifiers:
@@ -2299,11 +1786,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B0F8JFXH4N
-    subtype: UNKNOWN
-  Secret Lair - Pixel Snow Lands Foil:
-    category: UNKNOWN
-    identifiers:
-      asin: B0B1VB9F8V
     subtype: UNKNOWN
   Secret Lair Artist Series Mark Poole - Foil Box - Sealed:
     category: UNKNOWN
@@ -2410,20 +1892,10 @@ amazon:
     identifiers:
       asin: B0GS7DTSDZ
     subtype: UNKNOWN
-  'Secret Lair: Lil'' Walkers (Foil Edition)':
-    category: UNKNOWN
-    identifiers:
-      asin: B09THH24VM
-    subtype: UNKNOWN
   'Secret Lair: Summer Superdrop Can You Feel with A Heart of Steel - Collectible Card Booster Pack':
     category: UNKNOWN
     identifiers:
       asin: B08HCGP7ZG
-    subtype: UNKNOWN
-  'Secret Lair: Ultimate Edition 2 - Grey Box, Multicoloured, C98280000':
-    category: UNKNOWN
-    identifiers:
-      asin: B094GH7N3Q
     subtype: UNKNOWN
   ? Secrets of Strixhaven Commander Deck Bundle - Includes All 5 Decks (Silverquill
     Influence, Prismari Artistry, Witherbloom Pestilence, Lorehold Spirit, Quandrix
@@ -2487,11 +1959,6 @@ amazon:
     identifiers:
       asin: B09SVNLKB2
     subtype: UNKNOWN
-  Streets of New Capenna Commander Deck – Maestros Massacre + Collector Booster Sample Pack:
-    category: UNKNOWN
-    identifiers:
-      asin: B09SVPLT5H
-    subtype: UNKNOWN
   Streets of New Capenna Commander Deck – Obscura Operation + Collector Booster Sample Pack:
     category: UNKNOWN
     identifiers:
@@ -2506,11 +1973,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B09SVNGCRP
-    subtype: UNKNOWN
-  Streets of New Capenna Set Booster Box | 30 Packs + 1 Box Topper (361 Magic Cards):
-    category: UNKNOWN
-    identifiers:
-      asin: B09SVN5SR2
     subtype: UNKNOWN
   Streets of New Capenna Set Booster | 12 Magic Cards:
     category: UNKNOWN
@@ -2535,11 +1997,6 @@ amazon:
     identifiers:
       asin: B08WDYG14W
     subtype: UNKNOWN
-  Strixhaven Commander Deck – Prismari Performance (Blue-Red):
-    category: UNKNOWN
-    identifiers:
-      asin: B08WFL6V8Q
-    subtype: UNKNOWN
   Strixhaven Commander Deck – Quantum Quandrix (Blue-Green):
     category: UNKNOWN
     identifiers:
@@ -2549,11 +2006,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B08WF4S85N
-    subtype: UNKNOWN
-  Strixhaven Set Booster Box | 30 Packs (360 Magic Cards):
-    category: UNKNOWN
-    identifiers:
-      asin: B08WF7V8CB
     subtype: UNKNOWN
   Symbiotic Swarm Ikoria Commander Deck | 100 Card Deck | 4 Foil Legendary Creatures:
     category: UNKNOWN
@@ -2613,40 +2065,15 @@ amazon:
     identifiers:
       asin: B0D333FFWP
     subtype: UNKNOWN
-  The Gathering Ravnica Allegiance - Guild Kit:
-    category: UNKNOWN
-    identifiers:
-      asin: B07W21BLNQ
-    subtype: UNKNOWN
-  'The Gathering Secret Lair Etched Foil: MTG Read The Fine Print':
-    category: UNKNOWN
-    identifiers:
-      asin: B09PF9FH1N
-    subtype: UNKNOWN
-  'The Gathering Secret Lair: Monster Movie Marathon (Foil)':
-    category: UNKNOWN
-    identifiers:
-      asin: B09PD1DJFW
-    subtype: UNKNOWN
   'The Green Witch''s Oracle Deck: Embrace the Wisdom and Insight of Natural Magic (Green Witch Witchcraft Series)':
     category: UNKNOWN
     identifiers:
       asin: '1507221134'
     subtype: UNKNOWN
-  The Hobbit Collector Booster Box | 12 Packs + 1 Foil Box Topper Card | Collectible Trading Card Game:
-    category: UNKNOWN
-    identifiers:
-      asin: B0GXC89N66
-    subtype: UNKNOWN
   The Hobbit Draft Night | 1 Collector Booster, 12 Play Boosters, 90 Lands, 10 Tokens | Collectible Trading Card Game:
     category: UNKNOWN
     identifiers:
       asin: B0GWS582CC
-    subtype: UNKNOWN
-  The Hobbit Play Booster Box | 30 Packs + 1 Foil Box Topper Card | Collectible Trading Card Game:
-    category: UNKNOWN
-    identifiers:
-      asin: B0GXCBJG9L
     subtype: UNKNOWN
   The Hobbit Scene Box - Crack the Plates| 6 Foil Borderless Scene Cards, 6 Art Cards, 3 Play Boosters + Display Easel:
     category: UNKNOWN
@@ -2688,11 +2115,6 @@ amazon:
     identifiers:
       asin: B0GJTVYXK8
     subtype: UNKNOWN
-  UNF Unfinity Draft Booster Single Pack:
-    category: UNKNOWN
-    identifiers:
-      asin: B09LM2W1B1
-    subtype: UNKNOWN
   Ultimate Card Magic Kit 170 Card Effects with Bicycle Stripper Deck:
     category: UNKNOWN
     identifiers:
@@ -2712,16 +2134,6 @@ amazon:
     category: UNKNOWN
     identifiers:
       asin: B09LLNRV61
-    subtype: UNKNOWN
-  'Universes Beyond: Warhammer 40,000 Commander Deck – Forces of the Imperium':
-    category: UNKNOWN
-    identifiers:
-      asin: B09ZJZZ486
-    subtype: UNKNOWN
-  'Universes Beyond: Warhammer 40,000 Commander Deck – The Ruinous Powers':
-    category: UNKNOWN
-    identifiers:
-      asin: B09ZJCZL7Q
     subtype: UNKNOWN
   ? Venture Canvas Dice Carrying Case - Dice Roll Case with Removable Dice Tray, 3
     Removable Zipper Pouches - Rolling Tray and Dice Case Perfect for DND, MTG, and
